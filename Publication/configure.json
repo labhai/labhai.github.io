@@ -1,0 +1,12 @@
+{
+  "url": "https://scholar.google.com/citations",
+  "hl": "ko",
+  "user": "1rBh9xkAAAAJ",
+  "sortby": "pubdate",
+  "cstart": "0",
+  "page_size": "100",
+  "wait_tag": "#gsc_a_b",
+  "find_tag": "gsc_a_b",
+  "child_tag": "td",
+  "result_filename": "./result.json"
+}

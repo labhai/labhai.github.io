@@ -30,7 +30,7 @@ class StringQueryKey(StrEnum):
 
 class HAIPublication:
     def __init__(self):
-        with open('./configure.json', 'r') as configure_file:
+        with open('./Publication/configure.json', 'r') as configure_file:
             configure = json.load(configure_file)
         self.configure = configure
         self.base_url = self.configure['url']

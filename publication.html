@@ -8,15 +8,13 @@
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
-    <script src="Components.js"></script>
-    <script src="Publication/loadPublication.js"></script>
+    <script src="HAICode/Components.js"></script>
 </head>
 <body class="is-preload">
 <div id="wrapper">
     <script>
         header('Publication')
         nav(2)
-        fetchScholar()
     </script>
 
     <div id="main">
@@ -25,20 +23,22 @@
                 <h1>Publication</h1>
             </header>
 
+            <div id="publicationContainer">
+            </div>
 
         </section>
     </div>
 
     <footer id="footer">
     </footer>
+
+    <!-- ↓ Fix -->
     <script>
         copyright()
+        append_script()
+        createPublicationsWithJson("../Publication/result.json", "publicationContainer")
     </script>
+    <!-- ↑ Fix -->
 </div>
-
-<script>
-    append_script()
-</script>
-
 </body>
 </html>

@@ -25,26 +25,27 @@ class StringQueryKey(StrEnum):
     user = "user"
     sort_by = "sortby"
     start = "cstart"
-    count = "page_size"
 
 
 class HAIPublication:
     def __init__(self):
-        with open('./Publication/configure.json', 'r') as configure_file:
+        with open('./configure.json', 'r') as configure_file:
             configure = json.load(configure_file)
         self.configure = configure
-        self.base_url = self.configure['url']
+        self.url = self.configure['url']
+        self.base_url = self.configure['base_url']
         self.wait_tag = self.configure['wait_tag']
         self.find_tag = self.configure['find_tag']
         self.child_tag = self.configure['child_tag']
         self.result_filename = self.configure['result_filename']
+        self.btn_max_cnt = int(self.configure['btn_max_cnt'])
+        self.btn_wait_time = int(self.configure['btn_wait_time'])
 
     def run(self):
         options = [StringQueryKey.language,
                    StringQueryKey.user,
                    StringQueryKey.sort_by,
-                   StringQueryKey.start,
-                   StringQueryKey.count]
+                   StringQueryKey.start]
         url = self.create_url(options)
         self.crawl(url)
 
@@ -57,14 +58,36 @@ class HAIPublication:
         driver.get(url)
         WebDriverWait(driver, 1000) \
             .until(EC.presence_of_element_located((By.CSS_SELECTOR, self.wait_tag)))
+
+        for i in range(self.btn_max_cnt):
+            button = driver.find_element(By.ID, 'gsc_bpf_more')
+            if button.is_enabled():
+                button.click()
+                try:
+                    WebDriverWait(driver, self.btn_wait_time)\
+                        .until(EC.element_to_be_clickable((By.ID, '_')))
+                except:
+                    pass
+            else:
+                break
+
+
         html = driver.page_source
         soup = BeautifulSoup(html, "html5lib")
         tbody = soup.find(id=self.find_tag)
 
         data_dict = {'data': []}
         for child in tbody.children:
-            results = [ch.text for ch in child.find(self.child_tag).children]
-            data_dict['data'].append({f"{idx}": result for idx, result in enumerate(results)})
+            link = None
+            results = []
+
+            for ch in child.find(self.child_tag).children:
+                results.append(ch.text)
+                href = ch.attrs.get('href')
+                if href is not None:
+                    link = self.url + href
+            results.append(link)
+            data_dict['data'].append({f"{idx}": result if result is not None else "" for idx, result in enumerate(results) })
         json_text = json.dumps(data_dict)
         with open(self.result_filename, 'w') as f:
             f.write(json_text)

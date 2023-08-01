@@ -29,7 +29,10 @@ class StringQueryKey(StrEnum):
 
 class HAIPublication:
     def __init__(self):
-        with open('./configure.json', 'r') as configure_file:
+        # git action에서는 main 기준
+        # local에서는 아래 코드 사용
+        # with open('./configure.json', 'r') as configure_file:
+        with open('./Publication/configure.json', 'r') as configure_file:
             configure = json.load(configure_file)
         self.configure = configure
         self.url = self.configure['url']

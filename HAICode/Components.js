@@ -42,9 +42,9 @@ function nav(idx, write = true) {
     }
 }
 
-function headingWithSubtitle(title, subTitle, description, write = true) {
+function headingWithSubtitle(title, subTitle, description, link, write = true) {
     let components = `<div>
-        <h3>${title}</h3>
+        <h3><a href=${link}>${title}</a></h3>
         <p>
         ${subTitle}<br>
         ${description}
@@ -93,7 +93,7 @@ function createPublicationsWithJson(jsonFilePath, containerId) {
     readJson(jsonFilePath, (json) => {
         let components = ""
         json['data'].forEach((data) => {
-            components += headingWithSubtitle(data[0], data[1], data[2], false)
+            components += headingWithSubtitle(data[0], data[1], data[2], data[3], false)
         })
         let container = document.getElementById(containerId)
         container.innerHTML = components

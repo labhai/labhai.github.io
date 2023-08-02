@@ -10,7 +10,7 @@ function readJson(path, callback) {
 // Components
 function header(title, write = true) {
     let components = `<header id="header">
-        <a href="../index.html" class="logo">${title}</a>
+        <a href="../index.html" class="logo">HAI LAB</a>
     </header>`
     if (write) {
         document.write(components)
@@ -30,8 +30,16 @@ function nav(idx, write = true) {
              <li class=${idx === 4 ? 'active' : ''}><a href="../teaching.html">Teaching</a></li>
         </ul>
         <ul class="icons">
-            <li><a href="https://github.com/labhai" class="icon brands fa-github"><span
-                class="label">GitHub</span></a>
+        <li class="symbolLi">
+        <a href="https://www.hufs.ac.kr" class="icon symbol">
+            <img class="symbolNormal" src="./images/HUFSSymbol.svg"  alt=""/>
+            <img class="symbolHover" src="./images/HUFSSymbolHover.svg" alt="">
+        </a>
+            </li>
+            <li>
+            <a href="https://github.com/labhai" class="icon brands fa-github">
+            <span class="label">GitHub</span>
+            </a>
             </li>
         </ul>
     </nav>`
@@ -44,13 +52,13 @@ function nav(idx, write = true) {
 
 function headingWithSubtitle(title, subTitle, description, link, write = true) {
     let components = `<div>
-        <h3><a href=${link}>${title}</a></h3>
-        <p>
+        <h3 style="margin-bottom: 4px"><a href=${link}>${title}</a></h3>
+        <p style="line-height: 20px; margin-bottom: 18px">
         ${subTitle}<br>
         ${description}
         </p>
         </div>
-<hr/>
+<hr style="margin-top: 18px"/>
 `
 
     if (write) {
@@ -86,16 +94,4 @@ function append_script() {
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
     `)
-}
-
-function createPublicationsWithJson(jsonFilePath, containerId) {
-    jsonFilePath = jsonFilePath[1] !== '.' ? '.' + jsonFilePath : jsonFilePath
-    readJson(jsonFilePath, (json) => {
-        let components = ""
-        json['data'].forEach((data) => {
-            components += headingWithSubtitle(data[0], data[1], data[2], data[3], false)
-        })
-        let container = document.getElementById(containerId)
-        container.innerHTML = components
-    })
 }

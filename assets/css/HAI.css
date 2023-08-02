@@ -1,0 +1,32 @@
+.symbolLi {
+
+}
+
+.symbol {
+    position: relative;
+    display: block;
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.symbol > img {
+    margin: 0;
+    position: absolute;
+    width: 1.7rem;
+    height: 1.7rem;
+    padding: 0.275rem;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.symbolNormal:hover {
+    opacity: 0;
+}
+
+.symbolHover {
+    opacity: 0;
+}
+.symbolHover:hover {
+    opacity: 1;
+}

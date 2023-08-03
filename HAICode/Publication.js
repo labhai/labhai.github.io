@@ -4,7 +4,7 @@ let pagination = 0
 let publicationData = []
 
 function loadPublicationsJson(jsonFilePath, containerId) {
-    readJson("../Publication/result.json", (json) => {
+    readJson("../Data/publication.json", (json) => {
         publicationData = json['data']
         moreButtonAction(NaN, containerId)
     })

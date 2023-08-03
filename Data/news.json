@@ -1,0 +1,30 @@
+{
+  "data": {
+    "2023": {
+      "7": [
+        "Gave invited talk at Seoul St. Mary Hospital (가톨릭대 서울성모병원)",
+        "Presented work at OHBM 2023"
+      ],
+      "6": [
+        "Gave invited talk at Yonsei University College of Dentistry (연세대 치과대학)",
+        "Gave seminar at BK21 seminar, Yonsei University (연세대)"
+      ],
+      "5": [
+        "Gave seminar at Hankuk University of Foreign Studies (한국외대)",
+        "Presented work at ISMRM 2023",
+        "Gave lecture at KAIST-Yonsei joint course (카이스트-연세대)"
+      ],
+      "4": [
+        "Paper has been accepted by PLOS ONE",
+        "Gave seminar at Hanyang University (한양대)"
+      ],
+      "2": [
+        "Paper has been accepted by CVPR"
+      ],
+      "1": [
+        "Gave invited talk at Massachusetts General Hospital",
+        "Gave talk at Massachusetts General Hospital"
+      ]
+    }
+  }
+}

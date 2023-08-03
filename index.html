@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
     <script src="HAICode/Components.js"></script>
+    <script src="HAICode/Index.js"></script>
 </head>
 <body class="is-preload">
 
@@ -28,6 +29,7 @@
     </header>
     <script>
         nav(0)
+        loadNewsJson("newsContainer")
     </script>
     <!-- ↑ Fix -->
 
@@ -35,9 +37,6 @@
     <div id="main">
         <article class="post featured">
             <header class="major">
-
-                <!-- <h2><a href="#">And this is a<br />
-                massive headline</a></h2> -->
                 <h2>HAI Lab</h2>
                 <p>The lab aims to develop machine learning-based methods and tools that<br/>
                     ultimately contribute to early dianosis of diseases.<br/>
@@ -45,25 +44,22 @@
                     develop medical imaging-based biomarkers for the prediction of disease and pathology.</p>
             </header>
 
-            <!-- Lists -->
             <div class="row">
                 <div class="col-6 col-12-small">
-
                     <h3>Skills</h3>
-                    <ul>
-                        <li>Deep learning</li>
-                        <li>Machine learning</li>
-                        <li>Statistical methods</li>
-                        <li>Medical image processing</li>
-                        <li>Computer vision</li>
+                    <ul class="techStack">
+                        <li style="padding-left: 0">Deep learning</li>
+                        <li style="padding-left: 0">Machine learning</li>
+                        <li style="padding-left: 0">Statistical methods</li>
+                        <li style="padding-left: 0">Medical image processing</li>
+                        <li style="padding-left: 0">Computer vision</li>
                     </ul>
                     <a href="#" class="image main"><img src="images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg" alt=""/></a>
 
                 </div>
                 <div class="col-6 col-12-small">
-
                     <h3>Imaging Methods</h3>
-                    <ul>
+                    <ul style="list-style: none">
                         <li>MRI</li>
                         <li>X-Ray, CT</li>
                         <li>PET</li>
@@ -71,128 +67,58 @@
                         <li>EEG, fNIRS, etc</li>
                     </ul>
                     <a href="#" class="image main"><img src="images/accuray-6pQPFuD7nJY-unsplash.jpg" alt=""/></a>
-
                 </div>
             </div>
         </article>
 
         <!-- Posts -->
         <section class="posts">
-            <article>
-                <header>
-                    <span class="date">April 24, 2022</span>
-                    <h2><a href="#">Sed magna<br/>
-                        ipsum faucibus</a></h2>
-                </header>
-                <a href="#" class="image fit"><img src="images/pic02.jpg" alt=""/></a>
-                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
-                    venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-                <ul class="actions special">
-                    <li><a href="#" class="button">Check It Out</a></li>
-                </ul>
-            </article>
-            <article>
-                <header>
-                    <span class="date">April 22, 2022</span>
-                    <h2><a href="#">Primis eget<br/>
-                        imperdiet lorem</a></h2>
-                </header>
-                <a href="#" class="image fit"><img src="images/pic03.jpg" alt=""/></a>
-                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
-                    venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-                <ul class="actions special">
-                    <li><a href="#" class="button">Check It Out</a></li>
-                </ul>
-            </article>
-            <article>
-                <header>
-                    <span class="date">April 18, 2022</span>
-                    <h2><a href="#">Ante mattis<br/>
-                        interdum dolor</a></h2>
-                </header>
-                <a href="#" class="image fit"><img src="images/pic04.jpg" alt=""/></a>
-                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
-                    venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-                <ul class="actions special">
-                    <li><a href="#" class="button">Check It Out</a></li>
-                </ul>
-            </article>
-            <article>
-                <header>
-                    <span class="date">April 14, 2022</span>
-                    <h2><a href="#">Tempus sed<br/>
-                        nulla imperdiet</a></h2>
-                </header>
-                <a href="#" class="image fit"><img src="images/pic05.jpg" alt=""/></a>
-                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
-                    venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-                <ul class="actions special">
-                    <li><a href="#" class="button">Check It Out</a></li>
-                </ul>
+            <article id="newsContainer"  style="width: 100%"></article>
+        </section>
+        <section class="posts" style="border-bottom: solid 2px #eeeeee">
+            <article  style="width: 100%; padding: 1rem">
+                <a href="https://soft.hufs.ac.kr" style="border-bottom: none"><img class="" style="width: 30%" src="./images/sw-removebg.png" alt=""/></a>
             </article>
         </section>
-
-        <!-- Footer -->
-        <footer>
-            <div class="pagination">
-                <!--<a href="#" class="previous">Prev</a>-->
-                <a href="#" class="page active">1</a>
-                <a href="#" class="page">2</a>
-                <a href="#" class="page">3</a>
-                <span class="extra">&hellip;</span>
-                <a href="#" class="page">8</a>
-                <a href="#" class="page">9</a>
-                <a href="#" class="page">10</a>
-                <a href="#" class="next">Next</a>
-            </div>
-        </footer>
-
     </div>
 
     <!-- Footer -->
     <footer id="footer">
         <section>
-            <form method="post" action="#">
-                <div class="fields">
-                    <div class="field">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name"/>
-                    </div>
-                    <div class="field">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email"/>
-                    </div>
-                    <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="3"></textarea>
-                    </div>
-                </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message"/></li>
-                </ul>
-            </form>
+            <p>
+            <p class="lowMarginBottom">Contact <a href="mailto:ijang@hufs.ac.kr" style="font-weight: bold">ijang@hufs.ac.kr</a> for inquiries
+                about graduate program and undergraduate internship<br/>
+                (대학원 지망생 및 학부인턴연구원에 관심 있는 학생은 <a href="mailto:ijang@hufs.ac.kr" style="font-weight: bold">ijang@hufs.ac.kr</a>로
+                문의주세요.)</p>
+            <p class="lowMarginBottom">Masters and PhD students receive full tuition support and living expenses <br/>(석사과정, 박사과정, 석박통합과정 연구원은
+                등록금 전액과
+                생활비를 지원받습니다.)</p></p>
+            <a class="horizontalCenter" style="border-bottom: none"><button>Apply</button></a>
         </section>
         <section class="split contact">
             <section class="alt">
                 <h3>Address</h3>
-                <p>1234 Somewhere Road #1234<br/>
-                    Boston, MA 00000</p>
-            </section>
-            <section>
-                <h3>Phone</h3>
-                <p><a href="#">(000) 000-0000</a></p>
+                <p>505, Engineering Building<br/>
+                    81, Oedae-ro, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do, Republic of Korea</p>
             </section>
             <section>
                 <h3>Email</h3>
-                <p><a href="#">someone@hufs.ac.kr</a></p>
+                <p><a href="mailto:ijang@hufs.ac.kr" style="border-bottom: none" >ijang@hufs.ac.kr</a></p>
             </section>
             <section>
-                <h3>Social</h3>
+                <h3>Sites</h3>
                 <ul class="icons alt">
-                    <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-                    <!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
-                    <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://scholar.google.com/citations?user=1rBh9xkAAAAJ" class="icon brands symbol symbolSite">
+                        <img class="symbolDefault symbolDefault" src="images/GoogleScholarIcon/ic_gs_site.svg" alt=""/>
+                        <img class="symbolHover" src="images/GoogleScholarIcon/ic_gs_hover.svg" alt="">
+                    </a></li>
+
+                    <li><a href="https://www.hufs.ac.kr" class="icon brands symbol symbolSite">
+                        <img class="symbolDefault symbolDefault" src="images/HUFSIcon/ic_hufs_site.svg" alt=""/>
+                        <img class="symbolHover" src="images/HUFSIcon/ic_hufs_hover.svg" alt="">
+                    </a></li>
+
+                    <li><a href="https://github.com/labhai" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
                 </ul>
             </section>
         </section>

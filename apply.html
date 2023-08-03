@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>HAI - Apply</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/HAI.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+    <script src="HAICode/Components.js"></script>
+    <script src="HAICode/Apply.js"></script>
+</head>
+<body class="is-preload">
+<div id="wrapper">
+    <script>
+        header('researcher')
+        nav(-1)
+    </script>
+    <div id="main">
+        <section class="post">
+            <header class="major">
+                <h1>Apply Researcher</h1>
+            </header>
+            <!-- https://formspree.io/f/mjvqgjaz? -->
+            <form action=""
+                  method="POST"
+                  enctype="multipart/form-data">
+                <div class="fields">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name"/>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email"/>
+                    </div>
+
+                    <!--                    <div class="field filebox">-->
+                    <!--                        <label id="fileName" for="upload">File</label>-->
+                    <!--                        <input type="file" name="upload" id="upload" onchange='fileInputEvent(this, "fileName")'>-->
+                    <!--                    </div>-->
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="3"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Apply"/></li>
+                </ul>
+
+            </form>
+            <!--            <button onclick="sendMail()"> open mail </button>-->
+        </section>
+
+        <!-- ↓ Fix -->
+        <script>
+            copyright()
+            append_script()
+        </script>
+        <!-- ↑ Fix -->
+    </div>
+</div>
+</body>
+</html>

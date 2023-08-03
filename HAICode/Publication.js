@@ -4,8 +4,7 @@ let pagination = 0
 let publicationData = []
 
 function loadPublicationsJson(jsonFilePath, containerId) {
-    jsonFilePath = jsonFilePath[1] !== '.' ? '.' + jsonFilePath : jsonFilePath
-    readJson(jsonFilePath, (json) => {
+    readJson("../Publication/result.json", (json) => {
         publicationData = json['data']
         moreButtonAction(NaN, containerId)
     })
@@ -14,14 +13,11 @@ function loadPublicationsJson(jsonFilePath, containerId) {
 
 function moreButtonAction(button, containerId) {
     let components = ""
-    console.log(pagination * pageContentCount)
-    console.log(Math.min(publicationData.length, (pagination + 1) * pageContentCount))
     publicationData
         .slice(pagination * pageContentCount,
             Math.min(publicationData.length, (pagination + 1) * pageContentCount))
         .forEach((data) => {
-            components += headingWithSubtitle(data[0], data[1], data[2], data[3], false)
-            console.log(data)
+            components += titleAndSubtitleWithDescription(data[0], data[1], data[2], data[3], false)
         })
     let container = document.getElementById(containerId)
     container.innerHTML += components

@@ -31,8 +31,9 @@ function nav(idx, write = true) {
         </ul>
         <ul class="icons">
         <li class="symbolLi">
-        <a href="https://www.hufs.ac.kr" class="icon symbol">
-            <img class="symbolNormal" src="./images/HUFSSymbol.svg"  alt=""/>
+        <a href="https://www.hufs.ac.kr" class="icon brands symbol">
+            <img class="symbolDefault symbolNormal" src="./images/HUFSSymbol.svg"  alt=""/>
+            <img class="symbolDefault symbolMenu" src="./images/HUFSSymbolMenu.svg"  alt=""/>
             <img class="symbolHover" src="./images/HUFSSymbolHover.svg" alt="">
         </a>
             </li>
@@ -50,7 +51,7 @@ function nav(idx, write = true) {
     }
 }
 
-function headingWithSubtitle(title, subTitle, description, link, write = true) {
+function titleAndSubtitleWithDescription(title, subTitle, description, link, write = true) {
     let components = `<div>
         <h3 style="margin-bottom: 4px"><a href=${link}>${title}</a></h3>
         <p style="line-height: 20px; margin-bottom: 18px">
@@ -59,6 +60,38 @@ function headingWithSubtitle(title, subTitle, description, link, write = true) {
         </p>
         </div>
 <hr style="margin-top: 18px"/>
+`
+    if (write) {
+        document.write(components)
+    } else {
+        return components
+    }
+}
+
+function titleWithContent(title, content, write = true) {
+    let components = `
+    <h2>${title}</h2>
+        ${content}
+    <hr/>
+`
+    if (write) {
+        document.write(components)
+    } else {
+        return components
+    }
+}
+
+function subtitleWithList(subTitle, list, write = true) {
+    let listsComponents = list.reduce((partialResult, value) => {
+        return `${partialResult}
+        <li>${value}</li>`
+    }, '')
+
+    let components = `
+    <h3 style="margin-bottom: 0.2rem">${subTitle}</h3>
+    <ul>
+          ${listsComponents} 
+    </ul>
 `
 
     if (write) {

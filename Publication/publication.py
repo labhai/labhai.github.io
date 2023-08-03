@@ -31,8 +31,8 @@ class HAIPublication:
     def __init__(self):
         # git action에서는 main 기준
         # local에서는 아래 코드 사용
-        # with open('./configure.json', 'r') as configure_file:
-        with open('./Publication/configure.json', 'r') as configure_file:
+        with open('./configure.json', 'r') as configure_file:
+        # with open('./Publication/configure.json', 'r') as configure_file:
             configure = json.load(configure_file)
         self.configure = configure
         self.url = self.configure['url']
@@ -43,6 +43,7 @@ class HAIPublication:
         self.result_filename = self.configure['result_filename']
         self.btn_max_cnt = int(self.configure['btn_max_cnt'])
         self.btn_wait_time = int(self.configure['btn_wait_time'])
+        self.year_class = self.configure['year_class']
 
     def run(self):
         options = [StringQueryKey.language,
@@ -83,16 +84,19 @@ class HAIPublication:
         for child in tbody.children:
             link = None
             results = []
+            year = child.find(self.child_tag, {"class": self.year_class}).text
 
             for ch in child.find(self.child_tag).children:
                 results.append(ch.text)
                 href = ch.attrs.get('href')
                 if href is not None:
                     link = self.url + href
+
             results.append(link)
+            results.append(year)
             data_dict['data'].append({f"{idx}": result if result is not None else "" for idx, result in enumerate(results) })
         json_text = json.dumps(data_dict)
-        with open(self.result_filename, 'w') as f:
+        with open(self.result_filename, 'w+') as f:
             f.write(json_text)
 
 

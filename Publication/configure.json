@@ -10,5 +10,6 @@
   "child_tag": "td",
   "result_filename": "./Data/publication.json",
   "btn_max_cnt": "10",
-  "btn_wait_time": "3"
+  "btn_wait_time": "3",
+  "year_class": "gsc_a_y"
 }

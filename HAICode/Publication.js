@@ -3,16 +3,17 @@ let pageContentCount = 10
 let pagination = 0
 let publicationData = []
 
-function loadPublicationsJson(jsonFilePath, containerId) {
+function loadPublicationsJson(containerId) {
     readJson("../Data/publication.json", (json) => {
         publicationData = json['data']
-        moreButtonAction(NaN, containerId)
+        moreButtonAction(null, containerId)
     })
 }
 
 
 function moreButtonAction(button, containerId) {
     let components = ""
+    console.log(pagination * pageContentCount, Math.min(publicationData.length, (pagination + 1) * pageContentCount))
     publicationData
         .slice(pagination * pageContentCount,
             Math.min(publicationData.length, (pagination + 1) * pageContentCount))

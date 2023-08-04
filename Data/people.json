@@ -1,40 +1,35 @@
 {
   "data": {
-    "title": "HAI LAB",
-    "haiIntroduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est.",
-    "groupImagePath": "./images/pic01.jpg",
     "Professor": [
       {
         "name": "Ikbeom Jang",
-        "affiliation": "affiliation",
+        "affiliation": "Professor",
         "imagePath": "./images/pic08.jpg",
         "contact": "ijang@hufs.ac.kr",
         "github": "",
         "etc": ""
       }
     ],
-    "Graduate researchers": [
+    "Researchers": [
       {
         "name": "Symac Kim",
-        "affiliation": "affiliation",
+        "affiliation": "M.S./Ph.D. student",
         "imagePath": "./images/pic08.jpg",
         "contact": "hailab@hufs.ac.kr",
         "github": "",
         "etc": ""
       },
       {
-        "name": "Joonho Moon",
-        "affiliation": "affiliation",
+        "name": "Junho Moon",
+        "affiliation": "M.S./Ph.D. student",
         "imagePath": "./images/pic08.jpg",
-        "contact": "hailab@hufs.ac.kr",
-        "github": "",
+        "contact": "jhmoon6807@gmail.com",
+        "github": "https://github.com/ho-sick99",
         "etc": ""
-      }
-    ],
-    "Undergraduate researchers": [
+      },
       {
         "name": "Kwonhwi Cho",
-        "affiliation": "affiliation",
+        "affiliation": "B.S. student",
         "imagePath": "./images/pic08.jpg",
         "contact": "hailab@hufs.ac.kr",
         "github": "",
@@ -42,15 +37,15 @@
       },
       {
         "name": "Jeonhui Lee",
-        "affiliation": "affiliation",
+        "affiliation": "B.S. student",
         "imagePath": "./images/pic08.jpg",
         "contact": "whas02@hufs.ac.kr",
-        "github": "https://https://github.com/Jeonhui",
+        "github": "https://github.com/Jeonhui",
         "etc": ""
       },
       {
         "name": "Gaeun Kim",
-        "affiliation": "affiliation",
+        "affiliation": "B.S. student",
         "imagePath": "./images/pic08.jpg",
         "contact": "hailab@hufs.ac.kr",
         "github": "",
@@ -58,7 +53,7 @@
       },
       {
         "name": "Bomin Lee",
-        "affiliation": "affiliation",
+        "affiliation": "B.S. student",
         "imagePath": "./images/pic08.jpg",
         "contact": "hailab@hufs.ac.kr",
         "github": "",

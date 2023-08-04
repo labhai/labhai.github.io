@@ -140,7 +140,7 @@ function footer(write = true) {
                 <br/>(석사과정, 박사과정, 석박통합과정 연구원은
                 등록금 전액과
                 생활비를 지원받습니다.)</p>
-            <a class="horizontalCenter" style="border-bottom: none">
+            <a class="horizontalCenter" href="./apply.html" style="border-bottom: none">
                 <button>Apply</button>
             </a>
         </section>
@@ -176,7 +176,6 @@ function footer(write = true) {
                         <img class="symbolDefault symbolDefault" src="images/HUFSIcon/ic_hufs_site.svg" alt=""/>
                         <img class="symbolHover" src="images/HUFSIcon/ic_hufs_hover.svg" alt="">
                     </a></li>
-
                 </ul>
             </section>
         </section>

@@ -71,12 +71,16 @@
             </div>
         </article>
         <section class="posts">
+            <article id="noticeContainer" style="width: 100%"></article>
+        </section>
+        <section class="posts">
             <article id="newsContainer" style="width: 100%"></article>
         </section>
     </div>
 
     <!-- ↓ Fix -->
     <script>
+        createNotice("noticeContainer")
         footer()
         copyright()
         append_script()

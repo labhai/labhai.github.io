@@ -22,7 +22,7 @@ function nav(idx, write = true) {
         <li class=${idx === 0 ? 'active' : ''}><a href="../index.html">Home</a></li>
         <li class=${idx === 1 ? 'active' : ''}><a href="../people.html">People</a></li>
         <li class=${idx === 2 ? 'active' : ''}><a href="../publication.html">Publication</a></li>
-        <li class=${idx === 3 ? 'active' : ''}><a href="../research.html">Research</a></li>
+<!--        <li class=${idx === 3 ? 'active' : ''}><a href="../research.html">Research</a></li> -->
         <li class=${idx === 4 ? 'active' : ''}><a href="../teaching.html">Teaching</a></li>
     </ul>
     <ul class="icons">

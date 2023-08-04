@@ -137,7 +137,7 @@
     position: relative;
 }
 
-.profileImageBox.left > div >.profileImage {
+.profileImageBox.left > div > .profileImage {
     float: left;
     margin: 0 2rem 2rem 0;
     top: 0.75rem;
@@ -164,10 +164,55 @@
     color: #c2c2c2;
     margin-bottom: 2px;
     font-size: 1rem;
-    font-weight: normal;
 }
 
 .profileIntro {
     font-size: 1rem;
     text-space: 1rem;
+}
+
+@media screen and (max-width: 940px) {
+    .profileImageBox.left > div > .profileImage {
+        margin: 0 1rem 0 0;
+    }
+
+    .profileImageBox.right > div > .profileImage {
+        margin: 0 0 0 1rem;
+    }
+
+    .profileName {
+        padding-top: 1rem;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+
+    .profileMajor {
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        color: #c2c2c2;
+        margin-bottom: 2px;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profileImageBox.left > div > .profileImage {
+        margin: 0 0.5rem 0 0;
+    }
+
+    .profileImageBox.right > div > .profileImage {
+        margin: 0 0 0 0.5rem;
+    }
+
+    .profileName {
+        padding-top: 0.7rem;
+        margin-bottom: 0;
+        font-size: 0.8rem;
+    }
+
+    .profileMajor {
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        color: #c2c2c2;
+        margin-bottom: 2px;
+        font-size: 0.4rem;
+    }
 }

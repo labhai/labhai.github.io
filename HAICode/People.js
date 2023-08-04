@@ -1,6 +1,6 @@
 let peopleData = []
 let peopleDataKey = []
-let peopleKeys = ["Professor", "Graduate researchers", "Undergraduate researchers"]
+let peopleKeys = ["Professor", "Researchers"]
 
 function isUndefined(str) {
     return typeof str == "undefined" || str == null || str === "";

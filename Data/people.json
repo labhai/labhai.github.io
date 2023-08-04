@@ -6,49 +6,63 @@
     "Professor": [
       {
         "name": "Ikbeom Jang",
-        "major": "-",
+        "affiliation": "affiliation",
         "imagePath": "./images/pic08.jpg",
-        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+        "contact": "ijang@hufs.ac.kr",
+        "github": "",
+        "etc": ""
       }
     ],
     "Graduate researchers": [
       {
         "name": "Symac Kim",
-        "major": "major",
+        "affiliation": "affiliation",
         "imagePath": "./images/pic08.jpg",
-        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+        "contact": "hailab@hufs.ac.kr",
+        "github": "",
+        "etc": ""
       },
       {
         "name": "Joonho Moon",
-        "major": "major",
+        "affiliation": "affiliation",
         "imagePath": "./images/pic08.jpg",
-        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+        "contact": "hailab@hufs.ac.kr",
+        "github": "",
+        "etc": ""
       }
     ],
     "Undergraduate researchers": [
       {
         "name": "Kwonhwi Cho",
-        "major": "major",
+        "affiliation": "affiliation",
         "imagePath": "./images/pic08.jpg",
-        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+        "contact": "hailab@hufs.ac.kr",
+        "github": "",
+        "etc": ""
       },
       {
         "name": "Jeonhui Lee",
-        "major": "major",
+        "affiliation": "affiliation",
         "imagePath": "./images/pic08.jpg",
-        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+        "contact": "whas02@hufs.ac.kr",
+        "github": "https://https://github.com/Jeonhui",
+        "etc": ""
       },
       {
         "name": "Gaeun Kim",
-        "major": "major",
+        "affiliation": "affiliation",
         "imagePath": "./images/pic08.jpg",
-        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+        "contact": "hailab@hufs.ac.kr",
+        "github": "",
+        "etc": ""
       },
       {
         "name": "Bomin Lee",
-        "major": "major",
+        "affiliation": "affiliation",
         "imagePath": "./images/pic08.jpg",
-        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+        "contact": "hailab@hufs.ac.kr",
+        "github": "",
+        "etc": ""
       }
     ]
   }

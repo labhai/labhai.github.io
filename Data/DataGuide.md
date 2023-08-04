@@ -23,9 +23,10 @@ data(json object)
 
 Profile (jsonObject)
     ⎿ name (String)
-    ⎿ major (String)
+    ⎿ affiliation (String)
     ⎿ imagePath (String) - base: . (labhai.github.io/)
-    ⎿ intro (String)
+    ⎿ contact (String)
+    ⎿ github (String)
 ```
 
 ### publication.json

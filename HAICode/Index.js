@@ -57,7 +57,6 @@ for inquiries about graduate program and undergraduate internship<br/>
     </a>
 </div>
     `
-    console.log("xxxx: ", document.getElementById("noticeContainer"))
     let components = customTitleWithContent("NOTICE", content, "font-size: 2rem", false)
     let container = document.getElementById(containerId)
     container.innerHTML = components

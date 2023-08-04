@@ -20,10 +20,12 @@ function createPeopleComponents(containerId) {
         let contents = ""
         peopleData[title].forEach((profile) => {
             let name = profile["name"]
-            let major = profile["major"]
-            let intro = profile["intro"]
+            let affiliation = profile["affiliation"]
+            let contact = profile["contact"]
             let imagePath = profile["imagePath"]
-            contents += profileWithImage(name, major, intro, imagePath, isLeftImage, false)
+            let github = profile["github"]
+            let etc = profile["etc"]
+            contents += profileWithImage(name, affiliation, contact, github, etc,  imagePath, isLeftImage, false)
             isLeftImage = !isLeftImage
         })
         components += customTitleWithContent(title, contents, "padding-top: 4rem; border-bottom: solid 2px #e2e2e2", false)

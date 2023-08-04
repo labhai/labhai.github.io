@@ -22,8 +22,9 @@ function nav(idx, write = true) {
         <li class=${idx === 0 ? 'active' : ''}><a href="../index.html">Home</a></li>
         <li class=${idx === 1 ? 'active' : ''}><a href="../people.html">People</a></li>
         <li class=${idx === 2 ? 'active' : ''}><a href="../publication.html">Publication</a></li>
-<!--        <li class=${idx === 3 ? 'active' : ''}><a href="../research.html">Research</a></li> -->
+        <li class=${idx === 3 ? 'active' : ''}><a href="../research.html">Research</a></li> 
         <li class=${idx === 4 ? 'active' : ''}><a href="../teaching.html">Teaching</a></li>
+        <li class=${idx === 5 ? 'active' : ''}><a href="../recruit.html">Recruit</a></li> 
     </ul>
     <ul class="icons">
         <li class="symbolLi">
@@ -209,17 +210,22 @@ function titleAndDescriptionWithImage(title, description, imagePath, write = tru
     return documentWrite(write, components)
 }
 
-function profileWithImage(name, major, intro, profileImagePath, isLeftImage = true, write = true) {
+function profileWithImage(name, affiliation, contact, github, etc, profileImagePath, isLeftImage = true, write = true) {
     let direction = isLeftImage ? "left" : "right"
+    let githubLink = github !== "" ?
+        `<a href=${github} style="margin-left: 4px" class="icon brands fa-github">
+            <span class="label">GitHub</span>
+        </a>` : ''
     let components = `
 <div class="profileImageBox ${direction}">
     <div>
         <img class="profileImage" src="${profileImagePath}" alt=""/>
     </div>
     <div>
-        <h3 class="profileName">${name}</h3>
-        <p class="profileMajor">${major}</p>
-        <p class="profileIntro">${intro}</p>
+        <h3 class="profileName">${name} ${githubLink}</h3>
+        <p class="profileAffiliation">${affiliation}</p>
+        <p class="profileContact">${contact}</p>
+        <p class="profileContact">${etc}</p>
     </div>
 </div>`
     return documentWrite(write, components)

@@ -13,7 +13,7 @@ function convertStringToIntAndCompare(a, b) {
     if (x < y) return 1
 }
 
-let subTitles = {"1": "1st Semester", "2": "2st Semester", "3": "Summer Session", "4": "Winter Session"}
+let subTitles = {"1": "1st Semester", "2": "2nd Semester", "3": "Summer Session", "4": "Winter Session"}
 
 function loadTeachingJson(containerId) {
     readJson("../Data/teaching.json", (json) => {

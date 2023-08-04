@@ -1,0 +1,55 @@
+{
+  "data": {
+    "title": "HAI LAB",
+    "haiIntroduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est.",
+    "groupImagePath": "./images/pic01.jpg",
+    "Professor": [
+      {
+        "name": "Ikbeom Jang",
+        "major": "-",
+        "imagePath": "./images/pic08.jpg",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+      }
+    ],
+    "Graduate researchers": [
+      {
+        "name": "Symac Kim",
+        "major": "major",
+        "imagePath": "./images/pic08.jpg",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+      },
+      {
+        "name": "Joonho Moon",
+        "major": "major",
+        "imagePath": "./images/pic08.jpg",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+      }
+    ],
+    "Undergraduate researchers": [
+      {
+        "name": "Kwonhwi Cho",
+        "major": "major",
+        "imagePath": "./images/pic08.jpg",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+      },
+      {
+        "name": "Jeonhui Lee",
+        "major": "major",
+        "imagePath": "./images/pic08.jpg",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+      },
+      {
+        "name": "Gaeun Kim",
+        "major": "major",
+        "imagePath": "./images/pic08.jpg",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+      },
+      {
+        "name": "Bomin Lee",
+        "major": "major",
+        "imagePath": "./images/pic08.jpg",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est."
+      }
+    ]
+  }
+}

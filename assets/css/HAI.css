@@ -70,7 +70,7 @@
     border-radius: 100%;
 }
 
-.techStack{
+.techStack {
     list-style: none
 }
 
@@ -85,8 +85,8 @@
 .horizontalCenter {
     display: inline-block;
     position: relative;
-    left:50%;
-    transform: translate(-50%,0);
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .filebox label {
@@ -110,6 +110,64 @@
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip:rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     border: 0;
+}
+
+
+@media screen and (max-width: 736px) {
+    #footer > #applySection {
+        padding: 2rem;
+    }
+}
+
+.verticalBorder {
+    border-top: solid 2px #e2e2e2;
+    border-bottom: solid 2px #e2e2e2;
+}
+
+
+.profileImageBox {
+    position: relative;
+    width: 100%;
+}
+
+.profileImage {
+    max-width: 20%;
+    position: relative;
+}
+
+.profileImageBox.left > div >.profileImage {
+    float: left;
+    margin: 0 2rem 2rem 0;
+    top: 0.75rem;
+}
+
+.profileImageBox.right > div > .profileImage {
+    float: right;
+    margin: 0 0 2rem 2rem;
+    top: 0.75rem;
+}
+
+.profileImageBox.right > div > .profileName, .profileImageBox.right > div > .profileMajor {
+    text-align: right;
+}
+
+.profileName {
+    padding-top: 2rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.profileMajor {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #c2c2c2;
+    margin-bottom: 2px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.profileIntro {
+    font-size: 1rem;
+    text-space: 1rem;
 }

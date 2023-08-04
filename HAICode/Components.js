@@ -12,12 +12,7 @@ function header(title, write = true) {
     let components = `<header id="header">
         <a href="../index.html" class="logo">HAI LAB</a>
     </header>`
-    if (write) {
-        document.write(components)
-    } else {
-        return components
-    }
-
+    return documentWrite(write, components)
 }
 
 function nav(idx, write = true) {
@@ -38,6 +33,18 @@ function nav(idx, write = true) {
                 <img class="symbolHover" src="./images/GoogleScholarIcon/ic_gs_hover.svg" alt="">
             </a>
         </li>
+        <li>
+            <a href="https://github.com/labhai" class="icon brands fa-github">
+            <span class="label">GitHub</span>
+            </a>
+        </li>
+        <li class="symbolLi">
+            <a href="https://soft.hufs.ac.kr" class="icon brands symbol">
+                <img class="symbolDefault symbolNormal" src="./images/SWUnivIcon/ic_sw.svg"  alt=""/>
+                <img class="symbolDefault symbolMenu" src="./images/SWUnivIcon/ic_sw_menu.svg"  alt=""/>
+                <img class="symbolHover" src="./images/SWUnivIcon/ic_sw_hover.svg" alt="">
+            </a>
+        </li>
         <li class="symbolLi">
             <a href="https://www.hufs.ac.kr" class="icon brands symbol">
                 <img class="symbolDefault symbolNormal" src="./images/HUFSIcon/ic_hufs.svg"  alt=""/>
@@ -45,18 +52,9 @@ function nav(idx, write = true) {
                 <img class="symbolHover" src="./images/HUFSIcon/ic_hufs_hover.svg" alt="">
             </a>
         </li>
-        <li>
-            <a href="https://github.com/labhai" class="icon brands fa-github">
-            <span class="label">GitHub</span>
-            </a>
-        </li>
     </ul>
 </nav>`
-    if (write) {
-        document.write(components)
-    } else {
-        return components
-    }
+    return documentWrite(write, components)
 }
 
 function titleAndSubtitleWithDescription(title, subTitle, description, link, write = true) {
@@ -69,11 +67,7 @@ function titleAndSubtitleWithDescription(title, subTitle, description, link, wri
         </div>
 <hr style="margin-top: 18px"/>
 `
-    if (write) {
-        document.write(components)
-    } else {
-        return components
-    }
+    return documentWrite(write, components)
 }
 
 function titleWithContent(title, content, write = true) {
@@ -82,11 +76,7 @@ function titleWithContent(title, content, write = true) {
         ${content}
     <hr/>
 `
-    if (write) {
-        document.write(components)
-    } else {
-        return components
-    }
+    return documentWrite(write, components)
 }
 
 function customTitleWithContent(title, content, style, write = true) {
@@ -94,11 +84,7 @@ function customTitleWithContent(title, content, style, write = true) {
     <h2 style="${style}">${title}</h2>
         ${content}
 `
-    if (write) {
-        document.write(components)
-    } else {
-        return components
-    }
+    return documentWrite(write, components)
 }
 
 function subTitleWithContent(subTitle, content, write = true) {
@@ -106,11 +92,7 @@ function subTitleWithContent(subTitle, content, write = true) {
     <h3>${subTitle}</h3>
         ${content}
 `
-    if (write) {
-        document.write(components)
-    } else {
-        return components
-    }
+    return documentWrite(write, components)
 }
 
 function subtitleWithList(subTitle, list, write = true) {
@@ -125,12 +107,7 @@ function subtitleWithList(subTitle, list, write = true) {
           ${listsComponents} 
     </ul>
 `
-
-    if (write) {
-        document.write(components)
-    } else {
-        return components
-    }
+    return documentWrite(write, components)
 }
 
 function listWithDate(dateString, list, write = true) {
@@ -144,12 +121,72 @@ function listWithDate(dateString, list, write = true) {
           ${listsComponents} 
     </ul>
 `
+    return documentWrite(write, components)
+}
 
-    if (write) {
-        document.write(components)
-    } else {
-        return components
-    }
+function footer(write = true) {
+    let components = `
+<footer id="footer">
+        <section id="applySection">
+
+            <p class="lowMarginBottom">Contact <a href="mailto:ijang@hufs.ac.kr"
+                                                      style="font-weight: bold">ijang@hufs.ac.kr</a>
+                for inquiries
+                about graduate program and undergraduate internship<br/>
+                (대학원 지망생 및 학부인턴연구원에 관심 있는 학생은 <a href="mailto:ijang@hufs.ac.kr"
+                                                 style="font-weight: bold">ijang@hufs.ac.kr</a>로
+                문의주세요.)</p>
+            <p class="lowMarginBottom">Masters and PhD students receive full tuition support and living expenses
+                <br/>(석사과정, 박사과정, 석박통합과정 연구원은
+                등록금 전액과
+                생활비를 지원받습니다.)</p>
+            <a class="horizontalCenter" style="border-bottom: none">
+                <button>Apply</button>
+            </a>
+        </section>
+        <section class="split contact">
+            <section class="alt">
+                <h3>Address</h3>
+                <p>505, Engineering Building<br/>
+                    81, Oedae-ro, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do, Republic of Korea</p>
+            </section>
+            <section>
+                <h3>Email</h3>
+                <p><a href="mailto:ijang@hufs.ac.kr" style="border-bottom: none">ijang@hufs.ac.kr</a></p>
+            </section>
+            <section>
+                <h3>Sites</h3>
+                <ul class="icons alt">
+                    <li><a href="https://scholar.google.com/citations?user=1rBh9xkAAAAJ"
+                           class="icon brands symbol symbolSite">
+                        <img class="symbolDefault symbolDefault" src="images/GoogleScholarIcon/ic_gs_site.svg"
+                             alt=""/>
+                        <img class="symbolHover" src="images/GoogleScholarIcon/ic_gs_hover.svg" alt="">
+                    </a></li>
+
+                    <li><a href="https://github.com/labhai" class="icon brands alt fa-github"><span
+                        class="label">GitHub</span></a></li>
+
+                    <li><a href="https://soft.hufs.ac.kr" class="icon brands symbol symbolSite">
+                        <img class="symbolDefault symbolDefault" src="images/SWUnivIcon/ic_sw_site.svg" alt=""/>
+                        <img class="symbolHover" src="images/SWUnivIcon/ic_sw_hover.svg" alt="">
+                    </a></li>
+
+                    <li><a href="https://www.hufs.ac.kr" class="icon brands symbol symbolSite">
+                        <img class="symbolDefault symbolDefault" src="images/HUFSIcon/ic_hufs_site.svg" alt=""/>
+                        <img class="symbolHover" src="images/HUFSIcon/ic_hufs_hover.svg" alt="">
+                    </a></li>
+
+                </ul>
+            </section>
+        </section>
+    </footer>
+    <footer id="footerImage" class="verticalBorder">
+        <a href="https://soft.hufs.ac.kr" style="border-bottom: none; width: 100%; padding: 1rem">
+            <img class="horizontalCenter" style="width: 20%" src="./images/sw-removebg.png" alt=""/>
+        </a>
+    </footer>`
+    return documentWrite(write, components)
 }
 
 
@@ -160,13 +197,42 @@ function copyright(write = true) {
             <li>HUFS: <a href="https://github.com/labhai">Lab HAI</a></li>
         </ul>
     </div>`
+    return documentWrite(write, components)
+}
 
+
+function titleAndDescriptionWithImage(title, description, imagePath, write = true) {
+    let components = `<header class="major" style="margin-top: 10rem">
+    <h2 style="font-size: 2.5rem">${title}</h2>
+    <div class="image main" style="margin: 0 0 2rem 0"><img class="horizontalCenter" style="margin: 0; width: 80%" src="${imagePath}" alt=""/></div>
+    <p>${description}</p>
+</header>`
+    return documentWrite(write, components)
+}
+
+function profileWithImage(name, major, intro, profileImagePath, isLeftImage = true, write = true) {
+    let direction = isLeftImage ? "left" : "right"
+    let components = `
+<div class="profileImageBox ${direction}">
+    <div>
+        <img class="profileImage" src="${profileImagePath}" alt=""/>
+    </div>
+    <div>
+        <h3 class="profileName">${name}</h3>
+        <p class="profileMajor">${major}</p>
+        <p class="profileIntro">${intro}</p>
+    </div>
+</div>`
+    return documentWrite(write, components)
+}
+
+function documentWrite(write, components) {
     if (write) {
         document.write(components)
-    } else {
-        return components
     }
+    return components
 }
+
 
 function append_script() {
     document.write(`

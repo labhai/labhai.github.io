@@ -3965,6 +3965,20 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     z-index: 2;
 }
 
+#footerImage {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    background-color: #eeeeee;
+    cursor: default;
+    position: relative;
+    margin: 0 auto;
+    width: calc(100% - 4rem);
+    max-width: 72rem;
+    z-index: 2;
+}
+
 #footer input, #footer select, #footer textarea {
     color: #717981;
 }
@@ -4305,6 +4319,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
         display: block;
     }
 
+    #footerImage {
+        display: block;
+    }
+
     #footer > section {
         border-top: solid 2px #e2e2e2;
     }
@@ -4380,6 +4398,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 @media screen and (max-width: 480px) {
 
     #footer {
+        width: 100%;
+    }
+    #footerImage {
         width: 100%;
     }
 

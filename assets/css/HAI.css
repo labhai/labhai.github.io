@@ -107,7 +107,11 @@
     top: 0.75rem;
 }
 
-.profileImageBox.right > div > .profileName, .profileImageBox.right > div > .profileAffiliation {
+.profileImageBox.right > div > .profileName, .profileImageBox.right > div > .profileDegree {
+    text-align: right;
+}
+
+.profileImageBox.right > div > .profileName, .profileImageBox.right > div > .profileKeyword {
     text-align: right;
 }
 
@@ -121,10 +125,17 @@
     font-size: 1.5rem;
 }
 
-.profileAffiliation {
+.profileDegree {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: #c2c2c2;
     margin-bottom: 2px;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.profileKeyword {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    margin: 12px 0;
     font-size: 1rem;
     line-height: 1rem;
 }
@@ -150,10 +161,17 @@
         font-size: 1.2rem;
     }
 
-    .profileAffiliation {
+    .profileDegree {
         font-family: "Source Sans Pro", Helvetica, sans-serif;
         color: #c2c2c2;
         margin-bottom: 2px;
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+    }
+
+    .profileKeyword {
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        margin: 10px 0;
         font-size: 0.8rem;
         line-height: 0.8rem;
     }
@@ -180,12 +198,25 @@
         font-size: 0.8rem;
     }
 
-    .profileAffiliation {
+    .profileDegree {
         font-family: "Source Sans Pro", Helvetica, sans-serif;
         color: #c2c2c2;
         margin-bottom: 2px;
         font-size: 0.4rem;
         line-height: 0.4rem;
+    }    
+    
+    .profileKeyword {
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        margin: 10px 0;
+        font-size: 0.4rem;
+        line-height: 0.4rem;
+    }
+
+    .profileContact {
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        font-size: 0.4rem;
+        color: #a2a2a2;
     }
 }
 

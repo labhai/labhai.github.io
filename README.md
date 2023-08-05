@@ -47,18 +47,22 @@ data(json object)
     ⎿ groupShot(String)
     ⎿ Professor (list)
         ⎿ Profile (jsonObject)
-    ⎿ Graduate researchers (list)
-        ⎿ Profile (jsonObject)
-    ⎿ Undergraduate researchers (list)
-        ⎿ Profile (jsonObject)
+    ⎿ Researchers (list)
+        ⎿ ReasercherProfile (jsonObject)
+        
 
 
-Profile (jsonObject)
+ReasercherProfile (jsonObject)
     ⎿ name (String)
-    ⎿ affiliation (String)
+    ⎿ degree (String)
+    ⎿ major (String)
+    ⎿ keywords (String)
     ⎿ imagePath (String) - base: . (labhai.github.io/)
-    ⎿ contact (String)
+    ⎿ email (String)
     ⎿ github (String)
+    ⎿ link (jsonObject)
+        ⎿ key(String) - personal, github, notion, tistory, velog
+           ⎿ value(String) - link 
 ```
 
 

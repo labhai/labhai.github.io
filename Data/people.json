@@ -9,60 +9,99 @@
         "affiliation": "affiliation",
         "imagePath": "./images/pic08.jpg",
         "contact": "ijang@hufs.ac.kr",
-        "github": "",
-        "etc": ""
+        "mail": ""
       }
     ],
-    "Graduate researchers": [
+    "Researchers": [
       {
         "name": "Symac Kim",
-        "affiliation": "affiliation",
+        "degree": "degree",
+        "major": "",
+        "keyword": "",
         "imagePath": "./images/pic08.jpg",
-        "contact": "hailab@hufs.ac.kr",
-        "github": "",
-        "etc": ""
+        "email": "hailab@hufs.ac.kr",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": ""
+        }
       },
       {
         "name": "Joonho Moon",
-        "affiliation": "affiliation",
+        "degree": "degree",
+        "major": "",
+        "keyword": "",
         "imagePath": "./images/pic08.jpg",
-        "contact": "hailab@hufs.ac.kr",
-        "github": "",
-        "etc": ""
-      }
-    ],
-    "Undergraduate researchers": [
-      {
-        "name": "Kwonhwi Cho",
-        "affiliation": "affiliation",
-        "imagePath": "./images/pic08.jpg",
-        "contact": "hailab@hufs.ac.kr",
-        "github": "",
-        "etc": ""
+        "email": "hailab@hufs.ac.kr",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": ""
+        }
       },
       {
-        "name": "Jeonhui Lee",
-        "affiliation": "affiliation",
+        "name": "Kwonhwi Cho",
+        "degree": "B.S. student",
+        "major": "Computer Electronic System Engineering",
+        "keyword": "",
         "imagePath": "./images/pic08.jpg",
-        "contact": "whas02@hufs.ac.kr",
-        "github": "https://github.com/Jeonhui",
-        "etc": ""
+        "email": "hailab@hufs.ac.kr",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": ""
+        }
       },
       {
         "name": "Gaeun Kim",
-        "affiliation": "affiliation",
+        "degree": "B.S. student",
+        "major": "Computer Electronic System Engineering",
+        "keyword": "",
         "imagePath": "./images/pic08.jpg",
-        "contact": "hailab@hufs.ac.kr",
-        "github": "",
-        "etc": ""
+        "email": "hailab@hufs.ac.kr",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": ""
+        }
+      },
+      {
+        "name": "Jeonhui Lee",
+        "degree": "B.S. student",
+        "major": "Computer Electronic System Engineering",
+        "keyword": "",
+        "imagePath": "./images/pic08.jpg",
+        "email": "hailab@hufs.ac.kr",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": ""
+        }
       },
       {
         "name": "Bomin Lee",
-        "affiliation": "affiliation",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "",
         "imagePath": "./images/pic08.jpg",
-        "contact": "hailab@hufs.ac.kr",
-        "github": "",
-        "etc": ""
+        "email": "hailab@hufs.ac.kr",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": ""
+        }
       }
     ]
   }

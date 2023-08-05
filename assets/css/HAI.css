@@ -1,3 +1,16 @@
+/* 기술 스택 list 관련 style */
+
+.techStack {
+    list-style: none
+}
+
+.techStack > li {
+    padding: 0;
+}
+
+
+/* symbol 관련 style */
+
 .symbol {
     position: relative;
     display: block;
@@ -70,62 +83,7 @@
     border-radius: 100%;
 }
 
-.techStack {
-    list-style: none
-}
-
-.techStack > li {
-    padding: 0
-}
-
-.lowMarginBottom {
-    margin-bottom: 10px;
-}
-
-.horizontalCenter {
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.filebox label {
-    display: inline-block;
-    padding: .5em .75em;
-    color: #999;
-    font-size: inherit;
-    line-height: normal;
-    vertical-align: middle;
-    background-color: #fdfdfd;
-    cursor: pointer;
-    border: 1px solid #ebebeb;
-    border-bottom-color: #e2e2e2;
-    border-radius: .25em;
-}
-
-.filebox input[type="file"] {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
-
-
-@media screen and (max-width: 736px) {
-    #footer > #applySection {
-        padding: 2rem;
-    }
-}
-
-.verticalBorder {
-    border-top: solid 2px #e2e2e2;
-    border-bottom: solid 2px #e2e2e2;
-}
-
+/* profile 관련 style */
 
 .profileImageBox {
     position: relative;
@@ -229,4 +187,57 @@
         font-size: 0.4rem;
         line-height: 0.4rem;
     }
+}
+
+/* recruit 관련 style */
+
+@media screen and (max-width: 736px) {
+    #footer > #applySection {
+        padding: 2rem;
+    }
+}
+
+/* 자주 사용할 style */
+
+.lowMarginBottom {
+    margin-bottom: 10px;
+}
+
+.horizontalCenter {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.verticalBorder {
+    border-top: solid 2px #e2e2e2;
+    border-bottom: solid 2px #e2e2e2;
+}
+
+/* 임시로 지정한 style */
+
+.filebox label {
+    display: inline-block;
+    padding: .5em .75em;
+    color: #999;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+}
+
+.filebox input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }

@@ -369,7 +369,7 @@ function profileWithImage(
                 <p class="profileDegree">${major}</p>
                 <p class="profileDegree">${degree}</p>
                 <p class="profileKeyword">${keyword}</p>
-                <p class="profileContact">${email} ${contactLink}</p>
+                <p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>
             </div>
         </div>`;
     return documentWrite(write, components);

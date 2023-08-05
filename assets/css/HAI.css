@@ -141,6 +141,10 @@
 }
 
 .profileContact {
+    font-size: 1rem;
+}
+
+.profileContact .mailLink {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 1rem;
     color: #a2a2a2;

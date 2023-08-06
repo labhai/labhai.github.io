@@ -1,10 +1,12 @@
 let newsData = []
 let newsDataKey = []
 
-function isUndefined(str) {
-    return typeof str == "undefined" || str == null || str === "";
-}
-
+/**
+ * 문자열을 숫자로 변환한 뒤 비교하는 함수
+ * @param a 첫 번째 문자열
+ * @param b 두 번째 문자열
+ * @return a가 크면 -1, 같으면 0, b가 크면 1
+ */
 function convertStringToIntAndCompare(a, b) {
     let x = parseInt(a)
     let y = parseInt(b)
@@ -13,6 +15,11 @@ function convertStringToIntAndCompare(a, b) {
     if (x < y) return 1
 }
 
+/**
+ * newsJson 파일을 불러오고 news를 생성하는 함수
+ * createNewsComponents 호출
+ * @param containerId news를 저장할 container(Tag)의 ID
+ */
 function loadNewsJson(containerId) {
     readJson("../Data/news.json", (json) => {
         newsData = json['data']
@@ -23,6 +30,10 @@ function loadNewsJson(containerId) {
     })
 }
 
+/**
+ * news를 생성하는 함수
+ * @param containerId news를 저장할 container(Tag)의 ID
+ */
 function createNewsComponents(containerId) {
     let content = ''
 
@@ -42,6 +53,10 @@ function createNewsComponents(containerId) {
     container.innerHTML = components
 }
 
+/**
+ * notice를 생성하는 함수
+ * @param containerId notice를 저장할 container(Tag)의 ID
+ */
 function createNotice(containerId) {
     let content = `
 <div>
@@ -52,7 +67,7 @@ for inquiries about graduate program and undergraduate internship<br/>
                                            style="font-weight: bold">ijang@hufs.ac.kr</a>로문의주세요.)</p>
     <p class="lowMarginBottom" style="text-align: center">Masters and PhD students receive full tuition support and living expenses<br/>
                                (석사과정, 박사과정, 석박통합과정 연구원은 등록금 전액과 생활비를 지원받습니다.)</p>
-    <a href="./apply.html" style="border-bottom: none">
+    <a href="./recruit.html" style="border-bottom: none">
         <button style="margin-top: 2rem">Apply</button>
     </a>
 </div>

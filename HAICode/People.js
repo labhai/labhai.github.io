@@ -1,5 +1,5 @@
-let peopleData = []
-let peopleKeys = ["Professor", "Graduate researchers", "Undergraduate researchers"]
+let peopleData = [];
+let peopleKeys = ["Professor", "Researchers"];
 
 /**
  * undefined인지 확인하는 함수
@@ -17,9 +17,9 @@ function isUndefined(str) {
  */
 function loadPeopleJson(containerId) {
     readJson("../Data/people.json", (json) => {
-        peopleData = json['data']
-        createPeopleComponents(containerId)
-    })
+        peopleData = json["data"];
+        createPeopleComponents(containerId);
+    });
 }
 
 /**
@@ -27,25 +27,83 @@ function loadPeopleJson(containerId) {
  * @param containerId 해당 결과를 저장할 container(Tag)의 ID
  */
 function createPeopleComponents(containerId) {
-    let components = ''
-    let isLeftImage = true
-    peopleKeys.forEach((title) => {
-        let contents = ""
-        peopleData[title].forEach((profile) => {
-            let name = profile["name"]
-            let affiliation = profile["affiliation"]
-            let contact = profile["contact"]
-            let imagePath = profile["imagePath"]
-            let github = profile["github"]
-            let etc = profile["etc"]
-            contents += profileWithImage(name, affiliation, contact, github, etc,  imagePath, isLeftImage, false)
-            isLeftImage = !isLeftImage
-        })
-        components += customTitleWithContent(title, contents, "padding-top: 4rem; border-bottom: solid 2px #e2e2e2", false)
-    })
+    let components = "";
+    let isLeftImage = true;
+    // Professor 처리 --------------
+    let contents = "";
+    peopleData["Professor"].forEach((profile) => {
+        let name = profile["name"];
+        let degree = profile["degree"];
+        let major = profile["major"];
+        let affiliation = profile["affiliation"];
+        let keyword = profile["keyword"];
+        let imagePath = profile["imagePath"];
+        let email = profile["email"];
+        let link = profile["link"];
+        contents += profileWithImage(
+            name,
+            affiliation,
+            degree,
+            major,
+            keyword,
+            email,
+            imagePath,
+            link,
+            isLeftImage,
+            false
+        );
+        isLeftImage = !isLeftImage;
+    });
+
+    components += customTitleWithContent(
+        "Professor",
+        contents,
+        "padding-top: 4rem; border-bottom: solid 2px #e2e2e2",
+        false
+    );
+
+    // Researchers 처리 --------------
+    contents = "";
+    peopleData["Researchers"].forEach((profile) => {
+        let name = profile["name"];
+        let degree = profile["degree"];
+        let major = profile["major"];
+        let keyword = profile["keyword"];
+        let imagePath = profile["imagePath"];
+        let email = profile["email"];
+        let link = profile["link"];
+        contents += profileWithImage(
+            name,
+            "",
+            degree,
+            major,
+            keyword,
+            email,
+            imagePath,
+            link,
+            isLeftImage,
+            false
+        );
+        isLeftImage = !isLeftImage;
+    });
+
+    components += customTitleWithContent(
+        "Researchers",
+        contents,
+        "padding-top: 4rem; border-bottom: solid 2px #e2e2e2",
+        false
+    );
+
     if (!isUndefined(peopleData["haiIntroduction"])) {
-        components += titleAndDescriptionWithImage(peopleData["title"], peopleData["haiIntroduction"], peopleData["groupImagePath"], false)
+        components += titleAndDescriptionWithImage(
+            peopleData["title"],
+            peopleData["haiIntroduction"],
+            peopleData["groupImagePath"],
+            false
+        );
     }
-    let container = document.getElementById(containerId)
-    container.innerHTML = components
+
+    let container = document.getElementById(containerId);
+    console.log(container)
+    container.innerHTML = components;
 }

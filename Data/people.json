@@ -1,23 +1,30 @@
 {
   "data": {
-    "title": "HAI LAB",
-    "haiIntroduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris dolor. Ut a nisi egestas, tristique orci a, placerat elit. Phasellus gravida velit ut facilisis suscipit. Nulla ut convallis dolor. Integer feugiat, orci in dapibus blandit, massa nunc placerat justo, ut varius neque erat non nulla. Curabitur a nunc est.",
-    "groupImagePath": "./images/pic01.jpg",
     "Professor": [
       {
         "name": "Ikbeom Jang",
-        "affiliation": "affiliation",
+        "degree": "Professor",
+        "major": "Computer Electronic System Engineering",
+        "affiliation": "Hankuk University of Foreign Studies",
+        "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
-        "contact": "ijang@hufs.ac.kr",
-        "mail": ""
+        "email": "ijang@hufs.ac.kr",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": "https://scholar.google.com/citations?user=1rBh9xkAAAAJ"
+        }
       }
     ],
     "Researchers": [
       {
         "name": "Symac Kim",
-        "degree": "degree",
-        "major": "",
-        "keyword": "",
+        "degree": "M.S./Ph.D. student",
+        "major": "Artificial Intelligence",
+        "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
         "email": "hailab@hufs.ac.kr",
         "link": {
@@ -25,29 +32,31 @@
           "notion": "",
           "tistory": "",
           "personal": "",
-          "velog": ""
+          "velog": "",
+          "scholar": ""
         }
       },
       {
-        "name": "Joonho Moon",
-        "degree": "degree",
-        "major": "",
-        "keyword": "",
+        "name": "Junho Moon",
+        "degree": "M.S./Ph.D. student",
+        "major": "Artificial Intelligence Semiconductor",
+        "keyword": "Computer Vision",
         "imagePath": "./images/pic08.jpg",
-        "email": "hailab@hufs.ac.kr",
+        "email": "jhmoon6807@gmail.com",
         "link": {
-          "github": "",
+          "github": "https://github.com/ho-sick99",
           "notion": "",
           "tistory": "",
           "personal": "",
-          "velog": ""
+          "velog": "",
+          "scholar": ""
         }
       },
       {
         "name": "Kwonhwi Cho",
         "degree": "B.S. student",
         "major": "Computer Electronic System Engineering",
-        "keyword": "",
+        "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
         "email": "hailab@hufs.ac.kr",
         "link": {
@@ -55,14 +64,15 @@
           "notion": "",
           "tistory": "",
           "personal": "",
-          "velog": ""
+          "velog": "",
+          "scholar": ""
         }
       },
       {
         "name": "Gaeun Kim",
         "degree": "B.S. student",
         "major": "Computer Electronic System Engineering",
-        "keyword": "",
+        "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
         "email": "hailab@hufs.ac.kr",
         "link": {
@@ -70,29 +80,31 @@
           "notion": "",
           "tistory": "",
           "personal": "",
-          "velog": ""
+          "velog": "",
+          "scholar": ""
         }
       },
       {
         "name": "Jeonhui Lee",
         "degree": "B.S. student",
         "major": "Computer Electronic System Engineering",
-        "keyword": "",
+        "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
         "email": "hailab@hufs.ac.kr",
         "link": {
-          "github": "",
+          "github": "https://github.com/Jeonhui",
           "notion": "",
           "tistory": "",
           "personal": "",
-          "velog": ""
+          "velog": "",
+          "scholar": ""
         }
       },
       {
         "name": "Bomin Lee",
         "degree": "B.S. student",
         "major": "Computer Engineering",
-        "keyword": "",
+        "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
         "email": "hailab@hufs.ac.kr",
         "link": {
@@ -100,7 +112,8 @@
           "notion": "",
           "tistory": "",
           "personal": "",
-          "velog": ""
+          "velog": "",
+          "scholar": ""
         }
       }
     ]

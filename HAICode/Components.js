@@ -10,7 +10,7 @@ function readJson(path, callback) {
     fetch(path)
         .then((response) => response.json())
         .then((json) => {
-            callback(json)
+            callback(json);
         });
 }
 
@@ -26,8 +26,8 @@ function readJson(path, callback) {
 function header(title, write = true) {
     let components = `<header id="header">
         <a href="../index.html" class="logo">HAI LAB</a>
-    </header>`
-    return documentWrite(write, components)
+    </header>`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -42,12 +42,24 @@ function nav(idx, write = true) {
     let components = `
 <nav id="nav">
     <ul class="links">
-        <li class=${idx === 0 ? 'active' : ''}><a href="../index.html">Home</a></li>
-        <li class=${idx === 1 ? 'active' : ''}><a href="../people.html">People</a></li>
-        <li class=${idx === 2 ? 'active' : ''}><a href="../publication.html">Publication</a></li>
-        <li class=${idx === 3 ? 'active' : ''}><a href="../research.html">Research</a></li> 
-        <li class=${idx === 4 ? 'active' : ''}><a href="../teaching.html">Teaching</a></li>
-        <li class=${idx === 5 ? 'active' : ''}><a href="../recruit.html">Recruit</a></li> 
+        <li class=${
+            idx === 0 ? "active" : ""
+        }><a href="../index.html">Home</a></li>
+        <li class=${
+            idx === 1 ? "active" : ""
+        }><a href="../people.html">People</a></li>
+        <li class=${
+            idx === 2 ? "active" : ""
+        }><a href="../publication.html">Publication</a></li>
+        <li class=${
+            idx === 3 ? "active" : ""
+        }><a href="../research.html">Research</a></li> 
+        <li class=${
+            idx === 4 ? "active" : ""
+        }><a href="../teaching.html">Teaching</a></li>
+        <li class=${
+            idx === 5 ? "active" : ""
+        }><a href="../recruit.html">Recruit</a></li> 
     </ul>
     <ul class="icons">
         <li class="symbolLi">
@@ -58,9 +70,7 @@ function nav(idx, write = true) {
             </a>
         </li>
         <li>
-            <a href="https://github.com/labhai" class="icon brands fa-github">
-            <span class="label">GitHub</span>
-            </a>
+            ${githubIcon("https://github.com/labhai")}
         </li>
         <li class="symbolLi">
             <a href="https://soft.hufs.ac.kr" class="icon brands symbol">
@@ -77,9 +87,26 @@ function nav(idx, write = true) {
             </a>
         </li>
     </ul>
-</nav>`
-    return documentWrite(write, components)
+</nav>`;
+
+    return documentWrite(write, components);
 }
+
+const iconComponents = () => {};
+
+/**
+ * Github 아이콘 html을 반환하는 함수
+ * - Use: Components.js
+ * @param link Github 링크
+ * @param style css 스타일
+ * @return {*} 인자들이 적용된 html "a" 태그
+ */
+const githubIcon = (link, style) => {
+    return `
+        <a href=${link} style="${style}" class="icon brands fa-github">
+            <span class="label">GitHub</span>
+        </a>`;
+};
 
 /**
  * 인자들을 미리 작성해준 형식에 적용시켜 반환하는 함수
@@ -91,7 +118,13 @@ function nav(idx, write = true) {
  * @param write document write 여부
  * @return {*} 인자들이 적용된 Tag 문자열
  */
-function titleAndSubtitleWithDescription(title, subTitle, description, link, write = true) {
+function titleAndSubtitleWithDescription(
+    title,
+    subTitle,
+    description,
+    link,
+    write = true
+) {
     let components = `<div>
         <h3 style="margin-bottom: 4px"><a href=${link}>${title}</a></h3>
         <p style="line-height: 20px; margin-bottom: 18px">
@@ -100,8 +133,8 @@ function titleAndSubtitleWithDescription(title, subTitle, description, link, wri
         </p>
         </div>
 <hr style="margin-top: 18px"/>
-`
-    return documentWrite(write, components)
+`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -117,8 +150,8 @@ function titleWithContent(title, content, write = true) {
     <h2>${title}</h2>
         ${content}
     <hr/>
-`
-    return documentWrite(write, components)
+`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -134,8 +167,8 @@ function customTitleWithContent(title, content, style, write = true) {
     let components = `
     <h2 style="${style}">${title}</h2>
         ${content}
-`
-    return documentWrite(write, components)
+`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -149,16 +182,16 @@ function customTitleWithContent(title, content, style, write = true) {
 function subtitleWithList(subTitle, list, write = true) {
     let listsComponents = list.reduce((partialResult, value) => {
         return `${partialResult}
-        <li>${value}</li>`
-    }, '')
+        <li>${value}</li>`;
+    }, "");
 
     let components = `
     <h3 style="margin-bottom: 0.2rem">${subTitle}</h3>
     <ul>
           ${listsComponents} 
     </ul>
-`
-    return documentWrite(write, components)
+`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -172,15 +205,15 @@ function subtitleWithList(subTitle, list, write = true) {
 function listWithDate(dateString, list, write = true) {
     let listsComponents = list.reduce((partialResult, value) => {
         return `${partialResult}
-        <li style="text-align: left">${dateString}    ${value}</li>`
-    }, '')
+        <li style="text-align: left">${dateString}    ${value}</li>`;
+    }, "");
 
     let components = `
     <ul style="margin-bottom: 14px">
           ${listsComponents} 
     </ul>
-`
-    return documentWrite(write, components)
+`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -249,8 +282,8 @@ function footer(write = true) {
         <a href="https://soft.hufs.ac.kr" style="border-bottom: none; width: 100%; padding: 1rem">
             <img class="horizontalCenter" style="width: 20%" src="./images/sw-removebg.png" alt=""/>
         </a>
-    </footer>`
-    return documentWrite(write, components)
+    </footer>`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -265,8 +298,8 @@ function copyright(write = true) {
             <li>Copyright 2023. HAI Lab. All Rights Reserved.</li>
             <li>HUFS: <a href="https://github.com/labhai">Lab HAI</a></li>
         </ul>
-    </div>`
-    return documentWrite(write, components)
+    </div>`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -277,13 +310,18 @@ function copyright(write = true) {
  * @param write document write 여부
  * @return {*} 인자들이 적용된 Tag 문자열
  */
-function titleAndDescriptionWithImage(title, description, imagePath, write = true) {
+function titleAndDescriptionWithImage(
+    title,
+    description,
+    imagePath,
+    write = true
+) {
     let components = `<header class="major" style="margin-top: 10rem">
     <h2 style="font-size: 2.5rem">${title}</h2>
     <div class="image main" style="margin: 0 0 2rem 0"><img class="horizontalCenter" style="margin: 0; width: 80%" src="${imagePath}" alt=""/></div>
     <p>${description}</p>
-</header>`
-    return documentWrite(write, components)
+</header>`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -299,25 +337,42 @@ function titleAndDescriptionWithImage(title, description, imagePath, write = tru
  * @param write document write 여부
  * @return {*} 인자들이 적용된 Tag 문자열
  */
-function profileWithImage(name, affiliation, contact, github, etc, profileImagePath, isLeftImage = true, write = true) {
-    let direction = isLeftImage ? "left" : "right"
-    let githubLink = github !== "" ?
-        `<a href=${github} style="margin-left: 4px" class="icon brands fa-github">
-            <span class="label">GitHub</span>
-        </a>` : ''
+function profileWithImage(
+    name,
+    affiliation,
+    degree,
+    major,
+    keyword,
+    email,
+    imagePath,
+    link,
+    isLeftImage = true,
+    write = true
+) {
+    let direction = isLeftImage ? "left" : "right";
+    let contactLink = `
+                ${link["github"] ? githubIcon(link["github"], "margin-left: 4px") : ""}
+    `;
+
     let components = `
-<div class="profileImageBox ${direction}">
-    <div>
-        <img class="profileImage" src="${profileImagePath}" alt=""/>
-    </div>
-    <div>
-        <h3 class="profileName">${name} ${githubLink}</h3>
-        <p class="profileAffiliation">${affiliation}</p>
-        <p class="profileContact">${contact}</p>
-        <p class="profileContact">${etc}</p>
-    </div>
-</div>`
-    return documentWrite(write, components)
+        <div class="profileImageBox ${direction}">
+            <div>
+                <img class="profileImage" src="${imagePath}" alt=""/>
+            </div>
+            <div>
+                <h3 class="profileName">${name}</h3>
+                ${
+                    affiliation
+                        ? `<p class="profileDegree">${affiliation}</p>`
+                        : ""
+                }
+                <p class="profileDegree">${major}</p>
+                <p class="profileDegree">${degree}</p>
+                <p class="profileKeyword">${keyword}</p>
+                <p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>
+            </div>
+        </div>`;
+    return documentWrite(write, components);
 }
 
 /**
@@ -329,9 +384,9 @@ function profileWithImage(name, affiliation, contact, github, etc, profileImageP
  */
 function documentWrite(write, components) {
     if (write) {
-        document.write(components)
+        document.write(components);
     }
-    return components
+    return components;
 }
 
 /**
@@ -347,5 +402,5 @@ function append_script() {
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-    `)
+    `);
 }

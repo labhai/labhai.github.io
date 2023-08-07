@@ -4,7 +4,7 @@
       {
         "name": "Ikbeom Jang",
         "degree": "Professor",
-        "major": "Computer Electronic System Engineering",
+        "major": "Computer Engineering",
         "affiliation": "Hankuk University of Foreign Studies",
         "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
@@ -24,9 +24,9 @@
         "name": "Symac Kim",
         "degree": "M.S./Ph.D. student",
         "major": "Artificial Intelligence",
-        "keyword": "Example",
-        "imagePath": "./images/pic08.jpg",
-        "email": "hailab@hufs.ac.kr",
+        "keyword": "Medical AI, Nanostructure, Explainable AI",
+        "imagePath": "./images/people/symac_kim.jpg",
+        "email": "symac@hanyang.ac.kr",
         "link": {
           "github": "",
           "notion": "",
@@ -55,7 +55,7 @@
       {
         "name": "Kwonhwi Cho",
         "degree": "B.S. student",
-        "major": "Computer Electronic System Engineering",
+        "major": "Computer Engineering",
         "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
         "email": "hailab@hufs.ac.kr",
@@ -71,7 +71,7 @@
       {
         "name": "Gaeun Kim",
         "degree": "B.S. student",
-        "major": "Computer Electronic System Engineering",
+        "major": "Computer Engineering",
         "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
         "email": "hailab@hufs.ac.kr",
@@ -87,7 +87,7 @@
       {
         "name": "Jeonhui Lee",
         "degree": "B.S. student",
-        "major": "Computer Electronic System Engineering",
+        "major": "Computer Engineering",
         "keyword": "Example",
         "imagePath": "./images/pic08.jpg",
         "email": "hailab@hufs.ac.kr",

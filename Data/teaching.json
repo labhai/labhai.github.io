@@ -1,8 +1,8 @@
 {
   "data": {
     "2023": {
-      "1": ["Big Data Processing", "Computational Thinking"],
-      "2": ["Electric Circuits", "Natural Language Processing", "Deep Learning"]
+      "1": ["Big Data Processing", "Computational Thinking", "Electric Circuits"],
+      "2": ["Deep Learning", "Natural Language Processing"]
     }
   }
 }

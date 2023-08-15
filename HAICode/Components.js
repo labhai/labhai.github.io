@@ -237,7 +237,7 @@ function footer(write = true) {
             <p class="lowMarginBottom">Masters and PhD students receive full tuition support and living expenses
                 <br/>(석사과정, 박사과정, 석박통합과정 연구원은
                 등록금 전액과
-                생활비를 지원받습니다.)</p>
+                소정의 생활비를 지원받습니다.)</p>
             <a class="horizontalCenter" href="./apply.html" style="border-bottom: none">
                 <button>Apply</button>
             </a>

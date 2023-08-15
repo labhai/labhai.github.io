@@ -66,7 +66,7 @@ for inquiries about graduate program and undergraduate internship<br/>
 (대학원 지망생 및 학부인턴연구원에 관심 있는 학생은 <a href="mailto:ijang@hufs.ac.kr"
                                            style="font-weight: bold">ijang@hufs.ac.kr</a>로문의주세요.)</p>
     <p class="lowMarginBottom" style="text-align: center">Masters and PhD students receive full tuition support and living expenses<br/>
-                               (석사과정, 박사과정, 석박통합과정 연구원은 등록금 전액과 생활비를 지원받습니다.)</p>
+                               (석사과정, 박사과정, 석박통합과정 연구원은 등록금 전액과 소정의 생활비를 지원받습니다.)</p>
     <a href="./recruit.html" style="border-bottom: none">
         <button style="margin-top: 2rem">Apply</button>
     </a>

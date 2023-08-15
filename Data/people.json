@@ -56,15 +56,15 @@
         "name": "Kwonhwi Cho",
         "degree": "B.S. student",
         "major": "Computer Engineering",
-        "keyword": "Example",
+        "keyword": "Computer Vision, Medical AI",
         "imagePath": "./images/pic08.jpg",
-        "email": "hailab@hufs.ac.kr",
+        "email": "dustin8335@hufs.ac.kr",
         "link": {
-          "github": "",
+          "github": "https://github.com/ChoKwonHwi",
           "notion": "",
           "tistory": "",
           "personal": "",
-          "velog": "",
+          "velog": "https://velog.io/@ckh0824",
           "scholar": ""
         }
       },

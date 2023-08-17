@@ -85,49 +85,69 @@
 
 /* profile 관련 style */
 
-.profileImageBox {
+.profileBox {
+    display: grid;
     position: relative;
     width: 100%;
     margin-bottom: 75px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.profileBox.left {
+    grid-template-columns: 0.25fr 0.75fr;
+}
+
+.profileBox.left > .profileImageBox  {
+    order: 1;
+    justify-content: flex-start;
+}
+
+.profileBox.left > .profileContentBox {
+    order: 2;
+}
+
+.profileBox.right {
+    grid-template-columns: 0.75fr 0.25fr;
+}
+
+.profileBox.right > .profileImageBox {
+    order: 2;
+    justify-content: flex-end;
+}
+
+.profileBox.right > .profileContentBox {
+    order: 1;
+}
+
+.profileBox.right .profileName,
+.profileBox.right .profileDegree,
+.profileBox.right .profileKeyword,
+.profileBox.right .profileContact {
+    text-align: right;
+}
+
+.profileImageBox {
+    display: flex;
+    align-items: center;
 }
 
 .profileImage {
-    max-width: 20%;
+    max-width: 80%;
     position: relative;
 }
 
-.profileImageBox.left > div > .profileImage {
-    float: left;
-    margin: 0 2rem 2rem 0;
-    top: 0.75rem;
-}
-
-.profileImageBox.right > div > .profileImage {
-    float: right;
-    margin: 0 0 2rem 2rem;
-    top: 0.75rem;
-}
-
-.profileImageBox.right > div > .profileName, .profileImageBox.right > div > .profileDegree {
-    text-align: right;
-}
-
-.profileImageBox.right > div > .profileName, .profileImageBox.right > div > .profileKeyword {
-    text-align: right;
-}
-
-.profileImageBox.right > div > .profileName, .profileImageBox.right > div > .profileContact {
-    text-align: right;
+.profileContentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .profileName {
-    padding-top: 2rem;
     margin-bottom: 0;
     font-size: 1.5rem;
 }
 
 .profileDegree {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: #c2c2c2;
     margin-bottom: 2px;
     font-size: 1rem;
@@ -135,7 +155,6 @@
 }
 
 .profileKeyword {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
     margin: 12px 0;
     font-size: 1rem;
     line-height: 1rem;
@@ -143,85 +162,59 @@
 
 .profileContact {
     font-size: 1rem;
+    line-height: 1rem;
+    margin: 8px 0;
 }
 
 .profileContact .mailLink {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: #a2a2a2;
-    margin-top: 15px;
 }
 
 @media screen and (max-width: 940px) {
-    .profileImageBox.left > div > .profileImage {
-        margin: 0 1rem 0 0;
-    }
-
-    .profileImageBox.right > div > .profileImage {
-        margin: 0 0 0 1rem;
-    }
-
     .profileName {
-        padding-top: 1rem;
         margin-bottom: 0;
         font-size: 1.2rem;
     }
 
     .profileDegree {
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
-        color: #c2c2c2;
-        margin-bottom: 2px;
         font-size: 0.8rem;
         line-height: 0.8rem;
     }
 
     .profileKeyword {
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
-        margin: 10px 0;
+        margin: 8px 0;
         font-size: 0.8rem;
         line-height: 0.8rem;
     }
 
     .profileContact {
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
         font-size: 0.8rem;
-        color: #a2a2a2;
+        line-height: 0.8rem;
+        margin: 2px 0;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .profileImageBox.left > div > .profileImage {
-        margin: 0 0.5rem 0 0;
-    }
-
-    .profileImageBox.right > div > .profileImage {
-        margin: 0 0 0 0.5rem;
-    }
-
     .profileName {
-        padding-top: 0.7rem;
         margin-bottom: 0;
         font-size: 0.8rem;
     }
 
     .profileDegree {
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
-        color: #c2c2c2;
-        margin-bottom: 2px;
         font-size: 0.4rem;
         line-height: 0.4rem;
     }    
     
     .profileKeyword {
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
-        margin: 10px 0;
+        margin: 4px 0;
         font-size: 0.4rem;
         line-height: 0.4rem;
     }
 
     .profileContact {
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
         font-size: 0.4rem;
-        color: #a2a2a2;
+        line-height: 0.8rem;
+        margin: 1px 0;
     }
 }
 

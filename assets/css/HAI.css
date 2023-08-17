@@ -170,6 +170,12 @@
     color: #a2a2a2;
 }
 
+.profileCV {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin: 8px 0;
+}
+
 @media screen and (max-width: 940px) {
     .profileName {
         margin-bottom: 0;

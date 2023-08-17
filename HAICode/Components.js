@@ -346,6 +346,9 @@ function profileWithImage(
     email,
     imagePath,
     link,
+    office,
+    laboratory,
+    cv,
     isLeftImage = true,
     write = true
 ) {
@@ -355,21 +358,36 @@ function profileWithImage(
     `;
 
     let components = `
-        <div class="profileImageBox ${direction}">
-            <div>
+        <div class="profileBox ${direction}">
+            <div class="profileImageBox">
                 <img class="profileImage" src="${imagePath}" alt=""/>
             </div>
-            <div>
+            <div class="profileContentBox">
                 <h3 class="profileName">${name}</h3>
                 ${
                     affiliation
-                        ? `<p class="profileDegree">${affiliation}</p>`
+                        ? affiliation.split('\n').map(affiliation => `<p class="profileDegree">${affiliation}</p>`).join('')
                         : ""
                 }
                 <p class="profileDegree">${major}</p>
                 <p class="profileDegree">${degree}</p>
                 <p class="profileKeyword">${keyword}</p>
                 <p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>
+                ${
+                    office
+                        ? `<p class="profileContact">OFFICE: ${office}</p>`
+                        : ""
+                }                
+                ${
+                    laboratory
+                        ? `<p class="profileContact">Laboratory: ${laboratory}</p>`
+                        : ""
+                }
+                ${
+                    cv
+                        ? `<p class="profileContact"><a class="mailLink" href="${cv}">Curriculum Vitae</a></p>`
+                        : ""
+                }
             </div>
         </div>`;
     return documentWrite(write, components);

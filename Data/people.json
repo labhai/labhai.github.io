@@ -3,11 +3,11 @@
     "Professor": [
       {
         "name": "Ikbeom Jang",
-        "degree": "Professor",
-        "major": "Computer Engineering",
-        "affiliation": "Hankuk University of Foreign Studies",
-        "keyword": "Example",
-        "imagePath": "./images/pic08.jpg",
+        "degree": "",
+        "major": "",
+        "affiliation": "Assistant Professor of Computer Engineering, HUFS\nAffiliated Researcher of Radiology, MGH, Harvard Medical School",
+        "keyword": "Medical Imaging, Neuroimaging, Deep Learning, Generative AI",
+        "imagePath": "./images/people/ikbeom_jang.jpg",
         "email": "ijang@hufs.ac.kr",
         "link": {
           "github": "",
@@ -16,7 +16,10 @@
           "personal": "",
           "velog": "",
           "scholar": "https://scholar.google.com/citations?user=1rBh9xkAAAAJ"
-        }
+        },
+        "office": "#418, Engineering Bldg",
+        "laboratory": "#505, Engineering Bldg",
+        "cv": "./files/CV_Ikbeom_Jang_1pg.pdf"
       }
     ],
     "Researchers": [

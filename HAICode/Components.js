@@ -385,7 +385,7 @@ function profileWithImage(
                 }
                 ${
                     cv
-                        ? `<p class="profileContact"><a class="mailLink" href="${cv}">Curriculum Vitae</a></p>`
+                        ? `<p class="profileContact"><a class="mailLink" href="${cv}">More Informations</a></p>`
                         : ""
                 }
             </div>

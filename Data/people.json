@@ -91,9 +91,9 @@
         "name": "Jeonhui Lee",
         "degree": "B.S. student",
         "major": "Computer Engineering",
-        "keyword": "Example",
-        "imagePath": "./images/pic08.jpg",
-        "email": "hailab@hufs.ac.kr",
+        "keyword": "Computer Vision, NLP",
+        "imagePath": "./images/people/jeonhui_lee.jpg",
+        "email": "whas02@hufs.ac.kr",
         "link": {
           "github": "https://github.com/Jeonhui",
           "notion": "",

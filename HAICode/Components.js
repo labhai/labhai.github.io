@@ -245,8 +245,8 @@ function footer(write = true) {
         <section class="split contact">
             <section class="alt">
                 <h3>Address</h3>
-                <p>505, Engineering Building<br/>
-                    81, Oedae-ro, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do, Republic of Korea</p>
+                <p><a href="https://map.naver.com/v5/entry/place/19286580?c=15,0,0,0,dh" style="border-bottom: none">505, Engineering Building<br/>
+                    81, Oedae-ro, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do, Republic of Korea</a></p>
             </section>
             <section>
                 <h3>Email</h3>

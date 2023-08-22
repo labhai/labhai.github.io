@@ -72,22 +72,6 @@
         }
       },
       {
-        "name": "Gaeun Kim",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Example",
-        "imagePath": "./images/pic08.jpg",
-        "email": "hailab@hufs.ac.kr",
-        "link": {
-          "github": "",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
         "name": "Jeonhui Lee",
         "degree": "B.S. student",
         "major": "Computer Engineering",
@@ -107,11 +91,11 @@
         "name": "Bomin Lee",
         "degree": "B.S. student",
         "major": "Computer Engineering",
-        "keyword": "Example",
-        "imagePath": "./images/pic08.jpg",
-        "email": "hailab@hufs.ac.kr",
+        "keyword": "Computer Vision, NLP",
+        "imagePath": "./images/people/bomin_lee.jpg",
+        "email": "bmlee@hufs.ac.kr",
         "link": {
-          "github": "",
+          "github": "https://github.com/bome24",
           "notion": "",
           "tistory": "",
           "personal": "",

@@ -1,0 +1,13 @@
+{
+    "name": "HAI Lab",
+    "short_name": "HAI",
+    "icons": [
+        {
+            "src": "/images/favicon/HAI_logo_nobg.png",
+            "sizes": "192x192 512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+}

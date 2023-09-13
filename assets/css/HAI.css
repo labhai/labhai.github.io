@@ -239,25 +239,25 @@
     }
 
     .profileDegree {
-        font-size: 0.8rem;
-        line-height: 0.6rem;
+        font-size: 0.7rem;
+        line-height: 0.7rem;
     }    
     
     .profileKeyword {
         margin: 4px 0;
-        font-size: 0.8rem;
-        line-height: 0.6rem;
+        font-size: 0.7rem;
+        line-height: 0.7rem;
     }
 
     .profileContact {
-        font-size: 0.8rem;
-        line-height: 0.8rem;
+        font-size: 0.7rem;
+        line-height: 0.7rem;
         margin: 1px 0;
     }
 
     .profileEtc {
-        font-size: 0.8rem;
-        line-height: 0.8rem;
+        font-size: 0.7rem;
+        line-height: 0.7rem;
         margin: 4px 0;
     }
 }

@@ -203,22 +203,22 @@
 @media screen and (max-width: 480px) {
     .profileName {
         margin-bottom: 0;
-        font-size: 0.8rem;
+        font-size: 1.0rem;
     }
 
     .profileDegree {
-        font-size: 0.4rem;
-        line-height: 0.4rem;
+        font-size: 0.6rem;
+        line-height: 0.6rem;
     }    
     
     .profileKeyword {
         margin: 4px 0;
-        font-size: 0.4rem;
-        line-height: 0.4rem;
+        font-size: 0.6rem;
+        line-height: 0.6rem;
     }
 
     .profileContact {
-        font-size: 0.4rem;
+        font-size: 0.6rem;
         line-height: 0.8rem;
         margin: 1px 0;
     }

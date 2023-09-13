@@ -102,6 +102,22 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "Nakyeong Lee",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Medical AI",
+        "imagePath": "./images/pic08.jpg",
+        "email": "ynk02@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/NaKyeongLee",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
       }
     ]
   }

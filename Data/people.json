@@ -118,6 +118,22 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "Sunwoo Park",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, Medical AI",
+        "imagePath": "./images/people/sunwoo_park.png",
+        "email": "201901496@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/sunp0909",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
       }
     ]
   }

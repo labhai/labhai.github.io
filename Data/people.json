@@ -6,7 +6,7 @@
         "degree": "",
         "major": "",
         "affiliation": "Assistant Professor of Computer Engineering, HUFS\nAffiliated Researcher of Radiology, MGH, Harvard Medical School",
-        "keyword": "Medical Imaging, Neuroimaging, Deep Learning, Generative AI",
+        "keyword": "Deep Learning, Medical Imaging, Brain, Generative AI",
         "imagePath": "./images/people/ikbeom_jang.jpg",
         "email": "ijang@hufs.ac.kr",
         "link": {
@@ -17,8 +17,8 @@
           "velog": "",
           "scholar": "https://scholar.google.com/citations?user=1rBh9xkAAAAJ"
         },
-        "office": "#418, Engineering Bldg",
-        "laboratory": "#505, Engineering Bldg",
+        "office": "Engr #418",
+        "laboratory": "Engr #505",
         "cv": "./files/CV_Ikbeom_Jang_1pg.pdf"
       }
     ],

@@ -374,18 +374,13 @@ function profileWithImage(
                 <p class="profileKeyword">${keyword}</p>
                 <p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>
                 ${
-                    office
-                        ? `<p class="profileContact">OFFICE: ${office}</p>`
-                        : ""
-                }                
-                ${
-                    laboratory
-                        ? `<p class="profileContact">Laboratory: ${laboratory}</p>`
+                    office || laboratory
+                        ? `<p class="profileEtc" style="margin: 10px 0 4px 0">Office: ${office} / Lab: ${laboratory}</p>`
                         : ""
                 }
                 ${
                     cv
-                        ? `<p class="profileContact">More Informations: <a class="mailLink" href="${cv}">CV</a> , <a class="mailLink" href="${link["scholar"]}">Google Scholar</a></p>`
+                        ? `<p class="profileEtc">More Informations: <a class="mailLink" href="${cv}">CV</a> , <a class="mailLink" href="${link["scholar"]}">Google Scholar</a></p>`
                         : ""
                 }
             </div>

@@ -5,7 +5,7 @@
         "name": "Ikbeom Jang",
         "degree": "",
         "major": "",
-        "affiliation": "Assistant Professor of Computer Engineering, HUFS\nAffiliated Researcher of Radiology, MGH, Harvard Medical School",
+        "affiliation": "Assistant Professor of Computer Engineering, HUFS\nAssistant Professor of AI Data Convergence, Dept. of AI, HUFS\nAssistant Professor of Language & AI, Dept. of AI, HUFS\nAffiliated Researcher of Radiology, MGH, Harvard Medical School",
         "keyword": "Deep Learning, Medical Imaging, Brain, Generative AI",
         "imagePath": "./images/people/ikbeom_jang.jpg",
         "email": "ijang@hufs.ac.kr",
@@ -53,6 +53,22 @@
           "personal": "",
           "velog": "",
           "scholar": ""
+        }
+      },
+      {
+        "name": "Keonvin Park",
+        "degree": "Ph.D. student",
+        "major": "Artificial Intelligence",
+        "keyword": "Biostatistics, Explainable AI",
+        "imagePath": "./images/people/keonvin_park.jpg",
+        "email": "kbpark16@snu.ac.kr",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": "https://scholar.google.com/citations?user=PhEo2s4AAAAJ&hl=ko&oi=ao"
         }
       },
       {
@@ -128,6 +144,22 @@
         "email": "201901496@hufs.ac.kr",
         "link": {
           "github": "https://github.com/sunp0909",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "Geonwoo Baek",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Deep Learning, Generative AI",
+        "imagePath": "./images/pic08.jpg",
+        "email": "phlox3959@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/Baek-Geonwoo",
           "notion": "",
           "tistory": "",
           "personal": "",

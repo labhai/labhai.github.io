@@ -179,7 +179,9 @@ em, i {
 
 p {
     text-align: justify;
-    margin: 0 0 2rem 0;
+    /*MARK: - */
+    /*margin: 0 0 2rem 0;*/
+    margin: 0 0 6rem 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -3288,6 +3290,8 @@ body.is-preload #wrapper.fade-in:before {
 #intro {
     color: #ffffff;
     padding: 8rem 4rem 6rem 4rem;
+    /*MARK: - */
+    margin-bottom: 4rem;
     -moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center;
@@ -3606,7 +3610,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 /* Nav */
-
 #nav {
     color: #ffffff;
     display: -moz-flex;
@@ -3619,7 +3622,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     transition: transform 1s ease, opacity 1s ease;
     background: rgba(255, 255, 255, 0.175);
     height: 4rem;
+
     line-height: 4rem;
+    /* MARK: - */
+    /*origin*/
     margin: -4rem auto 0 auto;
     overflow: hidden;
     padding: 0 2rem 0 0;

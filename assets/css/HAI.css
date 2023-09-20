@@ -314,3 +314,12 @@
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
+.haiMainP {
+    margin: 0 0 10rem 0;
+}
+
+.haiMainButton {
+    position: relative;
+    top: 4rem;
+}

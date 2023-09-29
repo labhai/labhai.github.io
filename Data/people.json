@@ -56,22 +56,6 @@
         }
       },
       {
-        "name": "Keonvin Park",
-        "degree": "Ph.D. student",
-        "major": "Artificial Intelligence",
-        "keyword": "Biostatistics, Explainable AI",
-        "imagePath": "./images/people/keonvin_park.jpg",
-        "email": "kbpark16@snu.ac.kr",
-        "link": {
-          "github": "",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": "https://scholar.google.com/citations?user=PhEo2s4AAAAJ&hl=ko&oi=ao"
-        }
-      },
-      {
         "name": "Kwonhwi Cho",
         "degree": "B.S. student",
         "major": "Computer Engineering",

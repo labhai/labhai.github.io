@@ -127,7 +127,7 @@ function titleAndSubtitleWithDescription(
 ) {
     let components = `<div>
         <h3 style="margin-bottom: 4px"><a href=${link}>${title}</a></h3>
-        <p style="line-height: 20px; margin-bottom: 18px">
+        <p style="line-height: 30px; margin-bottom: 18px; color: #a2a2a2">
         ${subTitle}<br>
         ${description}
         </p>
@@ -238,7 +238,7 @@ function footer(write = true) {
                 <br/>(석사과정, 박사과정, 석박통합과정 연구원은
                 등록금 전액과
                 소정의 생활비를 지원받습니다.)</p>
-            <a class="horizontalCenter" href="./apply.html" style="border-bottom: none">
+            <a class="horizontalCenter" href="./recruit.html" style="border-bottom: none">
                 <button>Apply</button>
             </a>
         </section>

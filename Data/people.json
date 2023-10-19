@@ -56,22 +56,6 @@
         }
       },
       {
-        "name": "Keonvin Park",
-        "degree": "Ph.D. student",
-        "major": "Artificial Intelligence",
-        "keyword": "Biostatistics, Explainable AI",
-        "imagePath": "./images/people/keonvin_park.jpg",
-        "email": "kbpark16@snu.ac.kr",
-        "link": {
-          "github": "",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": "https://scholar.google.com/citations?user=PhEo2s4AAAAJ&hl=ko&oi=ao"
-        }
-      },
-      {
         "name": "Kwonhwi Cho",
         "degree": "B.S. student",
         "major": "Computer Engineering",
@@ -123,8 +107,8 @@
         "name": "Nakyeong Lee",
         "degree": "B.S. student",
         "major": "Computer Engineering",
-        "keyword": "Medical AI",
-        "imagePath": "./images/pic08.jpg",
+        "keyword": "NLP, Medical AI",
+        "imagePath": "./images/people/nakyeong_lee.jpeg",
         "email": "ynk02@hufs.ac.kr",
         "link": {
           "github": "https://github.com/NaKyeongLee",
@@ -156,7 +140,7 @@
         "degree": "B.S. student",
         "major": "Computer Engineering",
         "keyword": "Deep Learning, Generative AI",
-        "imagePath": "./images/pic08.jpg",
+        "imagePath": "./images/people/geonwoo_baek.jpg",
         "email": "phlox3959@hufs.ac.kr",
         "link": {
           "github": "https://github.com/Baek-Geonwoo",

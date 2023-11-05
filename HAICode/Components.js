@@ -25,7 +25,7 @@ function readJson(path, callback) {
  */
 function header(title, write = true) {
     let components = `<header id="header">
-        <a href="../index.html" class="logo">HAI LAB</a>
+        <a href="../index.html" class="logo">LAB HAI</a>
     </header>`;
     return documentWrite(write, components);
 }

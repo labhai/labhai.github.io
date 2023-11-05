@@ -295,7 +295,7 @@ function footer(write = true) {
 function copyright(write = true) {
     let components = `<div id="copyright">
         <ul>
-            <li>Copyright 2023. HAI Lab. All Rights Reserved.</li>
+            <li>Copyright 2023. Lab HAI. All Rights Reserved.</li>
             <li>HUFS: <a href="https://github.com/labhai">Lab HAI</a></li>
         </ul>
     </div>`;

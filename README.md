@@ -103,7 +103,7 @@ data(list)
 
 ## Research
 <details>
-<summary> 연구 관련 페이지 (대기) </summary>
+<summary> 연구 관련 페이지 </summary>
 
 ### html:
 - [research.html](./research.html)
@@ -115,7 +115,8 @@ data(list)
 
 [//]: # (- [Research.js]&#40;./HAICode/Research.js&#41;)
 
-[//]: # (### json:)
+### json: 
+- [research.json](./Data/research.json)
 
 [//]: # (- [people.json]&#40;./Data/people.json&#41;)
 

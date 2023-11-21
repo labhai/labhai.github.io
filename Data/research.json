@@ -1,0 +1,16 @@
+{
+  "data": {
+    "projects": [
+      {
+        "imagePath": "./images/project/mella",
+        "projectName": "",
+        "period": "2023.09 - ",
+        "stacks": ["Llama 2","SFT", "PEFT(LoRA)"],
+        "contributors": ["Jeonhui Lee"],
+        "projectRepository": [],
+        "paperLinks": [""],
+        "introduction": "Mella(Medical + Llama)\n "
+      }
+    ]
+  }
+}

@@ -2,14 +2,59 @@
   "data": {
     "projects": [
       {
-        "imagePath": "./images/project/mella",
+        "imagePath": "./images/project/3DMultimodalBrainImageSynthesis.png",
+        "projectName": "3D Multimodal Brain Image Synthesis",
+        "period": "2023.08 - ",
+        "stacks": [""],
+        "publication": "",
+        "contributors": ["Symac Kim"],
+        "description": "The project aims to generate 3D pseudo-PET images from 3D T1w MRI images with a generative model, which is trained with highly limited number of image pairs.",
+        "projectRepository": [""],
+        "relatedPublications": []
+         },
+      {
+        "imagePath": "./images/project/default",
         "projectName": "",
-        "period": "2023.09 - ",
-        "stacks": ["Llama 2","SFT", "PEFT(LoRA)"],
-        "contributors": ["Jeonhui Lee"],
+        "period": "2023.08 - ",
+        "stacks": [""],
+        "publication": "",
+        "contributors": ["Junho Moon"],
+        "description": "",
         "projectRepository": [],
-        "paperLinks": [""],
-        "introduction": "Mella(Medical + Llama)\n "
+        "relatedPublications": []
+      },
+      {
+        "imagePath": "./images/project/MedicalImageSegmentation.png",
+        "projectName": "Medical image segmentation",
+        "period": "2023.08 - ",
+        "stacks": [],
+        "publication": "",
+        "contributors": ["Kwonhwi Cho"],
+        "description": "Benchmarking and improving SAM(Segment Anything Model) performance",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+      {
+        "imagePath": "./images/project/LLMFinetunedWithMedicalDatasets.png",
+        "projectName": "LLM fine-tuned with Medical datasets",
+        "period": "2023.08 - ",
+        "stacks": ["LLM(Llama-2)","SFT", "PEFT(LoRA)"],
+        "publication": "",
+        "contributors": ["Jeonhui Lee"],
+        "description": "",
+        "projectRepository": ["https://github.com/Mella-MedicalLLM"],
+        "relatedPublications": []
+      },
+      {
+        "imagePath": "./images/project/3DMultimodalBrainImageGeneration.png",
+        "projectName": "3D Multimodal Brain Image Generation",
+        "period": "2023.11 - ",
+        "stacks": [],
+        "publication": "",
+        "contributors": ["Geonwoo Baek"],
+        "description": "",
+        "projectRepository": [],
+        "relatedPublications": []
       }
     ]
   }

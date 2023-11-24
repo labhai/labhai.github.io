@@ -3,7 +3,7 @@
     "projects": [
       {
         "imagePath": "./images/project/3DMultimodalBrainImageSynthesis.png",
-        "projectName": "3D Image Synthesis",
+        "projectName": "3D Image-to-Image Translation",
         "period": "2023.08 - ",
         "stacks": [""],
         "publication": "",
@@ -14,7 +14,7 @@
          },
       {
         "imagePath": "./images/project/LLMFinetunedWithMedicalDatasets.png",
-        "projectName": "Medical LLM(Large Language Model)",
+        "projectName": "Medical Large Language Model",
         "period": "2023.08 - ",
         "stacks": ["LLM(Llama-2)","SFT", "PEFT(LoRA)"],
         "publication": "",
@@ -25,7 +25,7 @@
       },
       {
         "imagePath": "./images/project/MedicalImageSegmentation.png",
-        "projectName": "2D Object Detection",
+        "projectName": "OBJECT DETECTION",
         "period": "2023.08 - ",
         "stacks": [],
         "publication": "",
@@ -36,7 +36,7 @@
       },
       {
         "imagePath": "./images/project/2DImageSegmentation.png",
-        "projectName": "2D Image Segmentation",
+        "projectName": "Image Segmentation",
         "period": "2023.08 - ",
         "stacks": [""],
         "publication": "",
@@ -47,7 +47,7 @@
       },
       {
         "imagePath": "./images/project/3DMultimodalBrainImageGeneration.png",
-        "projectName": "2D Image Generation",
+        "projectName": "GENERATIVE AI",
         "period": "2023.11 - ",
         "stacks": [],
         "publication": "",

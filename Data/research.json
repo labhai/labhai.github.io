@@ -13,14 +13,14 @@
         "relatedPublications": []
          },
       {
-        "imagePath": "./images/project/2DImageSegmentation.png",
-        "projectName": "2D Image Segmentation",
+        "imagePath": "./images/project/LLMFinetunedWithMedicalDatasets.png",
+        "projectName": "Medical LLM(Large Language Model)",
         "period": "2023.08 - ",
-        "stacks": [""],
+        "stacks": ["LLM(Llama-2)","SFT", "PEFT(LoRA)"],
         "publication": "",
-        "contributors": ["Junho Moon"],
-        "description": "The project aims to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatmen",
-        "projectRepository": [],
+        "contributors": ["Jeonhui Lee"],
+        "description": "The project aims to generate Question and Answering LLM(Large Language Model). I fine-tuned Llama-2(meta's opensource-LLM) with a medical datasets.",
+        "projectRepository": ["https://github.com/Mella-MedicalLLM"],
         "relatedPublications": []
       },
       {
@@ -35,14 +35,14 @@
         "relatedPublications": []
       },
       {
-        "imagePath": "./images/project/LLMFinetunedWithMedicalDatasets.png",
-        "projectName": "Medical LLM",
+        "imagePath": "./images/project/2DImageSegmentation.png",
+        "projectName": "2D Image Segmentation",
         "period": "2023.08 - ",
-        "stacks": ["LLM(Llama-2)","SFT", "PEFT(LoRA)"],
+        "stacks": [""],
         "publication": "",
-        "contributors": ["Jeonhui Lee"],
-        "description": "The project aims to generate Question and Answering LLM. I fine-tuned Llama-2 (meta's opensource-LLM) with a medical datasets.",
-        "projectRepository": ["https://github.com/Mella-MedicalLLM"],
+        "contributors": ["Junho Moon"],
+        "description": "The project aims to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatmen",
+        "projectRepository": [],
         "relatedPublications": []
       },
       {

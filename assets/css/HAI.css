@@ -327,6 +327,7 @@
     margin: 20px 0;
     font-size: 1.0rem;
     line-height: 1.3rem;
+    font-family: Helvetica;
 }
 
 
@@ -352,6 +353,7 @@
         margin: 8px 0;
         font-size: 0.9rem;
         line-height: 0.9rem;
+        font-family: Helvetica;
     }
 }
 
@@ -377,6 +379,7 @@
         margin: 4px 0;
         font-size: 0.7rem;
         line-height: 0.7rem;
+        font-family: Helvetica;
     }
 }
 

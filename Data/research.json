@@ -41,7 +41,7 @@
         "stacks": ["LLM(Llama-2)","SFT", "PEFT(LoRA)"],
         "publication": "",
         "contributors": ["Jeonhui Lee"],
-        "description": "",
+        "description": "The project aims to generate Question and Answering LLM. I fine-tuned Llama-2 (meta's opensource-LLM) with a medical datasets.",
         "projectRepository": ["https://github.com/Mella-MedicalLLM"],
         "relatedPublications": []
       },

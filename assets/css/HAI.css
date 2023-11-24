@@ -273,7 +273,7 @@
 }
 
 .researchBox.left {
-    grid-template-columns: 0.25fr 0.75fr;
+    grid-template-columns: 0.45fr 0.55fr;
 }
 
 .researchBox.left > .researchImageBox  {
@@ -286,7 +286,7 @@
 }
 
 .researchBox.right {
-    grid-template-columns: 0.75fr 0.25fr;
+    grid-template-columns: 0.55fr 0.45fr;
 }
 
 .researchBox.right > .researchImageBox {
@@ -298,8 +298,9 @@
     order: 1;
 }
 
-.researchBox.right .researchName,
-.researchBox.right .researchDescription
+.researchBox.right .researchName {
+    text-align: right;
+}
 
 .researchImageBox {
     display: flex;
@@ -318,14 +319,14 @@
 }
 
 .researchName {
-    margin-bottom: 0;
-    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
 }
 
 .researchDescription {
-    margin: 12px 0;
-    font-size: 1rem;
-    line-height: 1rem;
+    margin: 20px 0;
+    font-size: 1.0rem;
+    line-height: 1.3rem;
 }
 
 

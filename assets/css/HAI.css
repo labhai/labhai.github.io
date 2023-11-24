@@ -262,6 +262,124 @@
     }
 }
 
+/* research 관련 style */
+
+.researchBox {
+    display: grid;
+    position: relative;
+    width: 100%;
+    margin-bottom: 75px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.researchBox.left {
+    grid-template-columns: 0.45fr 0.55fr;
+}
+
+.researchBox.left > .researchImageBox  {
+    order: 1;
+    justify-content: flex-start;
+}
+
+.researchBox.left > .researchContentBox {
+    order: 2;
+}
+
+.researchBox.right {
+    grid-template-columns: 0.55fr 0.45fr;
+}
+
+.researchBox.right > .researchImageBox {
+    order: 2;
+    justify-content: flex-end;
+}
+
+.researchBox.right > .researchContentBox {
+    order: 1;
+}
+
+.researchBox.right .researchName {
+    text-align: right;
+}
+
+.researchImageBox {
+    display: flex;
+    align-items: center;
+}
+
+.researchImage {
+    max-width: 80%;
+    position: relative;
+}
+
+.researchContentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.researchName {
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+}
+
+.researchDescription {
+    margin: 20px 0;
+    font-size: 1.0rem;
+    line-height: 1.3rem;
+}
+
+
+@media screen and (max-width: 940px) {
+    .researchBox.left {
+        grid-template-columns: 0.3fr 0.7fr;
+    }
+
+    .researchBox.right {
+        grid-template-columns: 0.7fr 0.3fr;
+    }
+
+    .researchImage {
+        max-width: 90%;
+    }
+
+    .researchName {
+        margin-bottom: 0;
+        font-size: 1.3rem;
+    }
+
+    .researchDescription {
+        margin: 8px 0;
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .researchBox.left {
+        grid-template-columns: 0.3fr 0.7fr;
+    }
+
+    .researchBox.right {
+        grid-template-columns: 0.7fr 0.3fr;
+    }
+
+    .researchImage {
+        max-width: 90%;
+    }
+    
+    .researchName {
+        margin-bottom: 0;
+        font-size: 1.0rem;
+    }
+    
+    .researchDescription {
+        margin: 4px 0;
+        font-size: 0.7rem;
+        line-height: 0.7rem;
+    }
+}
+
 /* recruit 관련 style */
 
 @media screen and (max-width: 736px) {

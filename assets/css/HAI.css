@@ -273,7 +273,7 @@
 }
 
 .researchBox.left {
-    grid-template-columns: 0.45fr 0.55fr;
+    grid-template-columns: 0.5fr 0.5fr;
 }
 
 .researchBox.left > .researchImageBox  {
@@ -286,7 +286,7 @@
 }
 
 .researchBox.right {
-    grid-template-columns: 0.55fr 0.45fr;
+    grid-template-columns: 0.5fr 0.5fr;
 }
 
 .researchBox.right > .researchImageBox {
@@ -308,7 +308,7 @@
 }
 
 .researchImage {
-    max-width: 80%;
+    max-width: 90%;
     position: relative;
 }
 
@@ -320,7 +320,7 @@
 
 .researchName {
     margin-bottom: 30px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .researchDescription {
@@ -332,11 +332,11 @@
 
 @media screen and (max-width: 940px) {
     .researchBox.left {
-        grid-template-columns: 0.3fr 0.7fr;
+        grid-template-columns: 0.5fr 0.5fr;
     }
 
     .researchBox.right {
-        grid-template-columns: 0.7fr 0.3fr;
+        grid-template-columns: 0.5fr 0.5fr;
     }
 
     .researchImage {
@@ -357,11 +357,11 @@
 
 @media screen and (max-width: 480px) {
     .researchBox.left {
-        grid-template-columns: 0.3fr 0.7fr;
+        grid-template-columns: 0.5fr 0.5fr;
     }
 
     .researchBox.right {
-        grid-template-columns: 0.7fr 0.3fr;
+        grid-template-columns: 0.5fr 0.5fr;
     }
 
     .researchImage {

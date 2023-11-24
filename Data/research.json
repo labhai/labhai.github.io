@@ -8,29 +8,29 @@
         "stacks": [""],
         "publication": "",
         "contributors": ["Symac Kim"],
-        "description": "3D Multimodal Brain Image Synthesis. The project aims to generate 3D pseudo-PET images from 3D T1w MRI images with a generative model, which is trained with highly limited number of image pairs.",
+        "description": "The project aims to generate 3D pseudo-PET images from 3D T1w MRI images with a generative model, which is trained with highly limited number of image pairs",
         "projectRepository": [""],
         "relatedPublications": []
          },
       {
-        "imagePath": "./images/project/MedicalImageSegmentation.png",
+        "imagePath": "./images/project/2DImageSegmentation.png",
         "projectName": "2D Image Segmentation",
         "period": "2023.08 - ",
         "stacks": [""],
         "publication": "",
         "contributors": ["Junho Moon"],
-        "description": "aa",
+        "description": "The project aims to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatmen",
         "projectRepository": [],
         "relatedPublications": []
       },
       {
         "imagePath": "./images/project/MedicalImageSegmentation.png",
-        "projectName": "Medical image segmentation",
+        "projectName": "2D Object Detection",
         "period": "2023.08 - ",
         "stacks": [],
         "publication": "",
         "contributors": ["Kwonhwi Cho"],
-        "description": "Benchmarking and improving SAM(Segment Anything Model) performance",
+        "description": "The project aims to benchmarking and improving SAM(Segment Anything Model) performance",
         "projectRepository": [],
         "relatedPublications": []
       },
@@ -52,7 +52,7 @@
         "stacks": [],
         "publication": "",
         "contributors": ["Geonwoo Baek"],
-        "description": "",
+        "description": "The project aims to generate brain mri images with tumors through normal brain mri images with a generative model",
         "projectRepository": [],
         "relatedPublications": []
       }

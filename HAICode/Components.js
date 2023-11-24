@@ -389,6 +389,43 @@ function profileWithImage(
 }
 
 /**
+ * 프로젝트 정보와 이미지를 미리 작성해준 형식에 적용시켜 반환하는 함수
+ * - Use: People.js
+ * @param imagePath 프로젝트 이미지 경로
+ * @param projectName 프로젝트 제목
+ * @param description 프로젝트 설명
+ * @param projectRepository 프로젝트 저장소
+ * @param relatedPublications 프로젝트 논문
+ * @param isLeftImage 이미지가 왼쪽에 위치할지 여부
+ * @param write document write 여부
+ * @return {*} 인자들이 적용된 Tag 문자열
+ */
+function researchWithImage(
+    imagePath,
+    projectName,
+    description,
+    projectRepository,
+    relatedPublications,
+    isLeftImage = true,
+    write = true
+) {
+    let direction = isLeftImage ? "left" : "right";
+
+    let components = `
+        <div class="researchBox ${direction}">
+            <div class="researchImageBox">
+                <img class="researchImage" src="${imagePath}" alt=""/>
+            </div>
+            <div class="researchContentBox">
+                <h3 class="researchName">${projectName}</h3>
+                <p class="researchDescription">${description}</p>
+            </div>
+        </div>`;
+
+    return documentWrite(write, components);
+}
+
+/**
  * document write의 여부를 받아 write 해주는 함수
  * - Use: Components.js
  * @param write document write 여부

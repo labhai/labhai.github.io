@@ -2,7 +2,7 @@
   "data": {
     "projects": [
       {
-        "imagePath": "./images/project/image_axial.gif",
+        "imagePath": "./images/project/3DImage2ImageTranslation.gif",
         "projectName": "3D Image-to-Image Translation",
         "period": "2023.08 - ",
         "stacks": [""],

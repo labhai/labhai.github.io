@@ -11,7 +11,18 @@
         "description": "The project aims to generate 3D pseudo-PET images from 3D T1w MRI images with a generative model, which is trained with highly limited number of image pairs",
         "projectRepository": [""],
         "relatedPublications": []
-         },
+      },
+      {
+        "imagePath": "./images/project/2DImageSegmentation.png",
+        "projectName": "Image Segmentation",
+        "period": "2023.08 - ",
+        "stacks": [""],
+        "publication": "",
+        "contributors": ["Junho Moon"],
+        "description": "The project aims to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatmen",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
       {
         "imagePath": "./images/project/LLMFinetunedWithMedicalDatasets.png",
         "projectName": "Medical Large Language Model",
@@ -35,18 +46,7 @@
         "relatedPublications": []
       },
       {
-        "imagePath": "./images/project/2DImageSegmentation.png",
-        "projectName": "Image Segmentation",
-        "period": "2023.08 - ",
-        "stacks": [""],
-        "publication": "",
-        "contributors": ["Junho Moon"],
-        "description": "The project aims to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatmen",
-        "projectRepository": [],
-        "relatedPublications": []
-      },
-      {
-        "imagePath": "./images/project/3DMultimodalBrainImageGeneration.png",
+        "imagePath": "./images/project/GenerativeAI.png",
         "projectName": "GENERATIVE AI",
         "period": "2023.11 - ",
         "stacks": [],

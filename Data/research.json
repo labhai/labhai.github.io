@@ -13,6 +13,17 @@
         "relatedPublications": []
       },
       {
+        "imagePath": "./images/project/2DImageSegmentation.png",
+        "projectName": "Image Segmentation",
+        "period": "2023.08 - ",
+        "stacks": [""],
+        "publication": "",
+        "contributors": ["Junho Moon"],
+        "description": "The project aims to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatmen",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+      {
         "imagePath": "./images/project/LLMFinetunedWithMedicalDatasets.png",
         "projectName": "Medical Large Language Model",
         "period": "2023.08 - ",
@@ -31,17 +42,6 @@
         "publication": "",
         "contributors": ["Kwonhwi Cho"],
         "description": "The project aims to benchmarking and improving SAM(Segment Anything Model) performance",
-        "projectRepository": [],
-        "relatedPublications": []
-      },
-      {
-        "imagePath": "./images/project/2DImageSegmentation.png",
-        "projectName": "Image Segmentation",
-        "period": "2023.08 - ",
-        "stacks": [""],
-        "publication": "",
-        "contributors": ["Junho Moon"],
-        "description": "The project aims to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatmen",
         "projectRepository": [],
         "relatedPublications": []
       },

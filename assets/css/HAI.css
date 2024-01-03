@@ -119,6 +119,10 @@
     order: 1;
 }
 
+.profileBox.full-width {
+    grid-template-columns: 1fr;
+}
+
 .profileBox.right .profileName,
 .profileBox.right .profileDegree,
 .profileBox.right .profileKeyword,

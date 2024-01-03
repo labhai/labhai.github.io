@@ -358,10 +358,18 @@ function profileWithImage(
     `;
 
     let components = `
-        <div class="profileBox ${direction}">
-            <div class="profileImageBox">
-                <img class="profileImage" src="${imagePath}" alt=""/>
-            </div>
+        ${
+            imagePath
+            ? `<div class="profileBox ${direction}">`
+            : `<div class="profileBox ${direction} full-width">`
+        } 
+            ${
+                imagePath
+                    ? `<div class="profileImageBox">
+                        <img class="profileImage" src="${imagePath}" alt=""/>
+                    </div>`
+                    : ""
+            }
             <div class="profileContentBox">
                 <h3 class="profileName">${name}</h3>
                 ${
@@ -372,7 +380,11 @@ function profileWithImage(
                 <p class="profileDegree">${major}</p>
                 <p class="profileDegree">${degree}</p>
                 <p class="profileKeyword">${keyword}</p>
-                <p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>
+                ${
+                    email
+                        ? `<p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>`
+                        : ""
+                }
                 ${
                     office || laboratory
                         ? `<p class="profileEtc" style="margin: 10px 0 4px 0">Office: ${office} / Lab: ${laboratory}</p>`

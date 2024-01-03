@@ -38,12 +38,18 @@ function createPeopleComponents(containerId) {
             let major = profile["major"];
             let affiliation = "";
             let keyword = profile["keyword"];
-            let imagePath = profile["imagePath"];
-            let email = profile["email"];
-            let link = profile["link"];
+            let imagePath = "";
+            let email = "";
+            let link = "";
             let office = "";
             let laboratory = "";
             let cv = "";
+            // Professor or Researchers
+            if (person !== "Alumni") {
+                imagePath = profile["imagePath"];
+                email = profile["email"];
+                link = profile["link"];
+            }
             // Professor
             if (person === "Professor") {
                 affiliation = profile["affiliation"];

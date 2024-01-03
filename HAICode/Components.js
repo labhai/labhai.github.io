@@ -355,7 +355,7 @@ function profileWithImage(
     let direction = isLeftImage ? "left" : "right";
     let contactLink = ""
     if (link !== "") {
-        contactLink = githubIcon(link["github"], "margin-left: 4px")
+        contactLink = link["github"] ? githubIcon(link["github"], "margin-left: 4px") : ""
     }
 
     let components = `

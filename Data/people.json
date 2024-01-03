@@ -15,7 +15,7 @@
           "tistory": "",
           "personal": "",
           "velog": "",
-          "scholar": "https://scholar.google.com/citations?user=1rBh9xkAAAAJ"
+          "scholar": "https://scholar.google.com/citations?hl=en&user=1rBh9xkAAAAJ&view_op=list_works&sortby=pubdate"
         },
         "office": "Engr #418",
         "laboratory": "Engr #505",
@@ -56,18 +56,34 @@
         }
       },
       {
-        "name": "Kwonhwi Cho",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Computer Vision, Medical AI",
-        "imagePath": "./images/people/kwonhwi_cho.png",
-        "email": "dustin8335@hufs.ac.kr",
+        "name": "DAEHWAN KIM",
+        "degree": "M.S./Ph.D. student",
+        "major": "Artificial Intelligence Semiconductor",
+        "keyword": "Deep Learning, Medical AI, Computer Vision",
+        "imagePath": "./images/people/daehwan_kim.jpg",
+        "email": "ofchwan@gmail.com",
         "link": {
-          "github": "https://github.com/ChoKwonHwi",
+          "github": "",
           "notion": "",
           "tistory": "",
           "personal": "",
-          "velog": "https://velog.io/@ckh0824",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "Jiwoong Yang",
+        "degree": "M.S./Ph.D. student",
+        "major": "Artificial Intelligence Semiconductor",
+        "keyword": "Computer Vision, Medical AI, Generative AI",
+        "imagePath": "./images/people/jiwoong_yang.jpg",
+        "email": "",
+        "link": {
+          "github": "https://github.com/jellysunfly",
+          "notion": "",
+          "tistory": "",
+          "personal": "https://sites.google.com/view/jiwoong-yang/%ED%99%88",
+          "velog": "",
           "scholar": ""
         }
       },
@@ -150,7 +166,32 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "juneha lee",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, NLP",
+        "imagePath": "./images/people/juneha_lee.jpg",
+        "email": "dlwnsgk1105@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/June105",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      }
+    ],
+    "Alumni": [
+      {
+        "name": "Kwonhwi Cho",
+        "degree": "B.S. student / Feb. 2024.",
+        "major": "Computer Engineering (HUFS)",
+        "keyword": "Computer Vision, Medical AI"
       }
     ]
   }
+  
 }

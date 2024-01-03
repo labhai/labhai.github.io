@@ -119,6 +119,10 @@
     order: 1;
 }
 
+.profileBox.full-width {
+    grid-template-columns: 1fr;
+}
+
 .profileBox.right .profileName,
 .profileBox.right .profileDegree,
 .profileBox.right .profileKeyword,
@@ -218,6 +222,10 @@
         line-height: 0.9rem;
         margin: 4px 0;
     }
+
+    .profileBox.full-width {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -260,6 +268,10 @@
         line-height: 0.7rem;
         margin: 4px 0;
     }
+    
+    .profileBox.full-width {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* research 관련 style */
@@ -273,7 +285,7 @@
 }
 
 .researchBox.left {
-    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-columns: 0.55fr 0.45fr;
 }
 
 .researchBox.left > .researchImageBox  {
@@ -286,7 +298,7 @@
 }
 
 .researchBox.right {
-    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-columns: 0.45fr 0.55fr;
 }
 
 .researchBox.right > .researchImageBox {
@@ -308,7 +320,7 @@
 }
 
 .researchImage {
-    max-width: 90%;
+    max-width: 95%;
     position: relative;
 }
 
@@ -333,15 +345,15 @@
 
 @media screen and (max-width: 940px) {
     .researchBox.left {
-        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-columns: 0.55fr 0.45fr;
     }
 
     .researchBox.right {
-        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-columns: 0.45fr 0.55fr;
     }
 
     .researchImage {
-        max-width: 90%;
+        max-width: 95%;
     }
 
     .researchName {
@@ -359,15 +371,15 @@
 
 @media screen and (max-width: 480px) {
     .researchBox.left {
-        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-columns: 0.55fr 0.45fr;
     }
 
     .researchBox.right {
-        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-columns: 0.45fr 0.55fr;
     }
 
     .researchImage {
-        max-width: 90%;
+        max-width: 95%;
     }
     
     .researchName {

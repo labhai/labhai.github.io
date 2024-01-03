@@ -63,7 +63,7 @@ function nav(idx, write = true) {
     </ul>
     <ul class="icons">
         <li class="symbolLi">
-            <a href="https://scholar.google.com/citations?user=1rBh9xkAAAAJ" class="icon brands symbol">
+            <a href="https://scholar.google.com/citations?hl=en&user=1rBh9xkAAAAJ&view_op=list_works&sortby=pubdate" class="icon brands symbol">
                 <img class="symbolDefault symbolNormal" src="./images/GoogleScholarIcon/ic_gs.svg"  alt=""/>
                 <img class="symbolDefault symbolMenu" src="./images/GoogleScholarIcon/ic_gs_menu.svg"  alt=""/>
                 <img class="symbolHover" src="./images/GoogleScholarIcon/ic_gs_hover.svg" alt="">
@@ -353,15 +353,24 @@ function profileWithImage(
     write = true
 ) {
     let direction = isLeftImage ? "left" : "right";
-    let contactLink = `
-                ${link["github"] ? githubIcon(link["github"], "margin-left: 4px") : ""}
-    `;
+    let contactLink = ""
+    if (link !== "") {
+        contactLink = githubIcon(link["github"], "margin-left: 4px")
+    }
 
     let components = `
-        <div class="profileBox ${direction}">
-            <div class="profileImageBox">
-                <img class="profileImage" src="${imagePath}" alt=""/>
-            </div>
+        ${
+            imagePath
+            ? `<div class="profileBox ${direction}">`
+            : `<div class="profileBox ${direction} full-width">`
+        } 
+            ${
+                imagePath
+                    ? `<div class="profileImageBox">
+                        <img class="profileImage" src="${imagePath}" alt=""/>
+                    </div>`
+                    : ""
+            }
             <div class="profileContentBox">
                 <h3 class="profileName">${name}</h3>
                 ${
@@ -372,7 +381,11 @@ function profileWithImage(
                 <p class="profileDegree">${major}</p>
                 <p class="profileDegree">${degree}</p>
                 <p class="profileKeyword">${keyword}</p>
-                <p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>
+                ${
+                    email
+                        ? `<p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>`
+                        : ""
+                }
                 ${
                     office || laboratory
                         ? `<p class="profileEtc" style="margin: 10px 0 4px 0">Office: ${office} / Lab: ${laboratory}</p>`

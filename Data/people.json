@@ -56,6 +56,38 @@
         }
       },
       {
+        "name": "DAEHWAN KIM",
+        "degree": "M.S./Ph.D. student",
+        "major": "Artificial Intelligence Semiconductor",
+        "keyword": "Deep Learning, Medical AI, Computer Vision",
+        "imagePath": "./images/people/daehwan_kim.jpg",
+        "email": "ofchwan@gmail.com",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "Jiwoong Yang",
+        "degree": "M.S./Ph.D. student",
+        "major": "Artificial Intelligence Semiconductor",
+        "keyword": "Computer Vision, Medical AI, Generative AI",
+        "imagePath": "./images/people/jiwoong_yang.jpg",
+        "email": "",
+        "link": {
+          "github": "https://github.com/jellysunfly",
+          "notion": "",
+          "tistory": "",
+          "personal": "https://sites.google.com/view/jiwoong-yang/%ED%99%88",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
         "name": "Kwonhwi Cho",
         "degree": "B.S. student",
         "major": "Computer Engineering",
@@ -144,6 +176,22 @@
         "email": "phlox3959@hufs.ac.kr",
         "link": {
           "github": "https://github.com/Baek-Geonwoo",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "juneha lee",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, NLP",
+        "imagePath": "./images/people/juneha_lee.jpg",
+        "email": "dlwnsgk1105@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/June105",
           "notion": "",
           "tistory": "",
           "personal": "",

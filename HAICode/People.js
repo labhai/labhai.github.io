@@ -57,6 +57,10 @@ function createPeopleComponents(containerId) {
                 laboratory = profile["laboratory"];
                 cv = profile["cv"];
             }
+            // Alumni
+            if (person === "Alumni") {
+                isLeftImage = true
+            }
             contents += profileWithImage(
                 name,
                 affiliation,

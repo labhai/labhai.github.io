@@ -182,6 +182,22 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "Donggyu Hwang",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Medical AI, Computer Vision",
+        "imagePath": "./images/people/donggyu_hwang.png",
+        "email": "hdg2342@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/Hwangdonggyu",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
       }
     ],
     "Alumni": [

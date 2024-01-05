@@ -168,22 +168,6 @@
         }
       },
       {
-        "name": "juneha lee",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Computer Vision, NLP",
-        "imagePath": "./images/people/juneha_lee.jpg",
-        "email": "dlwnsgk1105@hufs.ac.kr",
-        "link": {
-          "github": "https://github.com/June105",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
         "name": "Donggyu Hwang",
         "degree": "B.S. student",
         "major": "Computer Engineering",
@@ -198,14 +182,29 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "juneha lee",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, NLP",
+        "imagePath": "./images/people/juneha_lee.jpg",
+        "email": "dlwnsgk1105@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/June105",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
       }
     ],
     "Alumni": [
       {
         "name": "Kwonhwi Cho",
-        "degree": "B.S. student / Feb. 2024.",
-        "major": "Computer Engineering (HUFS)",
-        "keyword": "Computer Vision, Medical AI"
+        "degree": "B.S. / Feb. 2024.",
+        "major": "Computer Engineering (HUFS)"
       }
     ]
   }

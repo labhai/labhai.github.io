@@ -380,7 +380,11 @@ function profileWithImage(
                 }
                 <p class="profileDegree">${major}</p>
                 <p class="profileDegree">${degree}</p>
-                <p class="profileKeyword">${keyword}</p>
+                ${
+                    keyword
+                        ? `<p class="profileKeyword">${keyword}</p>`
+                        : ""
+                }
                 ${
                     email
                         ? `<p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>`

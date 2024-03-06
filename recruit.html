@@ -30,21 +30,24 @@
                   enctype="multipart/form-data">
                 <div class="fields">
                     <div class="field">
-                        <label for="name">APPLICANT Name</label>
+                        <h3>APPLICANT Info</h3>
+                    </div>
+                    <div class="field">
+                        <label for="name">Name</label>
                         <input type="text" name="name" id="name"/>
                     </div>
                     <div class="field">
-                        <label for="email">APPLICANT Email</label>
+                        <label for="email">Email</label>
                         <input type="text" name="email" id="email"/>
                     </div>
 
                     <div class="field">
-                        <label for="contact">APPLICANT Contact</label>
+                        <label for="contact">Contact</label>
                         <input type="text" name="contact" id="contact"/>
                     </div>
 
                     <div class="field">
-                        <label for="github">APPLICANT Github/Homepage</label>
+                        <label for="github">Github / Homepage</label>
                         <textarea type="text" name="github" id="github" rows="2"></textarea>
                     </div>
 
@@ -54,7 +57,7 @@
                     </div>
 
                     <div class="field filebox">
-                        <label id="fileName" for="upload">Submit File</label>
+                        <label id="fileName" for="upload">ATTACHMENTS (CV, Transcript, etc)</label>
                         <input type="file" name="upload" id="upload" onchange='fileInputEvent(this, "fileName")'>
                     </div>
 

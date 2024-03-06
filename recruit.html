@@ -43,15 +43,21 @@
                         <input type="text" name="contact" id="contact"/>
                     </div>
 
-                    <!--                    <div class="field filebox">-->
-                    <!--                        <label id="fileName" for="upload">File</label>-->
-                    <!--                        <input type="file" name="upload" id="upload" onchange='fileInputEvent(this, "fileName")'>-->
-                    <!--                    </div>-->
+                    <div class="field">
+                        <label for="github">APPLICANT Github/Homepage</label>
+                        <textarea type="text" name="github" id="github" rows="2"></textarea>
+                    </div>
 
                     <div class="field">
                         <label for="message">Message</label>
                         <textarea name="message" id="message" rows="3"></textarea>
                     </div>
+
+                    <div class="field filebox">
+                        <label id="fileName" for="upload">Submit File</label>
+                        <input type="file" name="upload" id="upload" onchange='fileInputEvent(this, "fileName")'>
+                    </div>
+
                 </div>
                 <ul class="actions">
                     <li><input type="submit" value="Send"/></li>

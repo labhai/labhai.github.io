@@ -88,54 +88,6 @@
         }
       },
       {
-        "name": "Jeonhui Lee",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Computer Vision, NLP",
-        "imagePath": "./images/people/jeonhui_lee.jpg",
-        "email": "whas02@hufs.ac.kr",
-        "link": {
-          "github": "https://github.com/Jeonhui",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
-        "name": "Bomin Lee",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Computer Vision, NLP",
-        "imagePath": "./images/people/bomin_lee.jpg",
-        "email": "bmlee@hufs.ac.kr",
-        "link": {
-          "github": "https://github.com/bome24",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
-        "name": "Nakyeong Lee",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "NLP, Medical AI",
-        "imagePath": "./images/people/nakyeong_lee.jpeg",
-        "email": "ynk02@hufs.ac.kr",
-        "link": {
-          "github": "https://github.com/NaKyeongLee",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
         "name": "Sunwoo Park",
         "degree": "B.S. student",
         "major": "Computer Engineering",
@@ -192,6 +144,38 @@
         "email": "dlwnsgk1105@hufs.ac.kr",
         "link": {
           "github": "https://github.com/June105",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "YeEun Hong",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Medical AI, Graph Neural Network",
+        "imagePath": "./images/people/yeeun_hong.jpg",
+        "email": "www_1216@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/dotpyo",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "jaehoon jang",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "NLP, Generative AI",
+        "imagePath": "./images/people/jaehoon_jang.jpg",
+        "email": "hooni@hufs.ac.kr",
+        "link": {
+          "github": "",
           "notion": "",
           "tistory": "",
           "personal": "",

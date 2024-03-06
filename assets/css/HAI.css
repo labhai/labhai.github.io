@@ -83,6 +83,16 @@
     border-radius: 100%;
 }
 
+/* MAIN 페이지 관련 style  */
+.mainIntro {
+    margin: 0 auto;
+}
+
+.mainIntro p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
 /* profile 관련 style */
 
 .profileBox {

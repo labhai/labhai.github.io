@@ -1,5 +1,17 @@
 {
   "data": {
+    "2024": {
+      "4": [
+        "One student attended a short-term study abroad program"
+      ],
+      "2": [
+        "Conference paper accepted by IEEE BigComp 2024 DARSI (oral)"
+      ],
+      "1": [
+        "Conference paper accepted by IPIU 2024 (poster)",
+        "Journal paper accepted by Neurobiology of Aging"
+      ]
+    },
     "2023": {
       "11": [
         "Two students attended a short-term study abroad program",
@@ -7,7 +19,7 @@
         "US Patent application published"
       ],
       "10": [
-        "Paper has been accepted by HBM (Human Brain Mapping)",
+        "Journal paper accepted by HBM (Human Brain Mapping)",
         "Attended KHBM 2023 (대한뇌기능매핑학회)",
         "Attended KOSAIM 2023 (대한의료인공지능학회)"
       ],
@@ -19,7 +31,7 @@
       ],
       "7": [
         "Gave invited talk at Seoul St. Mary Hospital (가톨릭대 서울성모병원)",
-        "Presented work at OHBM 2023"
+        "Presented work at OHBM 2023 (poster)"
       ],
       "6": [
         "Gave invited talk at Yonsei University College of Dentistry (연세대 치과대학)",
@@ -31,11 +43,11 @@
         "Gave lecture at KAIST-Yonsei joint course (카이스트-연세대)"
       ],
       "4": [
-        "Paper has been accepted by PLOS One",
+        "Journal paper accepted by PLoS One",
         "Gave seminar at Hanyang University (한양대)"
       ],
       "2": [
-        "Paper has been accepted by CVPR"
+        "Conference paper accepted by CVPR (poster)"
       ],
       "1": [
         "Gave invited talk at Massachusetts General Hospital",

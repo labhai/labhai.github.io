@@ -224,7 +224,7 @@ function listWithDate(dateString, list, write = true) {
  */
 function footer(write = true) {
     let components = `
-<footer id="footer">
+    <footer id="footer">
         <section id="applySection">
 
             <p class="lowMarginBottom">Contact <a href="mailto:ijang@hufs.ac.kr"

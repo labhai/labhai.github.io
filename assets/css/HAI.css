@@ -96,30 +96,14 @@
 
 .carousel-inner .carousel-item img {
     width: 100%;
-    height: 50vh;
+    height: 20vw;
     object-fit: cover;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 2200px) {
     .carousel-inner .carousel-item img {
         width: 100%;
-        height: 40vh;
-        object-fit: cover;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    .carousel-inner .carousel-item img {
-        width: 100%;
-        height: 30vh;
-        object-fit: cover;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .carousel-inner .carousel-item img {
-        width: 100%;
-        height: 15vh;
+        height: 25vw;
         object-fit: cover;
     }
 }

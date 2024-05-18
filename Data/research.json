@@ -2,25 +2,25 @@
   "data": {
     "projects": [
       {
+        "imagePath": "./images/project/genomicDataCompression.png",
+        "projectName": "Neural Data Compression (Genomics)",
+        "period": "2024.06 - ",
+        "stacks": [""],
+        "publication": "",
+        "contributors": ["Donggyu Hwang"],
+        "description": "We aim to effectively compress genomic data leveraging entropy encoding and neural data compression",
+        "projectRepository": [""],
+        "relatedPublications": []
+      },
+      {
         "imagePath": "./images/project/3DImage2ImageTranslation.gif",
-        "projectName": "3D Image-to-Image Translation",
+        "projectName": "Synthetic 3D Medical Image Generation",
         "period": "2023.08 - ",
         "stacks": [""],
         "publication": "",
         "contributors": ["Symac Kim"],
         "description": "The project aims to generate 3D pseudo-PET images from 3D T1w MRI images with a generative model, which is trained with highly limited number of image pairs",
         "projectRepository": [""],
-        "relatedPublications": []
-      },
-      {
-        "imagePath": "./images/project/2DImageSegmentation.png",
-        "projectName": "Image Segmentation",
-        "period": "2023.08 - ",
-        "stacks": [""],
-        "publication": "",
-        "contributors": ["Junho Moon"],
-        "description": "The project aims to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatmen",
-        "projectRepository": [],
         "relatedPublications": []
       },
       {
@@ -35,13 +35,13 @@
         "relatedPublications": []
       },
       {
-        "imagePath": "./images/project/MedicalImageSegmentation.png",
-        "projectName": "OBJECT DETECTION",
+        "imagePath": "./images/project/2DImageSegmentation.png",
+        "projectName": "Image Segmentation",
         "period": "2023.08 - ",
-        "stacks": [],
+        "stacks": [""],
         "publication": "",
-        "contributors": ["Kwonhwi Cho"],
-        "description": "The project aims to benchmarking and improving SAM(Segment Anything Model) performance",
+        "contributors": ["Junho Moon"],
+        "description": "The project aims to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatmen",
         "projectRepository": [],
         "relatedPublications": []
       },
@@ -55,7 +55,19 @@
         "description": "The project aims to generate brain mri images with tumors through normal brain mri images with a generative model",
         "projectRepository": [],
         "relatedPublications": []
-      }
+      }      
+      {
+        "imagePath": "./images/project/MedicalImageSegmentation.png",
+        "projectName": "OBJECT DETECTION",
+        "period": "2023.08 - ",
+        "stacks": [],
+        "publication": "",
+        "contributors": ["Kwonhwi Cho"],
+        "description": "The project aims to benchmarking and improving SAM(Segment Anything Model) performance",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+
     ]
   }
 }

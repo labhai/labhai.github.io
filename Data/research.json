@@ -19,7 +19,7 @@
         "stacks": [""],
         "publication": "",
         "contributors": ["Symac Kim"],
-        "description": "The project aims to generate 3D pseudo-PET images from 3D T1w MRI images with a generative model, which is trained with highly limited number of image pairs",
+        "description": "The project aims to generate synthetic 3D PET images using 3D T1w MRI images with a generative model using supervised learning",
         "projectRepository": [""],
         "relatedPublications": []
       },
@@ -55,7 +55,7 @@
         "description": "The project aims to generate brain mri images with tumors through normal brain mri images with a generative model",
         "projectRepository": [],
         "relatedPublications": []
-      }      
+      },
       {
         "imagePath": "./images/project/MedicalImageSegmentation.png",
         "projectName": "OBJECT DETECTION",
@@ -67,7 +67,6 @@
         "projectRepository": [],
         "relatedPublications": []
       },
-
     ]
   }
 }

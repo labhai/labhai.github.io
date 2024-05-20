@@ -77,7 +77,7 @@
         "description": "We finetune Segment Anything Model (SAM) with one shot for lesion segmentation",
         "projectRepository": [],
         "relatedPublications": []
-      },
+      }
     ]
   }
 }

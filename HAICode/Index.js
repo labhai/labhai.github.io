@@ -66,7 +66,7 @@ function createNotice(containerId) {
 대학원 및 학부인턴연구원 지망생은 <a href="mailto:ijang@hufs.ac.kr"
                                            style="font-weight: bold">ijang@hufs.ac.kr</a>로 문의주세요</p>
     <p class="lowMarginBottom" style="text-align: center">Graduate students receive full tuition support and living expenses<br/>
-                               대학원(석/박사) 연구원은 등록금 전액과 소정의 생활비를 지원받습니다</p>
+                               대학원(석/박사) 연구원은 등록금 전액과 인건비를 지원받습니다</p>
     <a href="./recruit.html" style="border-bottom: none">
         <button style="margin-top: 2rem">Apply</button>
     </a>

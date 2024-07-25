@@ -43,7 +43,7 @@
         "name": "Junho Moon",
         "degree": "M.S./Ph.D. student",
         "major": "Artificial Intelligence Semiconductor",
-        "keyword": "Medical Imaging, Image Enhancement, Generative AI",
+        "keyword": "Medical Imaging, Multi-Modal AI, Generative AI",
         "imagePath": "./images/people/junho_moon.jpg",
         "email": "jhmoon6807@hanyang.ac.kr",
         "link": {
@@ -152,22 +152,6 @@
         }
       },
       {
-        "name": "YeEun Hong",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Medical AI, Graph Neural Network",
-        "imagePath": "./images/people/yeeun_hong.jpg",
-        "email": "www_1216@hufs.ac.kr",
-        "link": {
-          "github": "https://github.com/dotpyo",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
         "name": "jaehoon jang",
         "degree": "B.S. student",
         "major": "Computer Engineering / Linguistics and Cognitive Science",
@@ -177,6 +161,22 @@
         "link": {
           "github": "",
           "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "YUJIN PARK",
+        "degree": "B.S. student",
+        "major": "Biomedical Engineering",
+        "keyword": "Medical Imaging, Generative AI",
+        "imagePath": "./images/people/yujin_park.png",
+        "email": "gina1019a@naver.com",
+        "link": {
+          "github": "",
+          "notion": "https://aromatic-porcupine-994.notion.site/Yujin-Park-bf09c017e39d4679854de4047f403c35",
           "tistory": "",
           "personal": "",
           "velog": "",

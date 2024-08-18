@@ -77,6 +77,17 @@
         "description": "We finetune Segment Anything Model (SAM) with one shot for lesion segmentation",
         "projectRepository": [],
         "relatedPublications": []
+      },
+      {
+        "imagePath": "./images/project/explainableAI.png",
+        "projectName": "Explainable AI",
+        "period": "",
+        "stacks": [],
+        "publication": "",
+        "contributors": [""],
+        "description": "We conduct research on Explainable AI (XAI) to clinically understand the decision-making processes of AI models",
+        "projectRepository": [],
+        "relatedPublications": []
       }
     ]
   }

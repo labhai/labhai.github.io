@@ -42,7 +42,7 @@
       {
         "name": "Junho Moon",
         "degree": "M.S./Ph.D. student",
-        "major": "Artificial Intelligence Semiconductor",
+        "major": "Artificial Intelligence Semiconductor Engineering",
         "keyword": "Medical Imaging, Multi-Modal AI, Generative AI",
         "imagePath": "./images/people/junho_moon.jpg",
         "email": "jhmoon6807@hanyang.ac.kr",
@@ -58,7 +58,7 @@
       {
         "name": "DAEHWAN KIM",
         "degree": "M.S./Ph.D. student",
-        "major": "Artificial Intelligence Semiconductor",
+        "major": "Artificial Intelligence Semiconductor Engineering",
         "keyword": "Deep Learning, Medical AI, Computer Vision",
         "imagePath": "./images/people/daehwan_kim.jpg",
         "email": "officialhwan@hanyang.ac.kr",
@@ -74,7 +74,7 @@
       {
         "name": "Jiwoong Yang",
         "degree": "M.S./Ph.D. student",
-        "major": "Artificial Intelligence Semiconductor",
+        "major": "Artificial Intelligence Semiconductor Engineering",
         "keyword": "Computer Vision, Medical AI, Generative AI",
         "imagePath": "./images/people/jiwoong_yang.jpg",
         "email": "jiwoong0412@hanyang.ac.kr ",

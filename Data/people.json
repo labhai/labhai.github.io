@@ -182,6 +182,38 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "Jiyoon Lee",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, Medical Imaging",
+        "imagePath": "./images/people/jiyoon_lee.jpg",
+        "email": "dlwldbs3872@naver.com",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "Seohyun Bae",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, Medical AI",
+        "imagePath": "./images/people/seohyun_bae.jpg",
+        "email": "bsh121hsb@gmail.com",
+        "link": {
+          "github": "https://github.com/bsh201",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
       }
     ],
     "Alumni": [

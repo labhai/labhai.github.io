@@ -1,7 +1,8 @@
 {
   "data": {
     "2024": {
-      "1": ["Social Network Analysis", "Computational Thinking"]
+      "1": ["Social Network Analysis", "Computational Thinking"],
+      "2": ["Deep Generative Models", "Special Topics in AI", "SW Research Project"]
     },
     "2023": {
       "1": ["Big Data Processing", "Computational Thinking", "Electric Circuits"],

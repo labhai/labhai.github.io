@@ -76,3 +76,69 @@ function createNotice(containerId) {
     let container = document.getElementById(containerId)
     container.innerHTML = components
 }
+
+/**
+ * 메인페이지 이미지 슬라이드 데이터 읽어오는 함수
+ */
+const loadCarouselJson = (jsonPath) => {
+  fetch(jsonPath)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Failed to load JSON data");
+      }
+      return response.json();
+    })
+    .then((data) => {
+      const carouselData = data["data"];
+      populateColumns(carouselData);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+};
+
+/**
+ * 좌우 컬럼에 슬라이드 데이터를 배치하는 함수
+ */
+const populateColumns = (carouselData) => {
+  const leftColumn = document.getElementById("leftColumn");
+  const rightColumn = document.getElementById("rightColumn");
+
+  // 왼쪽 컬럼에 데이터 추가
+  leftColumn.innerHTML = carouselData.left
+    .map((carousel) => createCarousel(carousel))
+    .join("");
+
+  // 오른쪽 컬럼에 데이터 추가
+  rightColumn.innerHTML = carouselData.right
+    .map((carousel) => createCarousel(carousel))
+    .join("");
+};
+
+/**
+ * Carousel 생성 함수
+ */
+const createCarousel = (carousel) => {
+  const carouselInner = carousel.images
+    .map(
+      (image, index) => `
+      <div class="carousel-item ${index === 0 ? "active" : ""}">
+        <img class="d-block w-100" src="${image}" alt="Image">
+      </div>
+    `
+    )
+    .join("");
+
+  return `
+    <a href="#" class="image main">
+      <div id="${carousel.id}" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          ${carouselInner}
+        </div>
+      </div>
+    </a>
+  `;
+};
+
+// JSON 데이터 로드
+loadCarouselJson("../Data/index.json");

@@ -32,8 +32,8 @@ function header(title, write = true) {
 
 /**
  * 인자들을 nav에 적용시켜 반환하는 함수
- * - Use: index.html, people.html, publication.html, research.html, teaching.html, recruit.html
- * - 0: home, 1: people, 2: publication, 3: research, 4: teaching, 5, recruit
+ * - Use: index.html, people.html, publication.html, research.html, teaching.html, activity.html, recruit.html
+ * - 0: home, 1: people, 2: publication, 3: research, 4: teaching, 5: activity, 6: recruit
  * @param idx 페이지 번호
  * @param write document write 여부
  * @return {*} 인자들이 적용된 nav
@@ -59,6 +59,9 @@ function nav(idx, write = true) {
         }><a href="../teaching.html">Teaching</a></li>
         <li class=${
             idx === 5 ? "active" : ""
+        }><a href="../activity.html">Activity</a></li> 
+        <li class=${
+            idx === 6 ? "active" : ""
         }><a href="../recruit.html">Recruit</a></li> 
     </ul>
     <ul class="icons">

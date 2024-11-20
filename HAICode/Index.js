@@ -104,16 +104,19 @@ const populateColumns = (carouselData) => {
   const leftColumn = document.getElementById("leftColumn");
   const rightColumn = document.getElementById("rightColumn");
 
-  // 왼쪽 컬럼에 데이터 추가
-  leftColumn.innerHTML = carouselData.left
-    .map((carousel) => createCarousel(carousel))
-    .join("");
+  carouselData.left.forEach((carousel) => {
+    const carouselElement = document.createElement("div");
+    carouselElement.innerHTML = createCarousel(carousel);
+    leftColumn.appendChild(carouselElement); 
+  });
 
-  // 오른쪽 컬럼에 데이터 추가
-  rightColumn.innerHTML = carouselData.right
-    .map((carousel) => createCarousel(carousel))
-    .join("");
+  carouselData.right.forEach((carousel) => {
+    const carouselElement = document.createElement("div");
+    carouselElement.innerHTML = createCarousel(carousel);
+    rightColumn.appendChild(carouselElement); 
+  });
 };
+
 
 /**
  * Carousel 생성 함수

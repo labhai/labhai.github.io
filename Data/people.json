@@ -88,14 +88,30 @@
         }
       },
       {
-        "name": "Geonwoo Baek",
-        "degree": "M.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Deep Learning, Generative AI",
-        "imagePath": "./images/people/geonwoo_baek.jpg",
-        "email": "phlox3959@hufs.ac.kr",
+        "name": "YUJIN PARK",
+        "degree": "M.S./Ph.D. student",
+        "major": "Artificial Intelligence Semiconductor Engineering",
+        "keyword": "Medical Imaging, Generative AI",
+        "imagePath": "./images/people/yujin_park.png",
+        "email": "gina1019a@naver.com",
         "link": {
-          "github": "https://github.com/Baek-Geonwoo",
+          "github": "",
+          "notion": "https://aromatic-porcupine-994.notion.site/Yujin-Park-bf09c017e39d4679854de4047f403c35",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "boseong kim",
+        "degree": "M.S./Ph.D. student",
+        "major": "Artificial Intelligence Semiconductor Engineering",
+        "keyword": "Medical AI, Multi-Modal, Computer Vision",
+        "imagePath": "./images/people/boseong_kim.jpg",
+        "email": "qhtjd0632@naver.com",
+        "link": {
+          "github": "https://github.com/BOSEONG000126",
           "notion": "",
           "tistory": "",
           "personal": "",
@@ -104,14 +120,14 @@
         }
       },
       {
-        "name": "Sunwoo Park",
-        "degree": "B.S. student",
+        "name": "Geonwoo Baek",
+        "degree": "M.S. student",
         "major": "Computer Engineering",
-        "keyword": "Computer Vision, Medical AI",
-        "imagePath": "./images/people/sunwoo_park.png",
-        "email": "201901496@hufs.ac.kr",
+        "keyword": "Deep Learning, Generative AI",
+        "imagePath": "./images/people/geonwoo_baek.jpg",
+        "email": "phlox3959@hufs.ac.kr",
         "link": {
-          "github": "https://github.com/sunp0909",
+          "github": "https://github.com/Baek-Geonwoo",
           "notion": "",
           "tistory": "",
           "personal": "",
@@ -168,22 +184,6 @@
         }
       },
       {
-        "name": "YUJIN PARK",
-        "degree": "B.S. student",
-        "major": "Biomedical Engineering",
-        "keyword": "Medical Imaging, Generative AI",
-        "imagePath": "./images/people/yujin_park.png",
-        "email": "gina1019a@naver.com",
-        "link": {
-          "github": "",
-          "notion": "https://aromatic-porcupine-994.notion.site/Yujin-Park-bf09c017e39d4679854de4047f403c35",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
         "name": "Jiyoon Lee",
         "degree": "B.S. student",
         "major": "Computer Engineering",
@@ -214,12 +214,33 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "Kyumin Choi",
+        "degree": "B.S. student",
+        "major": "Computer Engineering / Spanish",
+        "keyword": "Computer Vision, Multi-Modal AI, Generative AI",
+        "imagePath": "./images/people/kyumin_choi.jpg",
+        "email": "dinoboy22@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/dinoboy22",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
       }
     ],
     "Alumni": [
       {
         "name": "Kwonhwi Cho",
         "degree": "B.S. / Feb. 2024.",
+        "major": "Computer Engineering (HUFS)"
+      },
+      {
+        "name": "Sunwoo Park",
+        "degree": "B.S. / Feb. 2025.",
         "major": "Computer Engineering (HUFS)"
       }
     ]

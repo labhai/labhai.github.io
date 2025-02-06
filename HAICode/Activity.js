@@ -1,65 +1,100 @@
-let teachingData = []
-let teachingDataKey = []
+document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const activityId = urlParams.get("id");
 
-/**
- * undefined인지 확인하는 함수
- * @param str 검사할 문자열
- * @return {boolean} undefined인 경우 true, 아니면 false
- */
-function isUndefined(str) {
-    return typeof str == "undefined" || str == null || str === "";
+    if (activityId) {
+        loadActivityDetail(activityId); 
+    } else {
+        loadActivityJson("activityContainer");
+    }
+});
+
+function loadActivityJson(containerId) {
+    fetch("../Data/activity.json")
+        .then((response) => response.json())
+        .then((json) => {
+            let activityData = json["data"];
+            groupByYear(activityData, containerId);
+        })
+        .catch((error) => console.error("Error loading activity data:", error));
 }
 
-/**
- * 문자열을 숫자로 변환한 뒤 비교하는 함수
- * @param a 첫 번째 문자열
- * @param b 두 번째 문자열
- * @return a가 크면 -1, 같으면 0, b가 크면 1
- */
-function convertStringToIntAndCompare(a, b) {
-    let x = parseInt(a)
-    let y = parseInt(b)
-    if (x > y) return -1
-    if (x === y) return 0
-    if (x < y) return 1
-}
+function groupByYear(activityData, containerId) {
+    let groupedData = activityData.reduce((acc, activity) => {
+        const year = activity.date.split('-')[0];
+        if (!acc[year]) acc[year] = [];
+        acc[year].push(activity);
+        return acc;
+    }, {});
 
-let subTitles = {"1": "1st Semester", "2": "2nd Semester", "3": "Summer Session", "4": "Winter Session"}
+    const sortedYears = Object.keys(groupedData).sort((a, b) => b - a); 
 
-/**
- * teaching.json 파일을 불러오고 teachingComponents를 생성하는 함수
- * createTeachingComponents 호출
- * @param containerId 해당 결과를 저장할 container(Tag)의 ID
- */
-function loadTeachingJson(containerId) {
-    readJson("../Data/teaching.json", (json) => {
-        teachingData = json['data']
-        teachingDataKey = Object
-            .keys(teachingData)
-            .sort(convertStringToIntAndCompare)
-        createTeachingComponents(containerId)
-    })
-}
+    let content = '';
+    sortedYears.forEach(year => {
+        let yearContent = groupedData[year]
+            .map(activity => {
+                const formattedDate = formatDate(activity.date);
 
-/**
- * 형식에 맞추어 데이터를 저장해주는 함수
- * @param containerId 해당 결과를 저장할 container(Tag)의 ID
- */
-function createTeachingComponents(containerId) {
-    let components = ''
-    teachingDataKey.forEach((year) => {
-        let content = ''
-        Object
-            .keys(subTitles)
-            .sort(convertStringToIntAndCompare)
-            .forEach((semesterNumber) => {
-                let teachingList = teachingData[year][semesterNumber]
-                if (!isUndefined(teachingList)) {
-                    content += subtitleWithList(subTitles[semesterNumber], teachingList, false)
-                }
+                return `
+                    <div class="activity-item">
+                        <a href="activity.html?id=${activity.id}">
+                            <img src="${activity.image}" alt="${activity.title}" class="activity-image">
+                            <h3 class="activity-title">${activity.title}</h3>
+                            <p class="activity-date">${formattedDate}</p>
+                        </a>
+                    </div>
+                `;
             })
-        components += titleWithContent(year, content, false)
-    })
-    let container = document.getElementById(containerId)
-    container.innerHTML = components
+            .join('');
+
+        content += `
+            <div class="year-group">
+                <h2>${year}</h2>
+                <div class="year-content">${yearContent}</div>
+            </div>
+        `;
+    });
+
+    document.getElementById(containerId).innerHTML = content;
+}
+
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    const month = date.getMonth() + 1;  
+    const day = date.getDate();
+    
+    return `${month < 10 ? '0' : ''}${month}.${day < 10 ? '0' : ''}${day}`; 
+}
+
+function loadActivityDetail(activityId) {
+    fetch("../Data/activity.json")
+        .then((response) => response.json())
+        .then((json) => {
+            let activityData = json["data"];
+            let activity = activityData.find((item) => item.id == activityId);
+            
+            if (activity) {
+                let formattedDate = activity.date.replace(/-/g, ".");
+                
+                let imagesHtml = activity.images && Array.isArray(activity.images) && activity.images.length > 0 ?
+                    `<div class="activity-detail-images">
+                        ${activity.images.map(image => `<img src="${image}" alt="${activity.title}" class="activity-detail-image">`).join('')}
+                    </div>` :
+                    `<img src="${activity.image}" alt="${activity.title}" class="activity-detail-image">`;
+
+                document.getElementById("activityContainer").innerHTML = `
+                    <div class="activity-detail">
+                        <h2>
+                            ${activity.title}
+                            <span class="activity-date-inline">${formattedDate}</span>
+                        </h2>
+                        <p>${activity.description}</p>
+                        ${imagesHtml}
+                    </div>
+                `;
+            } else {
+                document.getElementById("activityContainer").innerHTML = "<p>The post is unavailable.</p>";
+            }
+        })
+        .catch((error) => console.error("Error loading activity detail:", error));
 }

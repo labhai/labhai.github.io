@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "id": "20241210_neurips",
+            "title": "Neurips 2024 참석",
+            "date": "2024-12-10",
+            "image": "images/lab/인물사진/20241210_neurips/20241210_neurips_1.jpg",
+            "images": [
+                "images/lab/인물사진/20241210_neurips/20241210_neurips_1.jpg"
+            ],
+            "description": "TBU"
+        },
+        {
+            "id": "20241201_icpr",
+            "title": "ICPR 2024 참석",
+            "date": "2024-12-01",
+            "image": "images/lab/인물사진/20241201_icpr/20241201_icpr_1.jpg",
+            "images": ["images/lab/인물사진/20241201_icpr/20241201_icpr_1.jpg"],
+            "description": "TBU"
+        },
+        {
+            "id": "20241115_MAI",
+            "title": "의료 인공지능 경진대회 수상",
+            "date": "2024-11-15",
+            "image": "images/lab/기타/20241115_MAI_상장_김대환양지웅문준호.png",
+            "images": [
+                "images/lab/기타/20241115_MAI_상장_김대환양지웅문준호.png",
+                "images/lab/기타/20241115_MAI_고려대BK21의과학교육연구단장상_김대환양지웅문준호.jpg"
+            ],
+            "description": "TBU"
+        },
+        {
+            "id": "20241107_ICMRI",
+            "title": "ICMRI 2024 참석",
+            "date": "2024-11-07",
+            "image": "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_1.jpg",
+            "images": [
+                "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_1.jpg",
+                "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_2.jpg",
+                "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_3.jpg",
+                "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_4.jpg"
+            ],
+            "description": "TBU"
+        },
+        {
+            "id": "20241028_회식",
+            "title": "24년도 2학기 회식",
+            "date": "2024-10-28",
+            "image": "images/lab/인물사진/20241028_회식/20241028_회식_1.jpg",
+            "images": ["images/lab/인물사진/20241028_회식/20241028_회식_1.jpg"],
+            "description": "TBU"
+        },
+        {
+            "id": "20240814_KCCV",
+            "title": "KCCV 2024 참석",
+            "date": "2024-08-14",
+            "image": "images/lab/인물사진/20240814_KCCV/20240814_KCCV_2.PNG",
+            "images": [
+                "images/lab/인물사진/20240814_KCCV/20240814_KCCV_2.PNG",
+                "images/lab/인물사진/20240814_KCCV/20240814_KCCV_1.PNG",
+                "images/lab/인물사진/20240814_KCCV/20240814_KCCV_요트.JPG"
+            ],
+            "description": "TBU"
+        },
+        {
+            "id": "20231129_인공지능그랜드챌린지",
+            "title": "인공지능 그랜드 챌린지 수상",
+            "date": "2023-11-06",
+            "image": "images/lab/기타/20231129_인공지능그랜드챌린지_IITP원장상_문준호.jpg",
+            "images": [
+                "images/lab/기타/20231129_인공지능그랜드챌린지_IITP원장상_문준호.jpg"
+            ],
+            "description": "TBU"
+        },
+        {
+            "id": "20231106_바베큐",
+            "title": "바베큐데이",
+            "date": "2023-11-06",
+            "image": "images/lab/인물사진/20231106_바베큐/IMG_8048_website.jpg",
+            "images": [
+                "images/lab/인물사진/20231106_바베큐/20231106_175708_website.jpg",
+                "images/lab/인물사진/20231106_바베큐/20231106_180103_website.jpg",
+                "images/lab/인물사진/20231106_바베큐/20231106_180129_website.jpg",
+                "images/lab/인물사진/20231106_바베큐/IMG_8048_website.jpg",
+                "images/lab/인물사진/20231106_바베큐/IMG_8049_website.jpg"
+            ],
+            "description": "TBU"
+        },
+        {
+            "id": "20230925_랩미팅후피자",
+            "title": "피자데이",
+            "date": "2023-11-06",
+            "image": "images/lab/인물사진/20230925_랩미팅후피자.jpg",
+            "images": [
+                "images/lab/인물사진/20230925_랩미팅후피자.jpg"
+            ],
+            "description": "TBU"
+        }
+    ]
+}

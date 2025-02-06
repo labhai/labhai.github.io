@@ -24,22 +24,6 @@
     ],
     "Researchers": [
       {
-        "name": "Symac Kim",
-        "degree": "M.S./Ph.D. student",
-        "major": "Artificial Intelligence",
-        "keyword": "Medical AI, Nanostructure, Explainable AI",
-        "imagePath": "./images/people/symac_kim.jpg",
-        "email": "symac@hanyang.ac.kr",
-        "link": {
-          "github": "",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
         "name": "Junho Moon",
         "degree": "M.S./Ph.D. student",
         "major": "Artificial Intelligence Semiconductor Engineering",
@@ -104,6 +88,38 @@
         }
       },
       {
+        "name": "Jiyoon Lee",
+        "degree": "M.S./Ph.D. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, Medical Imaging",
+        "imagePath": "./images/people/jiyoon_lee.jpg",
+        "email": "dlwldbs3872@naver.com",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "Seohyun Bae",
+        "degree": "M.S./Ph.D. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, Medical AI",
+        "imagePath": "./images/people/seohyun_bae.jpg",
+        "email": "bsh121hsb@gmail.com",
+        "link": {
+          "github": "https://github.com/bsh201",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
         "name": "boseong kim",
         "degree": "M.S./Ph.D. student",
         "major": "Artificial Intelligence Semiconductor Engineering",
@@ -152,22 +168,6 @@
         }
       },
       {
-        "name": "juneha lee",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Computer Vision, NLP",
-        "imagePath": "./images/people/juneha_lee.jpg",
-        "email": "dlwnsgk1105@hufs.ac.kr",
-        "link": {
-          "github": "https://github.com/June105",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
         "name": "jaehoon jang",
         "degree": "B.S. student",
         "major": "Computer Engineering / Linguistics and Cognitive Science",
@@ -176,38 +176,6 @@
         "email": "hooni@hufs.ac.kr",
         "link": {
           "github": "",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
-        "name": "Jiyoon Lee",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Computer Vision, Medical Imaging",
-        "imagePath": "./images/people/jiyoon_lee.jpg",
-        "email": "dlwldbs3872@naver.com",
-        "link": {
-          "github": "",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
-        "name": "Seohyun Bae",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Computer Vision, Medical AI",
-        "imagePath": "./images/people/seohyun_bae.jpg",
-        "email": "bsh121hsb@gmail.com",
-        "link": {
-          "github": "https://github.com/bsh201",
           "notion": "",
           "tistory": "",
           "personal": "",
@@ -230,9 +198,30 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "GEUMDONG KIM",
+        "degree": "B.S. student",
+        "major": "Computer Engineering / Chemistry",
+        "keyword": "Medical AI, Deep Learning, Computer Vison",
+        "imagePath": "./images/people/geumdong_kim.jpg",
+        "email": "golddong9805@gmail.com",
+        "link": {
+          "github": "https://github.com/golddong98",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
       }
     ],
     "Alumni": [
+      {
+        "name": "Symac Kim",
+        "degree": "",
+        "major": "Artificial Intelligence (HYU)"
+      },
       {
         "name": "Kwonhwi Cho",
         "degree": "B.S. / Feb. 2024.",
@@ -241,6 +230,11 @@
       {
         "name": "Sunwoo Park",
         "degree": "B.S. / Feb. 2025.",
+        "major": "Computer Engineering (HUFS)"
+      },
+      {
+        "name": "juneha lee",
+        "degree": "B.S. / Feb. 2026.",
         "major": "Computer Engineering (HUFS)"
       }
     ]

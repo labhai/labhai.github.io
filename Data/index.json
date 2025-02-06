@@ -1,65 +1,132 @@
 {
-  "data": {
-    "left": [
-      {
-        "id": "slides_people",
-        "images": [
-          "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_1.jpg",
-          "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_2.jpg",
-          "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_3.jpg",
-          "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_4.jpg",
-          "images/lab/인물사진/20241028_회식/20241028_회식_1.jpg",
-          "images/lab/인물사진/20240814_KCCV/20240814_KCCV_2.PNG",
-          "images/lab/인물사진/20240814_KCCV/20240814_KCCV_1.PNG",
-          "images/lab/인물사진/20240814_KCCV/20240814_KCCV_요트.JPG",
-          "images/lab/인물사진/20230925_랩미팅후피자.jpg",
-          "images/lab/인물사진/20231106_바베큐/20231106_175708_website.jpg",
-          "images/lab/인물사진/20231106_바베큐/20231106_180103_website.jpg",
-          "images/lab/인물사진/20231106_바베큐/20231106_180129_website.jpg",
-          "images/lab/인물사진/20231106_바베큐/IMG_8048_website.jpg",
-          "images/lab/인물사진/20231106_바베큐/IMG_8049_website.jpg"
+    "data": {
+        "left": [
+            {
+                "id": "slides_people",
+                "groups": [
+                    {
+                        "link": "activity.html?id=20241028_회식",
+                        "images": [
+                            "images/lab/인물사진/20241028_회식/20241028_회식_1.jpg"
+                        ]
+                    },
+                    {
+                        "link": "activity.html?id=20240814_KCCV",
+                        "images": [
+                            "images/lab/인물사진/20240814_KCCV/20240814_KCCV_요트.JPG"
+                        ]
+                    },
+                    {
+                        "link": "activity.html?id=20231106_바베큐",
+                        "images": [
+                            "images/lab/인물사진/20231106_바베큐/20231106_175708_website.jpg",
+                            "images/lab/인물사진/20231106_바베큐/20231106_180103_website.jpg",
+                            "images/lab/인물사진/20231106_바베큐/20231106_180129_website.jpg",
+                            "images/lab/인물사진/20231106_바베큐/IMG_8048_website.jpg",
+                            "images/lab/인물사진/20231106_바베큐/IMG_8049_website.jpg"
+                        ]
+                    },
+                    {
+                        "link": "activity.html?id=20230925_랩미팅후피자",
+                        "images": [
+                            "images/lab/인물사진/20230925_랩미팅후피자.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "slides_etc",
+                "groups": [
+                    {
+                        "link": "activity.html?id=20241115_MAI",
+                        "images": [
+                            "images/lab/기타/20241115_MAI_상장_김대환양지웅문준호.png"
+                        ]
+                    },
+                    {
+                        "link": "activity.html?id=20240307_학생상담지도우수교원",
+                        "images": [
+                            "images/lab/기타/20240307_학생상담지도우수교원_우수상2.jpg"
+                        ]
+                    },
+                    {
+                        "link": "activity.html?id=20231129_인공지능그랜드챌린지",
+                        "images": [
+                            "images/lab/기타/20231129_인공지능그랜드챌린지_IITP원장상_문준호.jpg"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "id": "slides_conferences",
+                "groups": [
+                    {
+                        "link": "activity.html?id=20241210_neurips",
+                        "images": [
+                            "images/lab/인물사진/20241210_neurips/20241210_neurips_1.jpg"
+                        ]
+                    },
+                    {
+                        "link": "activity.html?id=20241201_icpr",
+                        "images": [
+                            "images/lab/인물사진/20241201_icpr/20241201_icpr_1.jpg"
+                        ]
+                    },
+                    {
+                        "link": "activity.html?id=20241107_ICMRI",
+                        "images": [
+                            "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_1.jpg",
+                            "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_2.jpg",
+                            "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_3.jpg",
+                            "images/lab/인물사진/20241107_ICMRI/20241107_ICMRI_4.jpg"
+                        ]
+                    },
+                    {
+                        "link": "activity.html?id=20240814_KCCV",
+                        "images": [
+                            "images/lab/인물사진/20240814_KCCV/20240814_KCCV_2.PNG",
+                            "images/lab/인물사진/20240814_KCCV/20240814_KCCV_1.PNG"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "slides_lab",
+                "groups": [
+                    {
+                        "link": "activity.html?id=연구실",
+                        "images": [
+                            "images/lab/연구실/연구실1.jpg",
+                            "images/lab/연구실/연구실2.jpg",
+                            "images/lab/연구실/연구실학생자리.jpg",
+                            "images/lab/연구실/3D프린터/연구실3D프린터.jpg",
+                            "images/lab/연구실/3D프린터/연구실3D프린터1.jpg",
+                            "images/lab/연구실/3D프린터/연구실3D프린터2.jpg"
+                        ]
+                    },
+                    {
+                        "link": "activity.html?id=서버",
+                        "images": [
+                            "images/lab/서버/IMG_2797.jpg",
+                            "images/lab/서버/IMG_2805.jpg",
+                            "images/lab/서버/IMG_2809.jpg",
+                            "images/lab/서버/IMG_3901.jpg",
+                            "images/lab/서버/IMG_3903.jpg",
+                            "images/lab/서버/IMG_3905.jpg",
+                            "images/lab/서버/IMG_3907.jpg",
+                            "images/lab/서버/IMG_3910.jpg",
+                            "images/lab/서버/IMG_3912.jpg",
+                            "images/lab/서버/랙캐비넷.jpg",
+                            "images/lab/서버/서버1.jpeg",
+                            "images/lab/서버/서버랙.jpg",
+                            "images/lab/서버/서버사진1.jpg",
+                            "images/lab/서버/서버사진2.jpg"
+                        ]
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "id": "slides_lab",
-        "images": [
-          "images/lab/연구실/연구실1.jpg",
-          "images/lab/연구실/연구실2.jpg",
-          "images/lab/연구실/연구실학생자리.jpg",
-          "images/lab/연구실/3D프린터/연구실3D프린터.jpg",
-          "images/lab/연구실/3D프린터/연구실3D프린터1.jpg",
-          "images/lab/연구실/3D프린터/연구실3D프린터2.jpg"
-        ]
-      }
-    ],
-    "right": [
-      {
-        "id": "slides_etc",
-        "images": [
-          "images/lab/기타/20241115_MAI_고려대BK21의과학교육연구단장상_김대환양지웅문준호.jpg",
-          "images/lab/기타/20240307_학생상담지도우수교원_우수상2.jpg",
-          "images/lab/기타/20231129_인공지능그랜드챌린지_IITP원장상_문준호.jpg"
-        ]
-      },
-      {
-        "id": "slides_server",
-        "images": [
-          "images/lab/서버/IMG_2797.jpg",
-          "images/lab/서버/IMG_2805.jpg",
-          "images/lab/서버/IMG_2809.jpg",
-          "images/lab/서버/IMG_3901.jpg",
-          "images/lab/서버/IMG_3903.jpg",
-          "images/lab/서버/IMG_3905.jpg",
-          "images/lab/서버/IMG_3907.jpg",
-          "images/lab/서버/IMG_3910.jpg",
-          "images/lab/서버/IMG_3912.jpg",
-          "images/lab/서버/랙캐비넷.jpg",
-          "images/lab/서버/서버1.jpeg",
-          "images/lab/서버/서버랙.jpg",
-          "images/lab/서버/서버사진1.jpg",
-          "images/lab/서버/서버사진2.jpg"
-        ]
-      }
-    ]
-  }
+    }
 }

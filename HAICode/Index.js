@@ -122,26 +122,32 @@ const populateColumns = (carouselData) => {
  * Carousel 생성 함수
  */
 const createCarousel = (carousel) => {
-  const carouselInner = carousel.images
-    .map(
-      (image, index) => `
-      <div class="carousel-item ${index === 0 ? "active" : ""}">
-        <img class="d-block w-100" src="${image}" alt="Image">
-      </div>
-    `
-    )
-    .join("");
-
-  return `
-    <a href="#" class="image main">
-      <div id="${carousel.id}" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          ${carouselInner}
+    const imageObjects = [];
+    carousel.groups.forEach(group => {
+      group.images.forEach(src => {
+        imageObjects.push({ src: src, link: group.link });
+      });
+    });
+  
+    const carouselInner = imageObjects
+      .map((imageObj, index) => `
+        <div class="carousel-item ${index === 0 ? "active" : ""}">
+            <a href="${imageObj.link}">
+                <img class="carousel-image" src="${imageObj.src}" alt="Image">
+            </a>
         </div>
-      </div>
-    </a>
-  `;
-};
+      `)
+      .join("");
+  
+    return `
+        <div id="${carousel.id}" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                ${carouselInner}
+            </div>
+        </div>
+    `;
+  };
+
 
 // JSON 데이터 로드
 loadCarouselJson("../Data/index.json");

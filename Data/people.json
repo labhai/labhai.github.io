@@ -88,6 +88,22 @@
         }
       },
       {
+        "name": "Jiyoon Lee",
+        "degree": "M.S./Ph.D. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, Medical Imaging",
+        "imagePath": "./images/people/jiyoon_lee.jpg",
+        "email": "dlwldbs3872@naver.com",
+        "link": {
+          "github": "",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
         "name": "boseong kim",
         "degree": "M.S./Ph.D. student",
         "major": "Artificial Intelligence Semiconductor Engineering",
@@ -112,22 +128,6 @@
         "email": "phlox3959@hufs.ac.kr",
         "link": {
           "github": "https://github.com/Baek-Geonwoo",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
-        "name": "Jiyoon Lee",
-        "degree": "M.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Computer Vision, Medical Imaging",
-        "imagePath": "./images/people/jiyoon_lee.jpg",
-        "email": "dlwldbs3872@naver.com",
-        "link": {
-          "github": "",
           "notion": "",
           "tistory": "",
           "personal": "",

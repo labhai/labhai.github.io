@@ -30,9 +30,19 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f Publication/requirements.txt ]; then pip install -r Publication/requirements.txt; fi
+
       - name: crawling publications
         run: |
-          python Publication/publication.py
+          python Publication/publication.py || echo "[WARNING] publication.py failed"
+          
+      - name: Upload debug screenshot if exists
+        if: always()  
+        uses: actions/upload-artifact@v3
+        with:
+          name: timeout-debug-screenshot
+          path: timeout_error.png
+          if-no-files-found: ignore
+
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9
         with:

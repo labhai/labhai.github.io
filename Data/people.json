@@ -198,6 +198,38 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "JIWON KIM",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Computer Vision, Generative AI",
+        "imagePath": "./images/people/jiwon_kim.png",
+        "email": "harryy5981@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/gamjawon",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "CHIHOON AN",
+        "degree": "B.S. student",
+        "major": "Electrical and Electronic Engineering",
+        "keyword": "Deep Learning, Computer Vision",
+        "imagePath": "./images/people/chihoon_an.jpg",
+        "email": "sfywj12@gmail.com",
+        "link": {
+          "github": "https://github.com/Anchihoon",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
       }
     ],
     "Alumni": [

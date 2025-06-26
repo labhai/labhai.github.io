@@ -1,6 +1,16 @@
 {
     "data": [
         {
+            "id": "dddd",
+            "title": "dddd",
+            "date": "dddd",
+            "image": "images/lab/인물사진/20241210_neurips/20241210_neurips_1.jpg",
+            "images": [
+                "images/lab/인물사진/20241210_neurips/20241210_neurips_1.jpg"
+            ],
+            "description": "Jiwoong, Daehwan, and Junho attended the Conference on Neural Information Processing Systems (NeurIPS) 2024 in Vancouver, Canada. NeurIPS is one of the world's top AI conferences."
+        },
+        {
             "id": "20241210_neurips",
             "title": "NeurIPS 2024",
             "date": "2024-12-10",

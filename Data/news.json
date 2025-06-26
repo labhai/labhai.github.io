@@ -1,90 +1,245 @@
 {
-  "data": {
-    "2024": {
-      "12": [
-        "Jiwoong, Daehwan, Junho attended Neurips 2024 in Canada",
-        "Junho attended ICPR 2024 in India, giving 1 poster presentation"
-      ],
-      "11": [
-        "Jiwoong, Daehwan, Junho (team: EHAIDL) received bronze prize from 1st Medical AI Competition (제1회 Medical AI 경진대회)",
-        "Awarded a research grant by Korean Society of Magnetic Resonance in Medicine (대한자기공명의과학회)"
-      ],
-      "10": [
-        "Awarded a research grant by Ministry of SMEs and Startups (중소벤처기업부)",
-        "Attended MICCAI 2024 in Morocco, giving 2 oral and 1 poster presentations",
-        "Signed MOU with Theta Labs, United States. We are excited to use NVIDIA H100 GPU cloud for LLM-based multimodal data learning"
-      ],
-      "9": [
-        "Conference paper accepted to IEEE PICom 2024"
-      ],
-      "8": [
-        "Awarded a research grant by NRF, Ministry of Science and ICT (과기정통부 한국연구재단)",
-        "Junho's paper accepted at ICPR 2024 as poster",
-        "Lab members (9) attended KCCV 2024 (한국컴퓨터비전학회) in Busan, Korea"
-      ],
-      "6": [
-        "3 papers accepted to MICCAI 2024 workshop (CLINICCAI)",
-        "Geonwoo's paper accepted at CLINICCAI as poster",
-        "Jiwoong's paper accepted at CLINICCAI as oral",
-        "Junho's paper accepted at CLINICCAI as oral"
-      ],
-      "5": [
-        "Awarded a research grant by Korea Disease Control and Prevention Agency (질병관리청)"
-      ],
-      "4": [
-        "Research proposal accepted to Korea Institute of Science and Technology Information (한국과학기술정보연구원)",
-        "One student attended a short-term study abroad program"
-      ],
-      "2": [
-        "Conference paper accepted to IEEE BigComp 2024 DARSI (oral)"
-      ],
-      "1": [
-        "Seonwoo's paper accepted to IPIU 2024 (poster)",
-        "Journal paper accepted by Neurobiology of Aging"
-      ]
-    },
-    "2023": {
-      "11": [
-        "Junho (team: 가이아) received a silver prize (IITP award) from AI Grand Challenge (2023 인공지능 그랜드 챌린지 - 정책지원 인공지능)",
-        "Two students attended a short-term study abroad program",
-        "Gave invited talk at ICMRI 2023 and attended the conference",
-        "US Patent application published"
-      ],
-      "10": [
-        "Journal paper accepted by HBM (Human Brain Mapping)",
-        "Attended KHBM 2023 (대한뇌기능매핑학회)",
-        "Attended KOSAIM 2023 (대한의료인공지능학회)"
-      ],
-      "9": [
-        "Gave invited talk at KSMRM Advanced MR (대한자기공명의과학회 Advanced MR 연구회)"
-      ],
-      "8": [
-        "Signed MOU with Awayr A.I., United States through SW-centric university project"
-      ],
-      "7": [
-        "Gave invited talk at Seoul St. Mary Hospital (가톨릭대 서울성모병원)",
-        "Presented work at OHBM 2023 (poster)"
-      ],
-      "6": [
-        "Gave invited talk at Yonsei University College of Dentistry (연세대 치과대학)",
-        "Gave seminar at BK21 seminar, Yonsei University (연세대)"
-      ],
-      "5": [
-        "Gave seminar at Hankuk University of Foreign Studies (한국외대)",
-        "Presented work at ISMRM 2023",
-        "Gave lecture at KAIST-Yonsei joint course (카이스트-연세대)"
-      ],
-      "4": [
-        "Journal paper accepted by PLoS One",
-        "Gave seminar at Hanyang University (한양대)"
-      ],
-      "2": [
-        "Paper accepted at CVPR 2023"
-      ],
-      "1": [
-        "Gave invited talk at Massachusetts General Hospital",
-        "Gave talk at Massachusetts General Hospital"
-      ]
+    "data": {
+        "2025": {
+            "4": [
+                {
+                    "text": "Research proposal accepted to Korea Institute of Science and Technology Information (한국과학기술정보연구원)"
+                },
+                {
+                    "text": "Awarded a research grant by Korea Health Industry Development Institute (한국보건산업진흥원)"
+                },
+                {
+                    "text": "Awarded a research grant by Korea Planning & Evaluation Institute of Industrial Technology (한국산업기술평가관리원) [news, news, news, news, news, news, news, news]",
+                    "links": {
+                        "news": [
+                            "https://biz.newdaily.co.kr/site/data/html/2025/06/25/2025062500505.html",
+                            "https://www.fnnews.com/news/202506251442237202",
+                            "https://www.dt.co.kr/contents.html?article_no=2025062502109954083001",
+                            "https://www.enewstoday.co.kr/news/articleView.html?idxno=2294754",
+                            "https://news.nate.com/view/20250625n22152",
+                            "https://v.daum.net/v/20250625144319655",
+                            "https://www.asiatime.co.kr/article/20250625500379#_enliple#_mobwcvr",
+                            "https://www.kyosu.net/news/articleView.html?idxno=138032"
+                        ]
+                    }
+                },
+                {
+                    "text": "Awarded a research grant by Korea Disease Control and Prevention Agency (질병관리청)"
+                }
+            ],
+            "1": [
+                {
+                    "text": "Journal paper accepted by iScience [paper]",
+                    "links": {
+                        "[paper]": "https://www.cell.com/iscience/fulltext/S2589-0042(24)02772-X"
+                    }
+                }
+            ]
+        },
+        "2024": {
+            "12": [
+                {
+                    "text": "Jiwoong, Daehwan, Junho attended Neurips 2024 in Canada [blog]",
+                    "links": {
+                        "blog": "./activity.html?id=20241210_neurips"
+                    }
+                },
+                {
+                    "text": "Junho attended ICPR 2024 in India, giving 1 poster presentation [blog]",
+                    "links": {
+                        "blog": "./activity.html?id=20241201_icpr"
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "text": "Jiwoong, Daehwan, Junho (team: EHAIDL) received bronze prize from 1st Medical AI Competition (제1회 Medical AI 경진대회) [blog] [news, news, news, news, news]",
+                    "links": {
+                        "blog": "./activity.html?id=20241115_MAI",
+                        "news": [
+                            "https://m.boannews.com/html/detail.html?tab_type=1&idx=134406",
+                            "https://m.health.chosun.com/svc/news_view.html?contid=2024111802224",
+                            "https://www.medifonews.com/news/article.html?no=197233",
+                            "https://www.datanet.co.kr/news/articleView.html?idxno=197835",
+                            "https://www.etnews.com/20241118000373"
+                        ]
+                    }
+                },
+                {
+                    "text": "Awarded a research grant by Korean Society of Magnetic Resonance in Medicine (대한자기공명의과학회)"
+                },
+                {
+                    "text": "Lab members (3) attended ICMRI 2024 (대한자기공명의과학회) in Seoul, Korea [blog]",
+                    "links": {
+                        "blog": "./activity.html?id=20241107_ICMRI"
+                    }
+                }
+            ],
+            "10": [
+                {
+                    "text": "Awarded a research grant by Ministry of SMEs and Startups (중소벤처기업부)"
+                },
+                {
+                    "text": "Attended MICCAI 2024 in Morocco, giving 2 oral and 1 poster presentations"
+                },
+                {
+                    "text": "Signed MOU with Theta Labs, United States. We are excited to use NVIDIA H100 GPU cloud for LLM-based multimodal data learning"
+                }
+            ],
+            "9": [
+                {
+                    "text": "Conference paper accepted to IEEE PICom 2024"
+                }
+            ],
+            "8": [
+                {
+                    "text": "Awarded a research grant by NRF, Ministry of Science and ICT (과기정통부 한국연구재단)"
+                },
+                {
+                    "text": "Junho's paper accepted at ICPR 2024 as poster [paper]",
+                    "links": {
+                        "[paper]": "https://link.springer.com/chapter/10.1007/978-3-031-78104-9_22"
+                    }
+                },
+                {
+                    "text": "Lab members (9) attended KCCV 2024 (한국컴퓨터비전학회) in Busan, Korea [blog]",
+                    "links": {
+                        "blog": "./activity.html?id=20240814_KCCV"
+                    }
+                }
+            ],
+            "6": [
+                {
+                    "text": "3 papers accepted to MICCAI 2024 workshop (CLINICCAI)"
+                },
+                {
+                    "text": "Geonwoo's paper accepted at CLINICCAI as poster"
+                },
+                {
+                    "text": "Jiwoong's paper accepted at CLINICCAI as oral"
+                },
+                {
+                    "text": "Junho's paper accepted at CLINICCAI as oral"
+                }
+            ],
+            "5": [
+                {
+                    "text": "Awarded a research grant by Korea Disease Control and Prevention Agency (질병관리청)"
+                }
+            ],
+            "4": [
+                {
+                    "text": "Research proposal accepted to Korea Institute of Science and Technology Information (한국과학기술정보연구원)"
+                },
+                {
+                    "text": "One student attended a short-term study abroad program"
+                }
+            ],
+            "2": [
+                {
+                    "text": "Conference paper accepted to IEEE BigComp 2024 DARSI (oral)"
+                }
+            ],
+            "1": [
+                {
+                    "text": "Seonwoo's paper accepted to IPIU 2024 (poster)"
+                },
+                {
+                    "text": "Journal paper accepted by Neurobiology of Aging"
+                }
+            ]
+        },
+        "2023": {
+            "11": [
+                {
+                    "text": "Junho (team: 가이아) received a silver prize (IITP award) from AI Grand Challenge (2023 인공지능 그랜드 챌린지 - 정책지원 인공지능) [news, news, news]",
+                    "links": {
+                      "news": [
+                        "http://aisemi.hanyang.ac.kr/community/board_view.asp?idx=24&boardID=Board2",
+                        "https://www.etnews.com/20231212000153",
+                        "https://www.wip-news.com/news/articleView.html?idxno=21505"
+                      ]
+                    }
+                },
+                {
+                    "text": "Two students attended a short-term study abroad program"
+                },
+                {
+                    "text": "Gave invited talk at ICMRI 2023 and attended the conference"
+                },
+                {
+                    "text": "US Patent application published"
+                }
+            ],
+            "10": [
+                {
+                    "text": "Journal paper accepted by HBM (Human Brain Mapping)"
+                },
+                {
+                    "text": "Attended KHBM 2023 (대한뇌기능매핑학회)"
+                },
+                {
+                    "text": "Attended KOSAIM 2023 (대한의료인공지능학회)"
+                }
+            ],
+            "9": [
+                {
+                    "text": "Gave invited talk at KSMRM Advanced MR (대한자기공명의과학회 Advanced MR 연구회)"
+                }
+            ],
+            "8": [
+                {
+                    "text": "Signed MOU with Awayr A.I., United States through SW-centric university project"
+                }
+            ],
+            "7": [
+                {
+                    "text": "Gave invited talk at Seoul St. Mary Hospital (가톨릭대 서울성모병원)"
+                },
+                {
+                    "text": "Presented work at OHBM 2023 (poster)"
+                }
+            ],
+            "6": [
+                {
+                    "text": "Gave invited talk at Yonsei University College of Dentistry (연세대 치과대학)"
+                },
+                {
+                    "text": "Gave seminar at BK21 seminar, Yonsei University (연세대)"
+                }
+            ],
+            "5": [
+                {
+                    "text": "Gave seminar at Hankuk University of Foreign Studies (한국외대)"
+                },
+                {
+                    "text": "Presented work at ISMRM 2023"
+                },
+                {
+                    "text": "Gave lecture at KAIST-Yonsei joint course (카이스트-연세대)"
+                }
+            ],
+            "4": [
+                {
+                    "text": "Journal paper accepted by PLoS One"
+                },
+                {
+                    "text": "Gave seminar at Hanyang University (한양대)"
+                }
+            ],
+            "2": [
+                {
+                    "text": "Paper accepted at CVPR 2023"
+                }
+            ],
+            "1": [
+                {
+                    "text": "Gave invited talk at Massachusetts General Hospital"
+                },
+                {
+                    "text": "Gave talk at Massachusetts General Hospital"
+                }
+            ]
+        }
     }
-  }
 }

@@ -207,15 +207,42 @@ function subtitleWithList(subTitle, list, write = true) {
  */
 function listWithDate(dateString, list, write = true) {
     let listsComponents = list.reduce((partialResult, value) => {
+        let text = '';
+
+        if (typeof value === 'string') {
+            text = value;
+        } else if (typeof value === 'object' && value.text) {
+            text = value.text;
+
+            if (value.links) {
+                for (const [key, linkValue] of Object.entries(value.links)) {
+                    const escapedKey = key.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+                    const regex = new RegExp(escapedKey, 'g');
+                    let index = 0;
+
+                    text = text.replace(regex, () => {
+                        const link = Array.isArray(linkValue)
+                            ? linkValue[index++]
+                            : linkValue;
+
+                        if (!link) return key;
+
+                        return `<a href="${link}" target="_blank" rel="noopener noreferrer">${key}</a>`;
+                    });
+                }
+            }
+        }
+
         return `${partialResult}
-        <li style="text-align: left">${dateString}    ${value}</li>`;
+        <li style="text-align: left">${dateString}    ${text}</li>`;
     }, "");
 
     let components = `
     <ul style="margin-bottom: 14px">
           ${listsComponents} 
     </ul>
-`;
+    `;
+    
     return documentWrite(write, components);
 }
 

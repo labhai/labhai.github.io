@@ -3,19 +3,22 @@
         "2025": {
             "4": [
                 {
+                    "text": "Selected for the Mid-Career Invitation Program by Korea Basic Science Institute (한국기초과학지원연구원)"
+                },
+                {
                     "text": "Research proposal accepted to Korea Institute of Science and Technology Information (한국과학기술정보연구원)"
                 },
                 {
                     "text": "Awarded a research grant by Korea Health Industry Development Institute (한국보건산업진흥원)"
                 },
                 {
-                    "text": "Awarded a research grant by Korea Planning & Evaluation Institute of Industrial Technology (한국산업기술평가관리원) [news, news, news, news, news, news, news, news]",
+                    "text": "Awarded a research grant by Korea Planning & Evaluation Institute of Industrial Technology (한국산업기술평가관리원) [news1, news2, news3]",
                     "links": {
                         "news": [
                             "https://biz.newdaily.co.kr/site/data/html/2025/06/25/2025062500505.html",
                             "https://www.fnnews.com/news/202506251442237202",
-                            "https://www.dt.co.kr/contents.html?article_no=2025062502109954083001",
                             "https://www.enewstoday.co.kr/news/articleView.html?idxno=2294754",
+                            "https://www.dt.co.kr/contents.html?article_no=2025062502109954083001",
                             "https://news.nate.com/view/20250625n22152",
                             "https://v.daum.net/v/20250625144319655",
                             "https://www.asiatime.co.kr/article/20250625500379#_enliple#_mobwcvr",
@@ -53,11 +56,11 @@
             ],
             "11": [
                 {
-                    "text": "Jiwoong, Daehwan, Junho (team: EHAIDL) received bronze prize from 1st Medical AI Competition (제1회 Medical AI 경진대회) [blog] [news, news, news, news, news]",
+                    "text": "Jiwoong, Daehwan, Junho (team: EHAIDL) received bronze prize from 1st Medical AI Competition (제1회 Medical AI 경진대회) [blog] [news1, news2]",
                     "links": {
                         "blog": "./activity.html?id=20241115_MAI",
                         "news": [
-                            "https://m.boannews.com/html/detail.html?tab_type=1&idx=134406",
+                            "https://www.boannews.com/media/view.asp?idx=134406",
                             "https://m.health.chosun.com/svc/news_view.html?contid=2024111802224",
                             "https://www.medifonews.com/news/article.html?no=197233",
                             "https://www.datanet.co.kr/news/articleView.html?idxno=197835",
@@ -152,7 +155,7 @@
         "2023": {
             "11": [
                 {
-                    "text": "Junho (team: 가이아) received a silver prize (IITP award) from AI Grand Challenge (2023 인공지능 그랜드 챌린지 - 정책지원 인공지능) [news, news, news]",
+                    "text": "Junho (team: 가이아) received a silver prize (IITP award) from AI Grand Challenge (2023 인공지능 그랜드 챌린지 - 정책지원 인공지능) [news1, news2, news3]",
                     "links": {
                       "news": [
                         "http://aisemi.hanyang.ac.kr/community/board_view.asp?idx=24&boardID=Board2",

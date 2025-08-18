@@ -1,6 +1,22 @@
 {
     "data": [
         {
+            "id": "20250804_KCCV",
+            "title": "KCCV 2025",
+            "date": "2025-08-04",
+            "image": "images/lab/인물사진/20250804_KCCV/20250804_KCCV_1.jpg",
+            "images": [
+                "/images/lab/인물사진/20250804_KCCV/kccv_open.jpg",
+                "/images/lab/인물사진/20250804_KCCV/lets_go.jpg",
+                "/images/lab/인물사진/20250804_KCCV/with_prof.jpg",
+                "/images/lab/인물사진/20250804_KCCV/yort.jpg",
+                "/images/lab/인물사진/20250804_KCCV/yort2.jpg",
+                "/images/lab/인물사진/20250804_KCCV/last_day.jpg"
+
+            ],
+            "description": "Lab members attended the Korean Conference on Computer Vision (KCCV 2025) on August 4-6."
+        },
+        {
             "id": "20241210_neurips",
             "title": "NeurIPS 2024",
             "date": "2024-12-10",

@@ -4,7 +4,7 @@
             "id": "20250804_KCCV",
             "title": "KCCV 2025",
             "date": "2025-08-04",
-            "image": "images/lab/인물사진/20250804_KCCV/20250804_KCCV_1.jpg",
+            "image": "/images/lab/인물사진/20250804_KCCV/kccv_open.jpg",
             "images": [
                 "/images/lab/인물사진/20250804_KCCV/kccv_open.jpg",
                 "/images/lab/인물사진/20250804_KCCV/lets_go.jpg",
@@ -15,6 +15,18 @@
 
             ],
             "description": "Lab members attended the Korean Conference on Computer Vision (KCCV 2025) on August 4-6."
+        },
+        {
+            "id": "20250310_회식",
+            "title": "Year-Start Dinner",
+            "date": "2025-03-10",
+            "image": "/images/lab/인물사진/20250310_회식/IMG_4007.jpg",
+            "images": [
+                "/images/lab/인물사진/20250310_회식/IMG_4007.jpg",
+                "/images/lab/인물사진/20250310_회식/IMG_4008.jpg"
+
+            ],
+            "description": "“We had a joyful gathering to celebrate the start of the new semester. Here’s to a fresh start and success for everyone!” 🎉"
         },
         {
             "id": "20241210_neurips",

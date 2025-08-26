@@ -1,6 +1,22 @@
 {
     "data": {
         "2025": {
+            "8": [
+                {
+                    "text": "Yujin's paper accepted at CIKM 2025 as poster (top-tier conference in data mining, short paper)"
+                },
+                {
+                    "text": "Lab members (12) attended KCCV 2025 (한국컴퓨터비전학회) in Busan, Korea [blog]",
+                    "links": {
+                        "blog": "./activity.html?id=20250804_KCCV"
+                    }
+                }
+            ],
+            "7": [
+                {
+                    "text": "Selected for the High-Performance Computing Support Program by National IT Industry Promotion Agency (정보통신산업진흥원)"
+                }
+            ],
             "4": [
                 {
                     "text": "Selected for the Mid-Career Invitation Program by Korea Basic Science Institute (한국기초과학지원연구원)"

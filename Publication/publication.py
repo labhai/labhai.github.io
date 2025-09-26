@@ -32,7 +32,6 @@ class StringQueryKey(StrEnum):
 
 class HAIPublication:
     def __init__(self):
-        # GitHub Actions 기준
         with open('./Publication/configure.json', 'r') as configure_file:
             configure = json.load(configure_file)
 
@@ -131,3 +130,7 @@ class HAIPublication:
                 driver.quit()
             except:
                 pass
+
+
+if __name__ == "__main__":
+    HAIPublication().run()

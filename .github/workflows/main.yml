@@ -1,52 +1,53 @@
-name: Python package
+name: Crawl Google Scholar
 
 on:
-    # pull_request:
-    #   branches: [ main ]
-    schedule:
+  schedule:
     - cron: '0 0 * * *'
-#     push:
-#      branches: [ main ]
+  workflow_dispatch:
 
+permissions:
+  contents: write
 
 jobs:
-  build:
-    runs-on: macos-latest
-    strategy:
-      fail-fast: false
-
-      matrix:
-        python-version: [ "3.13.0-rc.1" ]
-        architecture: [ "arm64" ]
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v3
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: Publication/requirements.txt
+
+      - name: Install Google Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Show Chrome version
+        run: google-chrome --version
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f Publication/requirements.txt ]; then pip install -r Publication/requirements.txt; fi
+          pip install -r Publication/requirements.txt
 
-      - name: crawling publications
-        run: |
-          python Publication/publication.py || echo "[WARNING] publication.py failed"
-          
+      - name: Crawl publications
+        working-directory: Publication
+        run: python publication.py
+
       - name: Upload debug screenshot if exists
-        if: always()  
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: timeout-debug-screenshot
-          path: timeout_error.png
+          path: Publication/timeout_error.png
           if-no-files-found: ignore
 
-      - name: Add & Commit
+      - name: Commit & Push changes
         uses: EndBug/add-and-commit@v9
         with:
-          add: '*.json --force'
-          message: 'update publications'
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          add: 'Publication/Data/publication.json --force'
+          message: 'chore: update publications [skip ci]'

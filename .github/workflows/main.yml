@@ -49,5 +49,5 @@ jobs:
       - name: Commit & Push changes
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'Publication/Data/publication.json --force'
+          add: 'Data/publication.json --force'
           message: 'chore: update publications [skip ci]'

@@ -51,3 +51,7 @@ jobs:
         with:
           add: 'Data/publication.json --force'
           message: 'chore: update publications [skip ci]'
+          author_name: ${{ vars.JUNO_NAME }}
+          author_email: ${{ vars.JUNO_EMAIL }}
+          committer_name: ${{ vars.JUNO_NAME }}
+          committer_email: ${{ vars.JUNO_EMAIL }}

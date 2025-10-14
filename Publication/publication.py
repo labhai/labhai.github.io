@@ -3,7 +3,6 @@ from __future__ import annotations
 from pathlib import Path
 from urllib.parse import urlencode
 import json
-import time
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -31,22 +30,18 @@ class HAIPublication:
     def __init__(self) -> None:
         script_dir = Path(__file__).resolve().parent
 
-        # Load configuration robustly (works regardless of current working directory)
         with open(script_dir / "configure.json", "r", encoding="utf-8") as f:
             self.configure = json.load(f)
 
-        # Base URLs and selectors
         self.url = self.configure["url"]
-        self.base_url = self.configure["base_url"]  # e.g., https://scholar.google.com/citations
-        self.wait_tag = self.configure["wait_tag"]  # CSS selector; e.g., "#gsc_a_b"
-        self.find_tag = self.configure["find_tag"]  # id; e.g., "gsc_a_b"
-        self.child_tag = self.configure["child_tag"]  # e.g., "td"
-        self.year_class = self.configure["year_class"]  # e.g., "gsc_a_y"
+        self.base_url = self.configure["base_url"]      
+        self.wait_tag = self.configure["wait_tag"]      
+        self.find_tag = self.configure["find_tag"]      
+        self.child_tag = self.configure["child_tag"]    
+        self.year_class = self.configure["year_class"]  
 
-        # Output path relative to script directory for stability
         self.result_filename = str((script_dir / self.configure["result_filename"]).resolve())
 
-        # Button / timing
         self.btn_max_cnt = int(self.configure["btn_max_cnt"])
         self.btn_wait_time = int(self.configure["btn_wait_time"])
 
@@ -57,14 +52,12 @@ class HAIPublication:
 
     def create_url(self, options: list[StringQueryKey]) -> str:
         query_dict = {opt.value: self.configure[opt.value] for opt in options}
-        # Including view_op=list_works makes the publications list explicit and stable
-        if "view_op" not in query_dict:
-            query_dict.update({"view_op": "list_works"})
+        query_dict.setdefault("view_op", "list_works")
         return f"{self.base_url}?{urlencode(query_dict)}"
 
     def crawl(self, url: str) -> None:
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless")
+        options.add_argument("--headless=new")
         options.add_argument("--disable-gpu")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
@@ -77,12 +70,10 @@ class HAIPublication:
             driver.get(url)
             print(f"[INFO] 접속 중: {url}")
 
-            # Wait until the publications table is present
             WebDriverWait(driver, 20).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, self.wait_tag))
             )
 
-            # Click the "Show more" button up to btn_max_cnt times
             for i in range(self.btn_max_cnt):
                 try:
                     btn = driver.find_element(By.ID, "gsc_bpf_more")
@@ -90,7 +81,6 @@ class HAIPublication:
                         print("[INFO] 더 이상 불러올 항목이 없습니다.")
                         break
 
-                    # track current row count, click, then wait until it increases (or timeout)
                     rows_before = len(driver.find_elements(By.CSS_SELECTOR, "#gsc_a_b .gsc_a_tr"))
                     print(f"[INFO] 버튼 클릭 {i + 1}/{self.btn_max_cnt} (rows_before={rows_before})")
                     btn.click()
@@ -102,45 +92,45 @@ class HAIPublication:
                     print(f"[WARNING] 버튼 클릭/로딩 대기 중 이슈 (계속 진행): {e}")
                     break
 
-            # Parse the page
             html = driver.page_source
             soup = BeautifulSoup(html, "html5lib")
             tbody = soup.find(id=self.find_tag)
 
             data_dict = {"data": []}
-            for row in tbody.find_all("tr", class_="gsc_a_tr"):
+            for row in tbody.select("tr.gsc_a_tr"):
                 try:
-                    # Title + link
-                    title_cell = row.find("td", class_="gsc_a_t")
-                    title_link = title_cell.find("a")
+                    title_cell = row.select_one("td.gsc_a_t")
+                    if not title_cell:
+                        continue
+
+                    title_link = title_cell.select_one("a.gsc_a_at")
                     title = title_link.get_text(strip=True) if title_link else title_cell.get_text(strip=True)
                     href = title_link["href"] if title_link and title_link.has_attr("href") else None
                     link = f"{self.url}{href}" if href else ""
 
-                    # Authors & venue
-                    authors = title_cell.find("div", class_="gsc_a_at").get_text(strip=True) if title_cell.find("div", class_="gsc_a_at") else ""
-                    venue = title_cell.find("div", class_="gsc_a_h").get_text(strip=True) if title_cell.find("div", class_="gsc_a_h") else ""
+                    meta_divs = title_cell.select("div.gs_gray")
+                    authors = meta_divs[0].get_text(strip=True) if len(meta_divs) > 0 else ""
+                    venue   = meta_divs[1].get_text(strip=True) if len(meta_divs) > 1 else ""
 
-                    # Year
-                    year_cell = row.find("td", class_=self.year_class)
+                    year_cell = row.select_one(f"td.{self.year_class}") or row.find("td", class_=self.year_class)
                     year = year_cell.get_text(strip=True) if year_cell else ""
 
-                    # Build a consistent record
                     results = [title, authors, venue, link, year]
                     data_dict["data"].append({f"{idx}": (val or "") for idx, val in enumerate(results)})
                 except Exception as e:
                     print(f"[WARNING] 데이터 파싱 실패 (해당 행 건너뜀): {e}")
                     continue
 
-            # Write JSON
             with open(self.result_filename, "w", encoding="utf-8") as f:
-                f.write(json.dumps(data_dict, ensure_ascii=False, indent=2))
+                json.dump(data_dict, f, ensure_ascii=False, indent=2)
             print(f"[INFO] 저장 완료: {self.result_filename}")
 
         except TimeoutException as te:
             print("[ERROR] 페이지 로딩 타임아웃 발생:", te)
-            # Save screenshot next to script for artifact upload
-            Path(__file__).with_name("timeout_error.png").write_bytes(driver.get_screenshot_as_png() if driver else b"")
+            try:
+                Path(__file__).with_name("timeout_error.png").write_bytes(driver.get_screenshot_as_png() if driver else b"")
+            except Exception:
+                pass
             raise
         except WebDriverException as we:
             print("[ERROR] 드라이버 예외 발생:", we)

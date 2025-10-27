@@ -1,5 +1,9 @@
 {
   "data": {
+    "2025": {
+      "1": ["Graph Mining", "Capstone Project", "Computational Thinking"],
+      "2": ["Deep Learning", "SW Research Project"]
+    },
     "2024": {
       "1": ["Social Network Analysis", "Computational Thinking"],
       "2": ["Deep Generative Models", "Special Topics in AI", "SW Research Project"]

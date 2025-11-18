@@ -93,7 +93,7 @@
         "major": "Computer Engineering",
         "keyword": "Computer Vision, Medical Imaging",
         "imagePath": "./images/people/jiyoon_lee.jpg",
-        "email": "dlwldbs3872@naver.com",
+        "email": "dlwldbs3872@hufs.ac.kr",
         "link": {
           "github": "",
           "notion": "",
@@ -136,7 +136,7 @@
         }
       },
       {
-        "name": "Seohyun Bae",
+        "name": "Seohyeon Bae",
         "degree": "M.S. student",
         "major": "Computer Engineering",
         "keyword": "Computer Vision, Medical AI",
@@ -144,22 +144,6 @@
         "email": "bsh121@hufs.ac.kr",
         "link": {
           "github": "https://github.com/bsh201",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
-        "name": "Donggyu Hwang",
-        "degree": "B.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Medical AI, Computer Vision",
-        "imagePath": "./images/people/donggyu_hwang.png",
-        "email": "hdg2342@hufs.ac.kr",
-        "link": {
-          "github": "https://github.com/Hwangdonggyu",
           "notion": "",
           "tistory": "",
           "personal": "",
@@ -230,6 +214,38 @@
           "velog": "",
           "scholar": ""
         }
+      },
+      {
+        "name": "Hongkyu Koh",
+        "degree": "B.S. student",
+        "major": "Computer Engineering / Mathematics",
+        "keyword": "Computer Vision, Generative AI, Explainable AI",
+        "imagePath": "./images/people/hongkyu_koh.jpg",
+        "email": "202200307@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/koh-hongQ",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
+        "name": "BOSEUK MOON",
+        "degree": "B.S. student",
+        "major": "Computer Engineering / Mathematics",
+        "keyword": "Computer Vision, Generative AI",
+        "imagePath": "./images/people/boseuk_moon.jpg",
+        "email": "202400238@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/ppaong",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
       }
     ],
     "Alumni": [
@@ -246,6 +262,11 @@
       {
         "name": "Sunwoo Park",
         "degree": "B.S. / Feb. 2025.",
+        "major": "Computer Engineering (HUFS)"
+      },
+      {
+        "name": "Donggyu Hwang",
+        "degree": "B.S. / Feb. 2026.",
         "major": "Computer Engineering (HUFS)"
       }
     ]

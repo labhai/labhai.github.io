@@ -1,6 +1,13 @@
 {
   "data": [
     {
+      "0": "Metalens-style image synthesis for metalens imaging via image-to-image translation",
+      "1": "C Kang, H Suk, J Seo, I Jang, H Chung",
+      "2": "Scientific Reports, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:k_IJM867U9cC",
+      "4": "2026"
+    },
+    {
       "0": "EZ-Sort: Efficient Pairwise Comparison via Zero-Shot CLIP-Based Pre-Ordering and Human-in-the-Loop Sorting",
       "1": "Y Park, H Chung, I Jang",
       "2": "CIKM, 2025",
@@ -137,7 +144,7 @@
       "0": "Biomedical image analysis competitions: The state of current participation practice",
       "1": "M Eisenmann, A Reinke, V Weru, MD Tizabi, F Isensee, TJ Adler, ...",
       "2": "arXiv preprint arXiv:2212.08568, 2022",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:QIV2ME_5wuYC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:QIV2ME_5wuYC",
       "4": "2022"
     },
     {

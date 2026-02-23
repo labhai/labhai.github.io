@@ -24,7 +24,7 @@
     {
       "0": "Adjoint method-based Fourier neural operator surrogate solver for wavefront shaping in tunable metasurfaces",
       "1": "C Kang, J Seo, I Jang, H Chung",
-      "2": "iScience 28 (1), 2025",
+      "2": "Iscience 28 (1), 2025",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:j3f4tGmQtD8C",
       "4": "2025"
     },
@@ -36,7 +36,7 @@
       "4": "2024"
     },
     {
-      "0": "Graph Attention Network with LSTM for Smart Contract Vulnerability Detection",
+      "0": "Graph attention network with lstm for smart contract vulnerability detection",
       "1": "H Ra, K Jang, I Jang",
       "2": "2024 IEEE Conference on Pervasive and Intelligent Computing (PICom), 167-172, 2024",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:4JMBOYKVnBMC",
@@ -47,13 +47,6 @@
       "1": "J Lee, J Kim, J Park, J Jo, I Jang",
       "2": "Journal of KIISE 51 (11), 987-995, 2024",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:r0BpntZqJG4C",
-      "4": "2024"
-    },
-    {
-      "0": "Uncertainty-Weighted Mutual Distillation for Multi-View Fusion",
-      "1": "J Yang, H Chung, I Jang",
-      "2": "arXiv e-prints, arXiv: 2411.10077, 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:RHpTSmoSYBkC",
       "4": "2024"
     },
     {
@@ -103,6 +96,13 @@
       "1": "I Jang, B Li, B Rashid, J Jacoby, SY Huang, BC Dickerson, DH Salat, ...",
       "2": "Neurobiology of Aging 136, 157–170, 2024",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:-f6ydRqryjwC",
+      "4": "2024"
+    },
+    {
+      "0": "Uncertainty-Weighted Mutual Distillation for Multi-View Fusion.",
+      "1": "J Yang, H Chung, I Jang",
+      "2": "CoRR, 2024",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:RHpTSmoSYBkC",
       "4": "2024"
     },
     {
@@ -184,8 +184,15 @@
     },
     {
       "0": "Brainlesion: Glioma, Multiple Sclerosis, Stroke and Traumatic Brain Injuries",
-      "1": "HM Luu, SH Park",
-      "2": "Springer, 2022",
+      "1": "A Chowdhury, H Kassem, N Padoy, R Umeton, A Karargyris, J Patel, ...",
+      "2": "Springer International Publishing, 2022",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:M3NEmzRMIkIC",
+      "4": "2022"
+    },
+    {
+      "0": "Brainlesion: glioma, multiple sclerosis, stroke and traumatic brain injuries",
+      "1": "A Hatamizadeh, V Nath, Y Tang, D Yang, HR Roth, D Xu, A Crimi, ...",
+      "2": "Springer International Publishing, 2022",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:isC4tDSrTZIC",
       "4": "2022"
     },
@@ -257,6 +264,13 @@
       "1": "Y Zou, I Jang, TG Reese, J Yao, W Zhu, JV Rispoli",
       "2": "ABCD-NP in conjunction with MICCAI 2019 11791, 176-185, 2019",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:W7OEmFMy1HYC",
+      "4": "2019"
+    },
+    {
+      "0": "to Predicting Intelligence Using",
+      "1": "Y Zou, I Jang, TG Reese, J Yao¹",
+      "2": "Adolescent Brain Cognitive Development Neurocognitive Prediction: First …, 2019",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:maZDTaKrznsC",
       "4": "2019"
     },
     {

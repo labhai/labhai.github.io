@@ -120,6 +120,22 @@
         }
       },
       {
+        "name": "CHIHOON AN",
+        "degree": "M.S./Ph.D. student",
+        "major": "Artificial Intelligence",
+        "keyword": "Deep Learning, Computer Vision",
+        "imagePath": "./images/people/chihoon_an.jpg",
+        "email": "sfywj12@gmail.com",
+        "link": {
+          "github": "https://github.com/Anchihoon",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": ""
+        }
+      },
+      {
         "name": "Geonwoo Baek",
         "degree": "M.S. student",
         "major": "Computer Engineering",
@@ -152,22 +168,6 @@
         }
       },
       {
-        "name": "jaehoon jang",
-        "degree": "B.S. student",
-        "major": "Computer Engineering / Linguistics and Cognitive Science",
-        "keyword": "NLP, Generative AI",
-        "imagePath": "./images/people/jaehoon_jang.jpg",
-        "email": "hooni@hufs.ac.kr",
-        "link": {
-          "github": "",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
         "name": "Kyumin Choi",
         "degree": "B.S. student",
         "major": "Computer Engineering / Spanish",
@@ -192,22 +192,6 @@
         "email": "harryy5981@hufs.ac.kr",
         "link": {
           "github": "https://github.com/gamjawon",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": ""
-        }
-      },
-      {
-        "name": "CHIHOON AN",
-        "degree": "B.S. student",
-        "major": "Electrical and Electronic Engineering",
-        "keyword": "Deep Learning, Computer Vision",
-        "imagePath": "./images/people/chihoon_an.jpg",
-        "email": "sfywj12@gmail.com",
-        "link": {
-          "github": "https://github.com/Anchihoon",
           "notion": "",
           "tistory": "",
           "personal": "",
@@ -250,13 +234,13 @@
     ],
     "Alumni": [
       {
-        "name": "Symac Kim",
-        "degree": "",
-        "major": "Artificial Intelligence (HYU)"
+        "name": "jaehoon jang",
+        "degree": "B.S. / Feb. 2027.",
+        "major": "Computer Engineering / Linguistics and Cognitive Science (HUFS)"
       },
       {
-        "name": "Kwonhwi Cho",
-        "degree": "B.S. / Feb. 2024.",
+        "name": "Donggyu Hwang",
+        "degree": "B.S. / Feb. 2026.",
         "major": "Computer Engineering (HUFS)"
       },
       {
@@ -265,9 +249,14 @@
         "major": "Computer Engineering (HUFS)"
       },
       {
-        "name": "Donggyu Hwang",
-        "degree": "B.S. / Feb. 2026.",
+        "name": "Kwonhwi Cho",
+        "degree": "B.S. / Feb. 2024.",
         "major": "Computer Engineering (HUFS)"
+      },
+      {
+        "name": "Symac Kim",
+        "degree": "",
+        "major": "Artificial Intelligence (HYU)"
       }
     ]
   }

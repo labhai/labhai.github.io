@@ -1,6 +1,48 @@
 {
     "data": {
+        "2026": {
+            "3": [
+                {
+                    "text": "Junho's paper accepted at Human Brain Mapping"
+                },
+                {
+                    "text": "Jiwoong's paper accepted at Pattern Recognition"
+                },
+                {
+                    "text": "Awarded a research grant by Korea Disease Control and Prevention Agency (질병관리청)"
+                }
+            ],
+            "2": [
+                {
+                    "text": "Yujin's paper accepted at PAKDD 2026 as oral"
+                }
+            ]
+        },
         "2025": {
+            "11": [
+                {
+                    "text": "Yujin, Ikbeom attended CIKM 2025 in Seoul, Korea; Yujin presented one poster"
+                },
+                {
+                    "text": "Yujin, Boseong, Jiwoong, Daehwan, Junho won the TTA Award at the 2025 AI Champion Competition (과기정통부 인공지능 챔피언 대회)"
+                }
+            ],
+            "10": [
+                {
+                    "text": "Lab members (13) attended ICMRI 2025 (대한자기공명의과학회) in Seoul, Korea",
+                    "links": {
+                        "blog": "./activity.html?id=20250804_KCCV"
+                    }
+                },
+                {
+                    "text": "Yujin, Boseong, Jiwoong, Daehwan, Junho attended ICCV 2025 in Honolulu, Hawaii"
+                }
+            ],
+            "9": [
+                {
+                    "text": "Geonwoo, Jiyoon, Seohyeon, Ikbeom attended MICCAI 2025 in Daejeon, Korea"
+                }
+            ],
             "8": [
                 {
                     "text": "Junho selected as a national scholarship awardee by NRF, Ministry of Science and ICT (과기정통부 한국연구재단)"
@@ -61,13 +103,13 @@
         "2024": {
             "12": [
                 {
-                    "text": "Jiwoong, Daehwan, Junho attended Neurips 2024 in Canada [blog]",
+                    "text": "Jiwoong, Daehwan, Junho attended Neurips 2024 in Vancouver, Canada [blog]",
                     "links": {
                         "blog": "./activity.html?id=20241210_neurips"
                     }
                 },
                 {
-                    "text": "Junho attended ICPR 2024 in India, giving 1 poster presentation [blog]",
+                    "text": "Junho attended ICPR 2024 in Kolkata, India, giving 1 poster presentation [blog]",
                     "links": {
                         "blog": "./activity.html?id=20241201_icpr"
                     }

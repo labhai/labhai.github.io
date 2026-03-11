@@ -29,7 +29,7 @@ ReasercherProfile (jsonObject)
     ⎿ email (String)
     ⎿ github (String)
     ⎿ link (jsonObject)
-        ⎿ key(String) - personal, github, notion, tistory, velog
+        ⎿ key(String) - personal, github, scholar, linkedin, notion, tistory, velog
            ⎿ value(String) - link 
 ```
 

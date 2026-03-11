@@ -73,6 +73,7 @@ function createPeopleComponents(containerId) {
                 office,
                 laboratory,
                 cv,
+                person === "Professor",
                 isLeftImage,
                 false
             );

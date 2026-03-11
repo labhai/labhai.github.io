@@ -238,7 +238,7 @@ function listWithDate(dateString, list, write = true) {
     }, "");
 
     let components = `
-    <ul style="margin-bottom: 14px">
+    <ul class="datedList">
           ${listsComponents} 
     </ul>
     `;

@@ -46,11 +46,97 @@ function createNewsComponents(containerId) {
                 let newsList = newsData[year][month]
                 listContents += listWithDate(`${year}. ${month}`, newsList, false)
             })
-        content += customTitleWithContent(year, listContents, "font-size: 1.5rem; text-align: left", false)
+        content += `
+        <section class="newsYearGroup">
+            ${customTitleWithContent(year, listContents, "font-size: 1.5rem; text-align: left", false)}
+        </section>
+        `
     })
-    let components = customTitleWithContent("NEWS", content, "font-size: 2rem", false)
+    let components = `
+    <div class="newsSection">
+        ${customTitleWithContent("NEWS", content, "font-size: 2rem", false)}
+    </div>
+    `
     let container = document.getElementById(containerId)
     container.innerHTML = components
+}
+
+/**
+ * institutionJson 파일을 불러오고 기관 섹션을 생성하는 함수
+ * @param containerId 기관 정보를 저장할 container(Tag)의 ID
+ */
+function loadInstitutionJson(containerId) {
+    readJson("../Data/institutions.json", (json) => {
+        createInstitutionComponents(containerId, json["data"])
+    })
+}
+
+/**
+ * 기관 섹션을 생성하는 함수
+ * @param containerId 기관 정보를 저장할 container(Tag)의 ID
+ * @param institutionSections 기관 데이터
+ */
+function createInstitutionComponents(containerId, institutionSections) {
+    let sectionContents = institutionSections
+        .map((section) => createInstitutionSection(section))
+        .join("")
+
+    let container = document.getElementById(containerId)
+    container.innerHTML = sectionContents
+}
+
+/**
+ * 기관 그룹을 생성하는 함수
+ * @param section 기관 그룹 데이터
+ * @return {string}
+ */
+function createInstitutionSection(section) {
+    let items = section.items
+        .map((item) => createInstitutionCard(item))
+        .join("")
+
+    return `
+        <section class="institutionTopLevel institutionGroup" data-group="${section.id}">
+            ${customTitleWithContent(section.title, `
+            <div class="institutionGrid">
+                ${items}
+            </div>
+            `, "font-size: 2rem; text-align: center", false)}
+        </section>
+    `
+}
+
+/**
+ * 기관 카드를 생성하는 함수
+ * @param item 기관 데이터
+ * @return {string}
+ */
+function createInstitutionCard(item) {
+    let logo = item.logoPath
+        ? `<img class="institutionLogoImage" src="${item.logoPath}" alt="${item.name} logo"/>`
+        : `<div class="institutionWordmark" aria-label="${item.name} logo">${item.shortName || item.name}</div>`
+
+    let cardContent = `
+        <div class="institutionLogoBox">
+            ${logo}
+        </div>
+        <p class="institutionTag">${item.category}</p>
+        <h4 class="institutionName">${item.name}</h4>
+    `
+
+    if (item.website) {
+        return `
+            <a class="institutionCard is-link" href="${item.website}" target="_blank" rel="noopener noreferrer">
+                ${cardContent}
+            </a>
+        `
+    }
+
+    return `
+        <div class="institutionCard">
+            ${cardContent}
+        </div>
+    `
 }
 
 /**

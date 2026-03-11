@@ -1,0 +1,121 @@
+{
+    "data": [
+        {
+            "id": "collaborators",
+            "title": "Research Collaborators",
+            "items": [
+                {
+                    "name": "Massachusetts General Hospital",
+                    "shortName": "MGH",
+                    "category": "Hospital",
+                    "logoPath": "./images/partners/mgh.png",
+                    "website": "https://www.massgeneral.org/"
+                },
+                {
+                    "name": "Harvard Medical School",
+                    "shortName": "HMS",
+                    "category": "University",
+                    "logoPath": "./images/partners/hms.png",
+                    "website": "https://hms.harvard.edu/"
+                },
+                {
+                    "name": "Yonsei University College of Dentistry",
+                    "shortName": "YONSEI",
+                    "category": "University",
+                    "logoPath": "./images/partners/yonsei.png",
+                    "website": "https://dentistry.yonsei.ac.kr/dentistry/index.do"
+                },
+                {
+                    "name": "Kyung Hee University Korean Medicine Hospital",
+                    "shortName": "KYUNG HEE",
+                    "category": "Hospital",
+                    "logoPath": "./images/partners/khmc.png",
+                    "website": "https://km.khmc.or.kr/kr/main.do"
+                },
+                {
+                    "name": "Boramae Medical Center",
+                    "shortName": "BORAMAE",
+                    "category": "Hospital",
+                    "logoPath": "./images/partners/boramae.png",
+                    "website": "https://www.brmh.org/"
+                },
+                {
+                    "name": "Asan Medical Center",
+                    "shortName": "ASAN",
+                    "category": "Hospital",
+                    "logoPath": "./images/partners/asan.svg",
+                    "website": "https://www.amc.seoul.kr/asan/main.do"
+                },
+                {
+                    "name": "Seoul St. Mary's Hospital",
+                    "shortName": "CMC SEOUL",
+                    "category": "Hospital",
+                    "logoPath": "./images/partners/cmcseoul.svg",
+                    "website": "https://www.cmcseoul.or.kr/page/main"
+                },
+                {
+                    "name": "Theta Labs",
+                    "shortName": "THETA",
+                    "category": "Company",
+                    "logoPath": "./images/partners/theta.png",
+                    "website": "https://www.thetaedgecloud.com/"
+                }
+            ]
+        },
+        {
+            "id": "sponsors",
+            "title": "Research Sponsors",
+            "items": [
+                {
+                    "name": "National Research Foundation of Korea",
+                    "shortName": "NRF",
+                    "category": "Funding Agency",
+                    "logoPath": "./images/partners/nrf.png",
+                    "website": "https://www.nrf.re.kr/"
+                },
+                {
+                    "name": "Ministry of Science and ICT",
+                    "shortName": "MSIT",
+                    "category": "Government Ministry",
+                    "logoPath": "./images/partners/msit.svg",
+                    "website": "https://www.msit.go.kr/index.do"
+                },
+                {
+                    "name": "Institute of Information & Communications Technology Planning & Evaluation",
+                    "shortName": "IITP",
+                    "category": "Funding Agency",
+                    "logoPath": "./images/partners/iitp.svg",
+                    "website": "https://www.iitp.kr/web/index.do"
+                },
+                {
+                    "name": "Korea Planning & Evaluation Institute of Industrial Technology",
+                    "shortName": "KEIT",
+                    "category": "Funding Agency",
+                    "logoPath": "./images/partners/keit.png",
+                    "website": "https://www.keit.re.kr/main"
+                },
+                {
+                    "name": "Ministry of SMEs and Startups",
+                    "shortName": "MSS",
+                    "category": "Government Ministry",
+                    "logoPath": "./images/partners/mss.jpg",
+                    "website": "https://www.mss.go.kr/site/smba/main.do"
+                },
+                {
+                    "name": "Korea Disease Control and Prevention Agency",
+                    "shortName": "KDCA",
+                    "category": "Government Agency",
+                    "logoPath": "./images/partners/kdca.png",
+                    "website": "https://www.kdca.go.kr/kdca/index.do"
+                },
+                {
+                    "name": "Korea Institute of Science and Technology Information",
+                    "shortName": "KISTI",
+                    "category": "Public Research Institute",
+                    "logoPath": "./images/partners/kisti.png",
+                    "website": "https://www.kisti.re.kr/"
+                }
+            ]
+        }
+    ]
+}

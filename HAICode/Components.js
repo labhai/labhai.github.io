@@ -104,11 +104,42 @@ const iconComponents = () => {};
  * @param style css 스타일
  * @return {*} 인자들이 적용된 html "a" 태그
  */
-const githubIcon = (link, style) => {
+const externalLinkAttributes = `target="_blank" rel="noopener noreferrer"`;
+
+const githubIcon = (link, style = "") => {
     return `
-        <a href=${link} style="${style}" class="icon brands fa-github">
+        <a href="${link}" style="${style}" class="icon brands fa-github" ${externalLinkAttributes}>
             <span class="label">GitHub</span>
         </a>`;
+};
+
+const linkedinIcon = (link, style = "") => {
+    return `
+        <a href="${link}" style="${style}" class="icon brands fa-linkedin-in" ${externalLinkAttributes}>
+            <span class="label">LinkedIn</span>
+        </a>`;
+};
+
+const scholarIcon = (link, style = "") => {
+    return `
+        <a href="${link}" style="${style}" class="icon scholarInlineIcon" ${externalLinkAttributes}>
+            <img src="./images/GoogleScholarIcon/ic_gs_site.svg" alt="Google Scholar"/>
+            <span class="label">Google Scholar</span>
+        </a>`;
+};
+
+const buildProfileContactLinks = (link) => {
+    if (!link || typeof link !== "object") {
+        return "";
+    }
+
+    return [
+        link["scholar"] ? scholarIcon(link["scholar"]) : "",
+        link["linkedin"] ? linkedinIcon(link["linkedin"]) : "",
+        link["github"] ? githubIcon(link["github"]) : "",
+    ]
+        .filter(Boolean)
+        .join("");
 };
 
 /**
@@ -376,13 +407,23 @@ function profileWithImage(
     office,
     laboratory,
     cv,
+    isProfessor = false,
     isLeftImage = true,
     write = true
 ) {
     let direction = isLeftImage ? "left" : "right";
-    let contactLink = ""
-    if (link !== "") {
-        contactLink = link["github"] ? githubIcon(link["github"], "margin-left: 4px") : ""
+    const showScholarInMoreInfo = Boolean(cv && link && link["scholar"]);
+    const contactLink = buildProfileContactLinks(
+        showScholarInMoreInfo ? { ...link, scholar: "" } : link
+    );
+    const moreInfoLinks = [];
+
+    if (cv) {
+        moreInfoLinks.push(`<a class="mailLink" href="${cv}">CV</a>`);
+    }
+
+    if (showScholarInMoreInfo) {
+        moreInfoLinks.push(`<a class="mailLink" href="${link["scholar"]}">Google Scholar</a>`);
     }
 
     let components = `
@@ -413,8 +454,19 @@ function profileWithImage(
                         : ""
                 }
                 ${
-                    email
-                        ? `<p class="profileContact"><a class="mailLink" href="mailto:${email}">${email}</a> ${contactLink}</p>`
+                    email || (isProfessor && contactLink)
+                        ? `<p class="profileContact">${
+                            email ? `<a class="mailLink" href="mailto:${email}">${email}</a>` : ""
+                        }${
+                            isProfessor && contactLink
+                                ? `<span class="profileContactIcons${email ? " has-email" : ""}">${contactLink}</span>`
+                                : ""
+                        }</p>`
+                        : ""
+                }
+                ${
+                    !isProfessor && contactLink
+                        ? `<p class="profileContact profileContactIconRow"><span class="profileContactIcons">${contactLink}</span></p>`
                         : ""
                 }
                 ${
@@ -423,8 +475,8 @@ function profileWithImage(
                         : ""
                 }
                 ${
-                    cv
-                        ? `<p class="profileEtc">More Informations: <a class="mailLink" href="${cv}">CV</a> , <a class="mailLink" href="${link["scholar"]}">Google Scholar</a></p>`
+                    moreInfoLinks.length > 0
+                        ? `<p class="profileEtc">More Informations: ${moreInfoLinks.join(" , ")}</p>`
                         : ""
                 }
             </div>

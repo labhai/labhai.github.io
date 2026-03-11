@@ -113,7 +113,7 @@ function createInstitutionSection(section) {
  */
 function createInstitutionCard(item) {
     let logo = item.logoPath
-        ? `<img class="institutionLogoImage" src="${item.logoPath}" alt="${item.name} logo"/>`
+        ? `<img class="institutionLogoImage" src="${item.logoPath}" alt="${item.name} logo" loading="lazy" decoding="async"/>`
         : `<div class="institutionWordmark" aria-label="${item.name} logo">${item.shortName || item.name}</div>`
 
     let cardContent = `
@@ -201,12 +201,108 @@ const populateColumns = (carouselData) => {
     carouselElement.innerHTML = createCarousel(carousel);
     rightColumn.appendChild(carouselElement); 
   });
+
+  initializeDeferredCarouselImages();
 };
 
 
 /**
  * Carousel 생성 함수
  */
+const carouselPlaceholderImage =
+  "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+const deferredCarouselQueue = [];
+let isDeferredCarouselQueueScheduled = false;
+
+const loadCarouselImage = (imageElement) => {
+  if (!imageElement || !imageElement.dataset.src) {
+    return;
+  }
+
+  imageElement.src = imageElement.dataset.src;
+  imageElement.removeAttribute("data-src");
+  imageElement.removeAttribute("data-queued");
+};
+
+const drainDeferredCarouselQueue = (idleDeadline) => {
+  isDeferredCarouselQueueScheduled = false;
+
+  let processedImageCount = 0;
+  while (deferredCarouselQueue.length > 0) {
+    const hasIdleTime =
+      !idleDeadline || idleDeadline.timeRemaining() > 5 || processedImageCount === 0;
+    if (!hasIdleTime || (!idleDeadline && processedImageCount >= 2)) {
+      break;
+    }
+
+    const nextImage = deferredCarouselQueue.shift();
+    if (!nextImage || !nextImage.dataset.src) {
+      continue;
+    }
+
+    loadCarouselImage(nextImage);
+    processedImageCount += 1;
+  }
+
+  if (deferredCarouselQueue.length > 0) {
+    scheduleDeferredCarouselQueue();
+  }
+};
+
+const scheduleDeferredCarouselQueue = () => {
+  if (isDeferredCarouselQueueScheduled || deferredCarouselQueue.length === 0) {
+    return;
+  }
+
+  isDeferredCarouselQueueScheduled = true;
+
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(drainDeferredCarouselQueue, { timeout: 1200 });
+    return;
+  }
+
+  window.setTimeout(() => {
+    drainDeferredCarouselQueue();
+  }, 150);
+};
+
+const queueCarouselImage = (imageElement) => {
+  if (!imageElement || !imageElement.dataset.src || imageElement.dataset.queued === "true") {
+    return;
+  }
+
+  imageElement.dataset.queued = "true";
+  deferredCarouselQueue.push(imageElement);
+  scheduleDeferredCarouselQueue();
+};
+
+const queueRemainingCarouselImages = () => {
+  document
+    .querySelectorAll(".carousel-image[data-src]")
+    .forEach((imageElement) => queueCarouselImage(imageElement));
+};
+
+const initializeDeferredCarouselImages = () => {
+  if (document.readyState === "complete") {
+    queueRemainingCarouselImages();
+  } else {
+    window.addEventListener("load", queueRemainingCarouselImages, { once: true });
+  }
+
+  if (!window.jQuery) {
+    return;
+  }
+
+  window.jQuery(".carousel").on("slide.bs.carousel", function (event) {
+    const relatedTarget = event.relatedTarget;
+    if (!relatedTarget) {
+      return;
+    }
+
+    loadCarouselImage(relatedTarget.querySelector(".carousel-image"));
+  });
+};
+
 const createCarousel = (carousel) => {
     const imageObjects = [];
     carousel.groups.forEach(group => {
@@ -219,7 +315,14 @@ const createCarousel = (carousel) => {
       .map((imageObj, index) => `
         <div class="carousel-item ${index === 0 ? "active" : ""}">
             <a href="${imageObj.link}">
-                <img class="carousel-image" src="${imageObj.src}" alt="Image">
+                <img
+                    class="carousel-image"
+                    src="${index === 0 ? imageObj.src : carouselPlaceholderImage}"
+                    ${index === 0 ? "" : `data-src="${imageObj.src}"`}
+                    alt="Image"
+                    loading="${index === 0 ? "eager" : "lazy"}"
+                    decoding="async"
+                >
             </a>
         </div>
       `)

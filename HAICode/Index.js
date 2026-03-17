@@ -1,5 +1,6 @@
 let newsData = []
 let newsDataKey = []
+const NEWS_DEFAULT_VISIBLE_YEARS = 2
 
 /**
  * 문자열을 숫자로 변환한 뒤 비교하는 함수
@@ -35,23 +36,39 @@ function loadNewsJson(containerId) {
  * @param containerId news를 저장할 container(Tag)의 ID
  */
 function createNewsComponents(containerId) {
-    let content = ''
+    let defaultVisibleYears = new Set(getDefaultVisibleNewsYears(newsDataKey))
+    let recentContent = ''
+    let archivedContent = ''
 
     newsDataKey.forEach((year) => {
-        let listContents = ''
-        Object
-            .keys(newsData[year])
-            .sort(convertStringToIntAndCompare)
-            .forEach((month) => {
-                let newsList = newsData[year][month]
-                listContents += listWithDate(`${year}. ${month}`, newsList, false)
-            })
-        content += `
-        <section class="newsYearGroup">
-            ${customTitleWithContent(year, listContents, "font-size: 1.5rem; text-align: left", false)}
-        </section>
-        `
+        let yearGroup = createNewsYearGroup(year)
+
+        if (defaultVisibleYears.has(year)) {
+            recentContent += yearGroup
+            return
+        }
+
+        archivedContent += yearGroup
     })
+
+    let archiveId = `${containerId}-archive`
+    let content = `
+    <div class="newsCurrentYears">
+        ${recentContent}
+    </div>
+    `
+
+    if (archivedContent) {
+        content += `
+        <div id="${archiveId}" class="newsArchive" hidden>
+            ${archivedContent}
+        </div>
+        <div class="newsArchiveActions">
+            <button type="button" class="newsArchiveToggle" aria-controls="${archiveId}" aria-expanded="false">More News</button>
+        </div>
+        `
+    }
+
     let components = `
     <div class="newsSection">
         ${customTitleWithContent("NEWS", content, "font-size: 2rem", false)}
@@ -59,6 +76,57 @@ function createNewsComponents(containerId) {
     `
     let container = document.getElementById(containerId)
     container.innerHTML = components
+    initializeNewsArchiveToggle(container)
+}
+
+function getDefaultVisibleNewsYears(yearKeys) {
+    let currentYear = new Date().getFullYear()
+    let defaultYears = yearKeys.filter((year) => year === String(currentYear) || year === String(currentYear - 1))
+
+    if (defaultYears.length > 0) {
+        return defaultYears
+    }
+
+    return yearKeys.slice(0, NEWS_DEFAULT_VISIBLE_YEARS)
+}
+
+function createNewsYearGroup(year) {
+    let listContents = ''
+    Object
+        .keys(newsData[year])
+        .sort(convertStringToIntAndCompare)
+        .forEach((month) => {
+            let newsList = newsData[year][month]
+            listContents += listWithDate(`${year}. ${month}`, newsList, false)
+        })
+
+    return `
+        <section class="newsYearGroup">
+            ${customTitleWithContent(year, listContents, "font-size: 1.5rem; text-align: left", false)}
+        </section>
+    `
+}
+
+function initializeNewsArchiveToggle(container) {
+    let archive = container.querySelector(".newsArchive")
+    let toggleButton = container.querySelector(".newsArchiveToggle")
+
+    if (!archive || !toggleButton) {
+        return
+    }
+
+    const setArchiveExpanded = (isExpanded) => {
+        archive.hidden = !isExpanded
+        toggleButton.textContent = isExpanded ? "Show Less" : "More News"
+        toggleButton.setAttribute("aria-expanded", String(isExpanded))
+    }
+
+    setArchiveExpanded(false)
+
+    toggleButton.addEventListener("click", () => {
+        let isExpanded = toggleButton.getAttribute("aria-expanded") === "true"
+        setArchiveExpanded(!isExpanded)
+    })
 }
 
 /**

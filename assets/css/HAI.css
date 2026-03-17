@@ -109,6 +109,19 @@
     margin-top: 1.6rem;
 }
 
+.newsSection .newsCurrentYears + .newsArchive {
+    margin-top: 1.6rem;
+}
+
+.newsSection .newsArchiveActions {
+    margin-top: 1.75rem;
+    text-align: center;
+}
+
+.newsSection .newsArchiveToggle {
+    min-width: 10rem;
+}
+
 .carousel-inner .carousel-item img {
     width: 100%;
     height: 20vw;

@@ -19,6 +19,20 @@
                     "website": "https://hms.harvard.edu/"
                 },
                 {
+                    "name": "Massachusetts Institute of Technology",
+                    "shortName": "MIT",
+                    "category": "University",
+                    "logoPath": "./images/partners/mit.svg",
+                    "website": "https://www.mit.edu/"
+                },
+                {
+                    "name": "Seoul National University Bundang Hospital",
+                    "shortName": "SNUBH",
+                    "category": "Hospital",
+                    "logoPath": "./images/partners/snuh.svg",
+                    "website": "https://www.snubh.org/index.do"
+                },
+                {
                     "name": "Yonsei University College of Dentistry",
                     "shortName": "YONSEI",
                     "category": "University",
@@ -93,6 +107,20 @@
                     "category": "Funding Agency",
                     "logoPath": "./images/partners/keit.png",
                     "website": "https://www.keit.re.kr/main"
+                },
+                {
+                    "name": "Korea Association for ICT Promotion",
+                    "shortName": "KAIT",
+                    "category": "Industry Association",
+                    "logoPath": "./images/partners/kait.jpg",
+                    "website": "https://www.kait.or.kr/"
+                },
+                {
+                    "name": "National IT Industry Promotion Agency",
+                    "shortName": "NIPA",
+                    "category": "Public Agency",
+                    "logoPath": "./images/partners/nipa.jpg",
+                    "website": "https://www.nipa.kr/"
                 },
                 {
                     "name": "Ministry of SMEs and Startups",

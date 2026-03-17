@@ -122,17 +122,132 @@
     min-width: 10rem;
 }
 
-.carousel-inner .carousel-item img {
-    width: 100%;
-    height: 20vw;
-    object-fit: cover;
+.hai-carousel {
+    position: relative;
+    margin-top: 1.35rem;
+    padding: 0.45rem;
+    background: linear-gradient(180deg, #ffffff 0%, #fbf7f2 100%);
+    border: 1px solid rgba(35, 49, 66, 0.08);
+    border-radius: 1.8rem;
+    box-shadow: 0 1rem 2.6rem rgba(23, 36, 49, 0.1);
 }
 
-@media screen and (max-width: 2200px) {
-    .carousel-inner .carousel-item img {
-        width: 100%;
-        height: 25vw;
-        object-fit: cover;
+.hai-carousel::before {
+    content: "";
+    position: absolute;
+    right: 1rem;
+    bottom: -0.55rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 999px;
+    background: radial-gradient(circle, rgba(92, 189, 234, 0.16) 0%, rgba(92, 189, 234, 0) 72%);
+    pointer-events: none;
+}
+
+.hai-carousel .carousel-inner {
+    overflow: hidden;
+    border-radius: 1.4rem;
+    background: linear-gradient(180deg, #ffffff 0%, #f9fbfc 100%);
+}
+
+.hai-carousel .carousel-item {
+    padding: 0.08rem;
+    --carousel-frame-radius: 1.8rem 2.2rem 1.65rem 2.3rem / 1.7rem 2rem 1.55rem 2.1rem;
+    --carousel-media-radius: 1.35rem 1.75rem 1.2rem 1.85rem / 1.25rem 1.55rem 1.05rem 1.65rem;
+}
+
+.hai-carousel .carousel-card {
+    display: block;
+    padding: 0.32rem;
+    border: 1px solid rgba(35, 49, 66, 0.06);
+    border-radius: var(--carousel-frame-radius);
+    background: linear-gradient(180deg, #ffffff 0%, #fdfbf9 100%);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.28s ease, border-color 0.28s ease;
+}
+
+.hai-carousel .carousel-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(24, 191, 239, 0.35);
+}
+
+.hai-carousel .carousel-card:focus-visible {
+    outline: 3px solid rgba(24, 191, 239, 0.28);
+    outline-offset: 3px;
+}
+
+.hai-carousel .carousel-card-media {
+    display: block;
+    overflow: hidden;
+    border-radius: var(--carousel-media-radius);
+    background: #edf2f6;
+}
+
+.hai-carousel .carousel-image {
+    display: block;
+    width: 100%;
+    height: clamp(15rem, 23vw, 22rem);
+    object-fit: cover;
+    transform: scale(1.01);
+    transition: transform 0.45s ease;
+}
+
+.hai-carousel .carousel-card:hover .carousel-image {
+    transform: scale(1.05);
+}
+
+.hai-carousel .carousel-item-shape-1 {
+    --carousel-frame-radius: 1.9rem 2.45rem 1.7rem 2.55rem / 1.75rem 2.2rem 1.6rem 2.25rem;
+    --carousel-media-radius: 1.45rem 2rem 1.25rem 2.05rem / 1.35rem 1.8rem 1.15rem 1.9rem;
+}
+
+.hai-carousel .carousel-item-shape-2 {
+    --carousel-frame-radius: 2.35rem 1.85rem 2.4rem 1.7rem / 2.05rem 1.65rem 2.15rem 1.5rem;
+    --carousel-media-radius: 1.95rem 1.4rem 2rem 1.25rem / 1.7rem 1.2rem 1.75rem 1.05rem;
+}
+
+.hai-carousel .carousel-item-shape-3 {
+    --carousel-frame-radius: 1.75rem 2.3rem 2.05rem 2.55rem / 2.25rem 1.75rem 2rem 1.7rem;
+    --carousel-media-radius: 1.3rem 1.85rem 1.65rem 2.05rem / 1.85rem 1.35rem 1.6rem 1.3rem;
+}
+
+.hai-carousel .carousel-item-shape-4 {
+    --carousel-frame-radius: 2.45rem 2rem 1.75rem 2.3rem / 1.85rem 2.3rem 1.55rem 2rem;
+    --carousel-media-radius: 2rem 1.55rem 1.25rem 1.85rem / 1.5rem 1.9rem 1.05rem 1.6rem;
+}
+
+@media screen and (max-width: 980px) {
+    .hai-carousel {
+        padding: 0.38rem;
+        border-radius: 1.4rem;
+    }
+
+    .hai-carousel .carousel-inner {
+        border-radius: 1.1rem;
+    }
+
+    .hai-carousel .carousel-card {
+        padding: 0.26rem;
+    }
+
+    .hai-carousel .carousel-image {
+        height: clamp(14rem, 44vw, 18rem);
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .hai-carousel {
+        margin-top: 1rem;
+        padding: 0.32rem;
+    }
+
+    .hai-carousel .carousel-card {
+        padding: 0.22rem;
+    }
+
+    .hai-carousel .carousel-image {
+        height: clamp(13rem, 56vw, 16rem);
     }
 }
 

@@ -380,24 +380,30 @@ const createCarousel = (carousel) => {
     });
   
     const carouselInner = imageObjects
-      .map((imageObj, index) => `
-        <div class="carousel-item ${index === 0 ? "active" : ""}">
-            <a href="${imageObj.link}">
-                <img
-                    class="carousel-image"
-                    src="${index === 0 ? imageObj.src : carouselPlaceholderImage}"
-                    ${index === 0 ? "" : `data-src="${imageObj.src}"`}
-                    alt="Image"
-                    loading="${index === 0 ? "eager" : "lazy"}"
-                    decoding="async"
-                >
+      .map((imageObj, index) => {
+        const shapeClass = `carousel-item-shape-${(index % 4) + 1}`;
+
+        return `
+        <div class="carousel-item ${index === 0 ? "active" : ""} ${shapeClass}">
+            <a class="carousel-card" href="${imageObj.link}">
+                <span class="carousel-card-media">
+                    <img
+                        class="carousel-image"
+                        src="${index === 0 ? imageObj.src : carouselPlaceholderImage}"
+                        ${index === 0 ? "" : `data-src="${imageObj.src}"`}
+                        alt="Image"
+                        loading="${index === 0 ? "eager" : "lazy"}"
+                        decoding="async"
+                    >
+                </span>
             </a>
         </div>
-      `)
+      `;
+      })
       .join("");
   
     return `
-        <div id="${carousel.id}" class="carousel slide" data-ride="carousel">
+        <div id="${carousel.id}" class="carousel slide hai-carousel" data-ride="carousel">
             <div class="carousel-inner">
                 ${carouselInner}
             </div>

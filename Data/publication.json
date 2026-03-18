@@ -1,6 +1,13 @@
 {
   "data": [
     {
+      "0": "Hierarchical Mutual Distillation for Multi-View Fusion: Learning from All Possible View Combinations",
+      "1": "J Yang, H Chung, I Jang",
+      "2": "Pattern Recognition, 113432, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:JV2RwH3_ST0C",
+      "4": "2026"
+    },
+    {
       "0": "Metalens-style image synthesis for metalens imaging via image-to-image translation",
       "1": "C Kang, H Suk, J Seo, I Jang, H Chung",
       "2": "Scientific Reports, 2026",
@@ -33,13 +40,6 @@
       "1": "J Moon, H Chung, I Jang",
       "2": "ICPR, 2024",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:R3hNpaxXUhUC",
-      "4": "2024"
-    },
-    {
-      "0": "Hierarchical Mutual Distillation for Multi-View Fusion: Learning from All Possible View Combinations",
-      "1": "J Yang, H Chung, I Jang",
-      "2": "arXiv preprint arXiv:2411.10077, 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:JV2RwH3_ST0C",
       "4": "2024"
     },
     {

@@ -529,7 +529,11 @@
     }
 
     .profileContactIcons.has-email {
-        margin-left: 0.25rem;
+        margin-left: 0.6rem;
+    }
+
+    .profileContact .mailLink {
+        display: inline-block;
     }
 
     .profileContactIcons .icon:before {

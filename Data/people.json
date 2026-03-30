@@ -26,7 +26,7 @@
     "Researchers": [
       {
         "name": "Junho Moon",
-        "degree": "M.S./Ph.D. student",
+        "degree": "Ph.D. student",
         "major": "Artificial Intelligence Semiconductor Engineering",
         "keyword": "Medical Imaging, Image Segmentation, Generative AI",
         "imagePath": "./images/people/junho_moon.jpg",
@@ -43,7 +43,7 @@
       },
       {
         "name": "DAEHWAN KIM",
-        "degree": "M.S./Ph.D. student",
+        "degree": "Ph.D. student",
         "major": "Artificial Intelligence Semiconductor Engineering",
         "keyword": "Deep Learning, Medical AI, Computer Vision",
         "imagePath": "./images/people/daehwan_kim.jpg",
@@ -60,7 +60,7 @@
       },
       {
         "name": "Jiwoong Yang",
-        "degree": "M.S./Ph.D. student",
+        "degree": "Ph.D. student",
         "major": "Artificial Intelligence Semiconductor Engineering",
         "keyword": "Computer Vision, Medical AI, Generative AI",
         "imagePath": "./images/people/jiwoong_yang.jpg",
@@ -229,19 +229,20 @@
         }
       },
       {
-        "name": "BOSEUK MOON",
+        "name": "Gyumin Kim",
         "degree": "B.S. student",
-        "major": "Computer Engineering / Mathematics",
-        "keyword": "Computer Vision, Generative AI",
-        "imagePath": "./images/people/boseuk_moon.jpg",
-        "email": "202400238@hufs.ac.kr",
+        "major": "Information Communications Engineering / English Linguistics and Language Technology",
+        "keyword": "Quantum Machine Learning, Medical AI, Multimodal AI",
+        "imagePath": "./images/people/gyumin_kim.jpg",
+        "email": "rhzs1208@hufs.ac.kr",
         "link": {
-          "github": "https://github.com/ppaong",
+          "github": "https://github.com/Rahoozaso",
           "notion": "",
           "tistory": "",
           "personal": "",
           "velog": "",
-          "scholar": ""
+          "scholar": "",
+          "linkedin": "https://www.linkedin.com/in/gyumin-kim-b156363a3"
         }
       }
     ],

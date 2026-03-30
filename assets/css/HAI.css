@@ -523,6 +523,33 @@
     margin: 4px 0;
 }
 
+@media screen and (max-width: 736px) {
+    .profileContactIcons {
+        gap: 0.25rem;
+    }
+
+    .profileContactIcons.has-email {
+        margin-left: 0.25rem;
+    }
+
+    .profileContactIcons .icon:before {
+        width: 1.7rem;
+        height: 1.7rem;
+        line-height: 1.7rem;
+        font-size: 0.85rem;
+    }
+
+    .scholarInlineIcon {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+
+    .scholarInlineIcon img {
+        width: 1.15rem;
+        height: 1.15rem;
+    }
+}
+
 @media screen and (max-width: 940px) {
     .profileBox.left {
         grid-template-columns: 0.3fr 0.7fr;

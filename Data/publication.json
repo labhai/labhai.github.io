@@ -1,7 +1,14 @@
 {
   "data": [
     {
-      "0": "Hierarchical Mutual Distillation for Multi-View Fusion: Learning from All Possible View Combinations",
+      "0": "MedROI: Codec-Agnostic Region of Interest-Centric Compression for Medical Images",
+      "1": "J Kim, I Jang",
+      "2": "ICPR, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:hMod-77fHWUC",
+      "4": "2026"
+    },
+    {
+      "0": "Hierarchical mutual distillation for multi-view fusion: Learning from all possible view combinations",
       "1": "J Yang, H Chung, I Jang",
       "2": "Pattern Recognition, 113432, 2026",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:JV2RwH3_ST0C",
@@ -59,7 +66,7 @@
     {
       "0": "Lightweight Temporal Segment Network for Video Scene Understanding: Validation in Driver Assault Detection",
       "1": "J Lee, J Kim, J Park, J Jo, I Jang",
-      "2": "정보과학회논문지(Journal of KIISE) 51 (11), 987-995, 2024",
+      "2": "Journal of KIISE (정보과학회논문지) 51 (11), 987-995, 2024",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:r0BpntZqJG4C",
       "4": "2024"
     },
@@ -137,7 +144,7 @@
       "0": "Clinical evaluation of k-space correlation informed motion artifact detection in segmented multi-slice MRI",
       "1": "I Jang, M Hoffmann, N Singh, Y Balbastre, L Chen, MABC Rockenbach, ...",
       "2": "Proceedings of the International Society for Magnetic Resonance in Medicine …, 2023",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:IWHjjKOFINEC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:IWHjjKOFINEC",
       "4": "2023"
     },
     {

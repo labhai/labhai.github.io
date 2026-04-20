@@ -3,15 +3,21 @@
         "2026": {
             "4": [
                 {
+                    "text": "Jiyoon's paper, in collaboration with Yonsei University College of Dentistry and Severance Hospital, accepted by International Endodontic Journal"
+                },
+                {
                     "text": "Geonwoo, Jiwon, and Gyumin (Kim) each had a paper accepted at ICPR 2026 (3 papers in total)"
                 }
             ],
             "3": [
                 {
-                    "text": "Junho and Symac's paper accepted at Human Brain Mapping"
+                    "text": "Junho and Symac's paper accepted by Human Brain Mapping [paper]",
+                    "links": {
+                        "[paper]": "https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.70508"
+                    }
                 },
                 {
-                    "text": "Jiwoong's paper accepted at Pattern Recognition [paper]",
+                    "text": "Jiwoong's paper accepted by Pattern Recognition [paper]",
                     "links": {
                         "[paper]": "https://www.sciencedirect.com/science/article/pii/S0031320326003973"
                     }
@@ -23,7 +29,7 @@
                     "text": "Ikbeom appointed as chair of the Department of Computer Engineering"
                 },
                 {
-                    "text": "Awarded a research grant by Korea Disease Control and Prevention Agency (질병관리청)"
+                    "text": "Awarded two research grants from the Korea Disease Control and Prevention Agency (질병관리청)"
                 }
             ],
             "2": [

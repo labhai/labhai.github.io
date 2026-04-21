@@ -244,6 +244,23 @@
           "scholar": "",
           "linkedin": "https://www.linkedin.com/in/gyumin-kim-b156363a3"
         }
+      },
+      {
+        "name": "SEOHEE LEE",
+        "degree": "B.S. student",
+        "major": "Computer Engineering",
+        "keyword": "Medical AI, Multi-Modal AI",
+        "imagePath": "./images/people/seohee_lee.JPG",
+        "email": "leesh0212@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/lee-seohee",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": "",
+          "linkedin": "www.linkedin.com/in/seohee-lee2"
+        }
       }
     ],
     "Alumni": [

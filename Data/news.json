@@ -3,7 +3,10 @@
         "2026": {
             "4": [
                 {
-                    "text": "Daehwan's paper accepted by Pattern Recognition"
+                    "text": "Daehwan's paper accepted by Pattern Recognition [paper]",
+                    "links": {
+                        "[paper]": "https://www.sciencedirect.com/science/article/pii/S0031320326007855"
+                    }
                 },
                 {
                     "text": "Jiyoon's paper, in collaboration with Yonsei University College of Dentistry and Severance Hospital, accepted by International Endodontic Journal"

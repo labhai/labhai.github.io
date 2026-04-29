@@ -1,5 +1,13 @@
 /* 기술 스택 list 관련 style */
 
+/* Desktop scale */
+
+@media screen and (min-width: 1681px) and (orientation: landscape) {
+    html {
+        font-size: 14.4pt;
+    }
+}
+
 .techStack {
     list-style: none;
     padding: 0;

@@ -1,10 +1,45 @@
 {
   "data": [
     {
+      "0": "Improved Multiscale Structural Mapping with Supervertex Vision Transformer for the Detection of Alzheimer's Disease Neurodegeneration",
+      "1": "G Baek, DH Salat, I Jang",
+      "2": "arXiv preprint arXiv:2604.14837, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:ns9cj8rnVeAC",
+      "4": "2026"
+    },
+    {
+      "0": "MORCU: Margin-Based Ordinal Classification with Dynamic Regularization for Calibration and Unimodality",
+      "1": "D Kim, H Chung, I Jang",
+      "2": "Pattern Recognition, 113820, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:J_g5lzvAfSwC",
+      "4": "2026"
+    },
+    {
+      "0": "ADP-DiT: Text-Guided Diffusion Transformer for Brain Image Generation in Alzheimer's Disease Progression",
+      "1": "J Lee, G Baek, I Jang",
+      "2": "ICPR, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:RGFaLdJalmkC",
+      "4": "2026"
+    },
+    {
       "0": "MedROI: Codec-Agnostic Region of Interest-Centric Compression for Medical Images",
       "1": "J Kim, I Jang",
       "2": "ICPR, 2026",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:hMod-77fHWUC",
+      "4": "2026"
+    },
+    {
+      "0": "SERC: LDPC-Inspired Semantic Error Correction for Retrieval-Augmented Generation",
+      "1": "G Kim, J Park, J Kim, S Han, K Son, I Jang",
+      "2": "ICPR, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:RYcK_YlVTxYC",
+      "4": "2026"
+    },
+    {
+      "0": "Mamba‐based deep learning model for automated Periapical Index classification using periapical radiographs and clinical metadata",
+      "1": "J Lee, Y Park, S Kim, I Jang",
+      "2": "International Endodontic Journal, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:NaGl4SEjCO4C",
       "4": "2026"
     },
     {
@@ -52,7 +87,7 @@
     {
       "0": "Adjoint method-based Fourier neural operator surrogate solver for wavefront shaping in tunable metasurfaces",
       "1": "C Kang, J Seo, I Jang, H Chung",
-      "2": "Iscience 28 (1), 2025",
+      "2": "iScience 28 (1), 2025",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:j3f4tGmQtD8C",
       "4": "2025"
     },
@@ -109,35 +144,35 @@
       "0": "The Curation of Art: Using Slot Filling to Expand Accessibility to The Public",
       "1": "J Jung, M Kim, S Jung, E Oh, SH Oh, I Jang",
       "2": "2024 IEEE International Conference on Big Data and Smart Computing (BigComp …, 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:hFOr9nPyWt4C",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:hFOr9nPyWt4C",
       "4": "2024"
     },
     {
       "0": "Brain structural indicators of β-amyloid neuropathology",
       "1": "I Jang, B Li, B Rashid, J Jacoby, SY Huang, BC Dickerson, DH Salat, ...",
       "2": "Neurobiology of Aging 136, 157–170, 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:-f6ydRqryjwC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:-f6ydRqryjwC",
       "4": "2024"
     },
     {
       "0": "Uncertainty-Weighted Mutual Distillation for Multi-View Fusion.",
       "1": "J Yang, H Chung, I Jang",
       "2": "CoRR, 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:RHpTSmoSYBkC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:RHpTSmoSYBkC",
       "4": "2024"
     },
     {
       "0": "Cortical gray to white matter signal intensity ratio as a sign of neurodegeneration and cognition independent of β‐amyloid in dementia",
       "1": "X Xu, I Jang, J Zhang, M Zhang, L Wang, G Ye, A Zhao, Y Zhang, B Li, ...",
       "2": "Human Brain Mapping, 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:hC7cP41nSMkC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:hC7cP41nSMkC",
       "4": "2024"
     },
     {
       "0": "Detecting motion artifacts from k-space data in segmentedmagnetic resonance imaging",
       "1": "SR Frost, I Jang, J Kalpathy-Cramer",
       "2": "US Patent App. 18/305,091, 2023",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:qUcmZB5y_30C",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:qUcmZB5y_30C",
       "4": "2023"
     },
     {

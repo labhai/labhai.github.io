@@ -47,25 +47,55 @@
                 <h2>LAB HAI</h2>
             </header>
 
-            <div class="row">
-                <div class="col-6 col-12-small" id="leftColumn">
-                    <h3>Technology</h3>
-                    <ul class="techStack">
-                        <li style="padding-left: 0">Deep learning</li>
-                        <li style="padding-left: 0">Multi-modal data fusion</li>
-                        <li style="padding-left: 0">Generative AI</li>
-                        <li style="padding-left: 0">Data mining</li>
-                    </ul>
+            <div class="row mainResearchRow">
+                <!-- BEGIN: Research direction diagram. Restore the previous Technology/Modality lists with git if needed. -->
+                <div class="col-12">
+                    <section class="researchBlueprint" aria-label="LAB HAI research direction diagram">
+                        <div class="blueprintGoal">
+                            <span class="blueprintLabel"><span class="labelIcon icon solid fa-bullseye" aria-hidden="true"></span>Goal / Vision</span>
+                            <strong>Early Diagnosis</strong>
+                            <span class="blueprintConnector icon solid fa-plus-circle" aria-hidden="true"></span>
+                            <strong>Clinical Decision Support</strong>
+                        </div>
+
+                        <div class="blueprintFlow">
+                            <div class="blueprintColumn modalityColumn">
+                                <h3><span class="labelIcon icon solid fa-layer-group" aria-hidden="true"></span>Modality</h3>
+                                <div class="modalityOrbit" aria-label="Biomedical data modalities">
+                                    <span class="modalityNode imaging"><span class="icon solid fa-x-ray"></span>MRI / PET / CT</span>
+                                    <span class="modalityNode omics"><span class="icon solid fa-dna"></span>Genomics / Omics</span>
+                                    <span class="modalityNode text"><span class="icon solid fa-file-medical"></span>Text / Language</span>
+                                    <span class="modalityNode signal"><span class="icon solid fa-wave-square"></span>EEG / NIRS / fMRI</span>
+                                </div>
+                            </div>
+
+                            <div class="blueprintCore" aria-label="Toward multi-modal AI with biomedical data">
+                                <span class="coreLabel"><span class="labelIcon icon solid fa-route" aria-hidden="true"></span>Direction</span>
+                                <strong>Multi-Modal AI</strong>
+                                <span>with Biomedical Data</span>
+                            </div>
+
+                            <div class="blueprintColumn technologyColumn">
+                                <h3><span class="labelIcon icon solid fa-cogs" aria-hidden="true"></span>Technology</h3>
+                                <div class="trackPair">
+                                    <div class="trackNode methodTrack">
+                                        <span class="trackIcon icon solid fa-network-wired"></span>
+                                        <strong>AI Methods</strong>
+                                        <span>fusion, generative AI, data mining</span>
+                                    </div>
+                                    <div class="trackNode clinicalTrack">
+                                        <span class="trackIcon icon solid fa-stethoscope"></span>
+                                        <strong>Clinical Research</strong>
+                                        <span>biomarkers, prediction, decision support</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <div class="col-6 col-12-small" id="rightColumn">
-                    <h3>Modality</h3>
-                    <ul class="techStack">
-                        <li>MRI, PET, X-ray CT, Ultrasound</li>
-                        <li>Genomic data, Omics</li>
-                        <li>Text, Natural language</li>
-                        <li>EEG, NIRS, fMRI</li>
-                    </ul>
-                </div>
+                <!-- END: Research direction diagram -->
+                <div class="col-6 col-12-small researchCarouselColumn" id="leftColumn"></div>
+                <div class="col-6 col-12-small researchCarouselColumn" id="rightColumn"></div>
                 <div class="mainIntro">
                     <p>The LAB HAI aims to develop machine learning-based methods and tools that<br/>
                         ultimately contribute to well-being through early diagnosis of diseases.<br/>

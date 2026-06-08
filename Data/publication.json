@@ -1,6 +1,27 @@
 {
   "data": [
     {
+      "0": "Surprise-Guided MergeSort: Budget-Efficient Pairwise Ranking via VLM-Driven Question Prioritization",
+      "1": "Y Park, H Chung, I Jang",
+      "2": "ECML-PKDD, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:pqnbT2bcN3wC",
+      "4": "2026"
+    },
+    {
+      "0": "MetaRanker: Human-in-the-loop Active Ranking for Metalens Image Quality",
+      "1": "Y Park, H Chung, I Jang",
+      "2": "KDD, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:M05iB0D1s5AC",
+      "4": "2026"
+    },
+    {
+      "0": "CSV-ViT: A Vision Transformer with the Variable-sized Cortical Supervertices for Detection of Alzheimer's Disease Pathologies",
+      "1": "G Baek, I Jang",
+      "2": "arXiv preprint arXiv:2605.26514, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:ldfaerwXgEUC",
+      "4": "2026"
+    },
+    {
       "0": "Improved Multiscale Structural Mapping with Supervertex Vision Transformer for the Detection of Alzheimer's Disease Neurodegeneration",
       "1": "G Baek, DH Salat, I Jang",
       "2": "Human Brain Mapping, 2026",
@@ -32,12 +53,12 @@
       "0": "SERC: LDPC-Inspired Semantic Error Correction for Retrieval-Augmented Generation",
       "1": "G Kim, J Park, J Kim, S Han, K Son, I Jang",
       "2": "ICPR, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:RYcK_YlVTxYC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:g5m5HwL7SMYC",
       "4": "2026"
     },
     {
-      "0": "Cyclic 2.5 D Perceptual Loss for Cross‐Modal 3D Medical Image Synthesis: T1w MRI to Tau PET",
-      "1": "J Moon, S Kim, H Chung, I Jang, ...",
+      "0": "Cyclic 2.5D Perceptual Loss for Cross‐Modal 3D Medical Image Synthesis: T1w MRI to Tau PET",
+      "1": "J Moon, S Kim, H Chung, I Jang",
       "2": "Human Brain Mapping 47 (5), e70508, 2026",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:70eg2SAEIzsC",
       "4": "2026"
@@ -123,21 +144,21 @@
       "0": "Advancing Multiscale Structural Mapping for Alzheimer's Disease using Local Gyrification Index",
       "1": "J Jang, G Baek, I Jang",
       "2": "MICCAI (CLINICCAI), 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:e5wmG9Sq2KIC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:e5wmG9Sq2KIC",
       "4": "2024"
     },
     {
       "0": "Preoperative Rotator Cuff Tear Prediction from Shoulder Radiographs using a Convolutional Block Attention Module-Integrated Neural Network",
       "1": "CH Jo, J Yang, B Jeon, H Shim, I Jang",
       "2": "MICCAI (CLINICCAI), 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:TQgYirikUcIC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:TQgYirikUcIC",
       "4": "2024"
     },
     {
       "0": "Weakly Supervised Pretraining and Multi-Annotator Supervised Finetuning for Facial Wrinkle Detection",
       "1": "IJ Moon, J Moon, I Jang",
       "2": "MICCAI (CLINICCAI), 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:HDshCWvjkbEC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:HDshCWvjkbEC",
       "4": "2024"
     },
     {

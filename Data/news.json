@@ -1,12 +1,20 @@
 {
     "data": {
         "2026": {
+            "6": [
+                {
+                    "text": "Yujin's paper accepted at ECML-PKDD 2026"
+                }
+            ],
             "5": [
                 {
-                    "text": "Yujin's paper accepted at KDD 2026 (top-tier conference in data mining)"
+                    "text": "Yujin, Kyumin (Choi), and Hongkyu each had a paper accepted at KDD 2026 (3 papers in total; top-tier conference in data mining)"
                 },
                 {
-                    "text": "Geonwoo's paper accepted by Human Brain Mapping"
+                    "text": "Geonwoo's paper accepted by Human Brain Mapping [paper]",
+                    "links": {
+                        "[paper]": "https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.70548"
+                    }
                 }
             ],
             "4": [

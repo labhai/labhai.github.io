@@ -1,20 +1,103 @@
 {
     "data": [
         {
+            "id": "20260504_스승의날",
+            "title": "Teacher's Day",
+            "date": "2026-05-04",
+            "image": "/images/lab/인물사진/20260504_스승의날/teachers_day_group.jpg",
+            "images": [
+                "/images/lab/인물사진/20260504_스승의날/teachers_day_group.jpg"
+            ],
+            "description": "We gathered around Professor Jang for Teacher's Day, sharing warm thanks for his steady guidance and care."
+        },
+        {
+            "id": "20260323_회식",
+            "title": "Year-Start Dinner",
+            "date": "2026-03-23",
+            "image": "/images/lab/인물사진/20260323_회식/year_start_dinner.jpg",
+            "images": [
+                "/images/lab/인물사진/20260323_회식/year_start_dinner.jpg"
+            ],
+            "description": "We welcomed the new semester with a cozy dinner together, catching up and starting the year with good energy."
+        },
+        {
+            "id": "20251111_CIKM",
+            "title": "CIKM 2025",
+            "date": "2025-11-11",
+            "image": "/images/lab/인물사진/20251111_CIKM/poster_closeup.jpg",
+            "images": [
+                "/images/lab/인물사진/20251111_CIKM/poster_closeup.jpg",
+                "/images/lab/인물사진/20251111_CIKM/poster_presentation.jpg"
+            ],
+            "description": "Yujin presented a poster at the ACM International Conference on Information and Knowledge Management (CIKM 2025) in Seoul, Korea. CIKM is a top-tier conference in data mining, and we were glad to share this work with the community."
+        },
+        {
+            "id": "20251031_ICMRI",
+            "title": "ICMRI 2025",
+            "date": "2025-10-31",
+            "image": "/images/lab/인물사진/20251031_ICMRI/icmri_2025_group.jpg",
+            "images": [
+                "/images/lab/인물사진/20251031_ICMRI/icmri_2025_group.jpg",
+                "/images/lab/인물사진/20251031_ICMRI/geonwoo_oral_award.jpg",
+                "/images/lab/인물사진/20251031_ICMRI/boseong_poster_award.jpg",
+                "/images/lab/인물사진/20251031_ICMRI/oral_presentation.jpg",
+                "/images/lab/인물사진/20251031_ICMRI/conference_session.jpg",
+                "/images/lab/인물사진/20251031_ICMRI/poster_presentation.jpg",
+                "/images/lab/인물사진/20251031_ICMRI/awards_ceremony.jpg",
+                "/images/lab/인물사진/20251031_ICMRI/poster_session.jpg"
+            ],
+            "description": "Professor Jang, Junho, Geonwoo, and Boseong presented their work at ICMRI 2025 in Seoul, Korea. Geonwoo received the Silver Award in Oral Presentation, and Boseong received the Silver Award in Poster Presentation. Congratulations to everyone on a meaningful and memorable conference!"
+        },
+        {
+            "id": "20251019_ICCV",
+            "title": "ICCV 2025",
+            "date": "2025-10-19",
+            "image": "/images/lab/인물사진/20251019_ICCV/iccv_2025_group.jpg",
+            "images": [
+                "/images/lab/인물사진/20251019_ICCV/iccv_2025_group.jpg"
+            ],
+            "description": "Lab members attended the International Conference on Computer Vision (ICCV 2025) in Honolulu, Hawaii. ICCV is a top-tier computer vision conference, and it was a special chance to learn, connect, and be inspired together."
+        },
+        {
+            "id": "20250929_에버랜드",
+            "title": "Everland Day",
+            "date": "2025-09-29",
+            "image": "/images/lab/인물사진/20250929_에버랜드/everland_group.jpg",
+            "images": [
+                "/images/lab/인물사진/20250929_에버랜드/everland_group.jpg",
+                "/images/lab/인물사진/20250929_에버랜드/everland_carousel.jpg",
+                "/images/lab/인물사진/20250929_에버랜드/everland_dinner.jpg"
+            ],
+            "description": "We spent a cheerful day together at Everland, making room for laughter, photos, and a relaxed dinner after a busy season."
+        },
+        {
             "id": "20250804_KCCV",
             "title": "KCCV 2025",
             "date": "2025-08-04",
-            "image": "/images/lab/인물사진/20250804_KCCV/kccv_open.jpg",
+            "image": "/images/lab/인물사진/20250804_KCCV/kccv_2025_group.jpg",
             "images": [
-                "/images/lab/인물사진/20250804_KCCV/kccv_open.jpg",
-                "/images/lab/인물사진/20250804_KCCV/lets_go.jpg",
-                "/images/lab/인물사진/20250804_KCCV/with_prof.jpg",
-                "/images/lab/인물사진/20250804_KCCV/yort.jpg",
-                "/images/lab/인물사진/20250804_KCCV/yort2.jpg",
-                "/images/lab/인물사진/20250804_KCCV/last_day.jpg"
-
+                "/images/lab/인물사진/20250804_KCCV/kccv_2025_group.jpg",
+                "/images/lab/인물사진/20250804_KCCV/first_day.jpg",
+                "/images/lab/인물사진/20250804_KCCV/poster_session.jpg",
+                "/images/lab/인물사진/20250804_KCCV/group_meal.jpg",
+                "/images/lab/인물사진/20250804_KCCV/yacht_card.jpg",
+                "/images/lab/인물사진/20250804_KCCV/yacht_trip.jpg",
+                "/images/lab/인물사진/20250804_KCCV/closing_dinner.jpg"
             ],
             "description": "Lab members attended the Korean Conference on Computer Vision (KCCV 2025) on August 4-6."
+        },
+        {
+            "id": "20250512_스승의날",
+            "title": "Teacher's Day",
+            "date": "2025-05-12",
+            "image": "/images/lab/인물사진/20250512_스승의날/teachers_day_group.jpg",
+            "images": [
+                "/images/lab/인물사진/20250512_스승의날/teachers_day_group.jpg",
+                "/images/lab/인물사진/20250512_스승의날/teachers_day_cake.jpg",
+                "/images/lab/인물사진/20250512_스승의날/professor_with_cake.jpg",
+                "/images/lab/인물사진/20250512_스승의날/cake_cutting.jpg"
+            ],
+            "description": "We celebrated Teacher's Day with Professor Jang, sharing cake, smiles, and heartfelt gratitude for his thoughtful guidance."
         },
         {
             "id": "20250310_회식",
@@ -26,7 +109,7 @@
                 "/images/lab/인물사진/20250310_회식/IMG_4008.jpg"
 
             ],
-            "description": "“We had a joyful gathering to celebrate the start of the new semester. Here’s to a fresh start and success for everyone!” 🎉"
+            "description": "We had a joyful gathering to celebrate the start of the new semester. Here's to a fresh start and success for everyone! 🎉"
         },
         {
             "id": "20241210_neurips",

@@ -8,10 +8,38 @@
       "4": "2026"
     },
     {
+      "0": "SafeECGMatch: Calibration-Aware Joint Frequency and Time Space Semi-Supervised Learning for Open-Set ECG Classification",
+      "1": "H Koh, I Jang",
+      "2": "KDD, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:SeFeTyx0c_EC",
+      "4": "2026"
+    },
+    {
+      "0": "RAPID: Layer-Wise Redundancy-Aware Pruning and Importance-Driven Merging for Efficient Vision Transformers",
+      "1": "K Choi, I Jang",
+      "2": "KDD, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:HoB7MX3m0LUC",
+      "4": "2026"
+    },
+    {
       "0": "MetaRanker: Human-in-the-loop Active Ranking for Metalens Image Quality",
       "1": "Y Park, H Chung, I Jang",
       "2": "KDD, 2026",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:M05iB0D1s5AC",
+      "4": "2026"
+    },
+    {
+      "0": "Improved Multiscale Structural Mapping with Supervertex Vision Transformer for the Detection of Alzheimer's Disease Neurodegeneration",
+      "1": "G Baek, DH Salat, I Jang",
+      "2": "Human Brain Mapping, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:ns9cj8rnVeAC",
+      "4": "2026"
+    },
+    {
+      "0": "Dodgersort: Uncertainty-Aware VLM-Guided Human-in-the-Loop Pairwise Ranking",
+      "1": "Y Park, H Chung, I Jang",
+      "2": "PAKDD, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:blknAaTinKkC",
       "4": "2026"
     },
     {
@@ -22,10 +50,10 @@
       "4": "2026"
     },
     {
-      "0": "Improved Multiscale Structural Mapping with Supervertex Vision Transformer for the Detection of Alzheimer's Disease Neurodegeneration",
-      "1": "G Baek, DH Salat, I Jang",
-      "2": "Human Brain Mapping, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:ns9cj8rnVeAC",
+      "0": "Mamba‐based deep learning model for automated Periapical Index classification using periapical radiographs and clinical metadata",
+      "1": "J Lee, Y Park, S Kim, I Jang",
+      "2": "International Endodontic Journal, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:NaGl4SEjCO4C",
       "4": "2026"
     },
     {
@@ -57,17 +85,10 @@
       "4": "2026"
     },
     {
-      "0": "Cyclic 2.5D Perceptual Loss for Cross‐Modal 3D Medical Image Synthesis: T1w MRI to Tau PET",
-      "1": "J Moon, S Kim, H Chung, I Jang",
+      "0": "Cyclic 2.5 D Perceptual Loss for Cross‐Modal 3D Medical Image Synthesis: T1w MRI to Tau PET",
+      "1": "J Moon, S Kim, H Chung, I Jang, ...",
       "2": "Human Brain Mapping 47 (5), e70508, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:70eg2SAEIzsC",
-      "4": "2026"
-    },
-    {
-      "0": "Mamba‐based deep learning model for automated Periapical Index classification using periapical radiographs and clinical metadata",
-      "1": "J Lee, Y Park, S Kim, I Jang",
-      "2": "International Endodontic Journal, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:NaGl4SEjCO4C",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:ZHo1McVdvXMC",
       "4": "2026"
     },
     {
@@ -75,13 +96,6 @@
       "1": "J Yang, H Chung, I Jang",
       "2": "Pattern Recognition, 113432, 2026",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:2P1L_qKh6hAC",
-      "4": "2026"
-    },
-    {
-      "0": "Dodgersort: Uncertainty-Aware VLM-Guided Human-in-the-Loop Pairwise Ranking",
-      "1": "Y Park, H Chung, I Jang",
-      "2": "PAKDD, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:blknAaTinKkC",
       "4": "2026"
     },
     {
@@ -130,14 +144,14 @@
       "0": "Lightweight Temporal Segment Network for Video Scene Understanding: Validation in Driver Assault Detection",
       "1": "J Lee, J Kim, J Park, J Jo, I Jang",
       "2": "Journal of KIISE (정보과학회논문지) 51 (11), 987-995, 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:r0BpntZqJG4C",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:r0BpntZqJG4C",
       "4": "2024"
     },
     {
       "0": "Calibration of ordinal regression networks",
       "1": "D Kim, H Chung, I Jang",
       "2": "arXiv preprint arXiv:2410.15658, 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:_Qo2XoVZTnwC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:_Qo2XoVZTnwC",
       "4": "2024"
     },
     {

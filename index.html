@@ -48,56 +48,100 @@
             </header>
 
             <div class="row mainResearchRow">
-                <!-- BEGIN: Research direction diagram. Restore the previous Technology/Modality lists with git if needed. -->
+                <!-- BEGIN: Research direction diagram -->
                 <div class="col-12">
-                    <section class="researchBlueprint" aria-label="LAB HAI research direction diagram">
-                        <div class="blueprintGoal">
-                            <span class="blueprintLabel"><span class="labelIcon icon solid fa-bullseye" aria-hidden="true"></span>Goal / Vision</span>
-                            <div class="goalStatements">
-                                <strong class="goalStatement diagnosisGoal">
-                                    <span class="goalIcon icon solid fa-diagnoses" aria-hidden="true"></span>
-                                    <span>Early Diagnosis</span>
-                                </strong>
-                                <span class="blueprintConnector icon solid fa-plus-circle" aria-hidden="true"></span>
-                                <strong class="goalStatement supportGoal">
-                                    <span class="goalIcon icon solid fa-clipboard-check" aria-hidden="true"></span>
-                                    <span>Clinical Decision Support</span>
-                                </strong>
-                            </div>
-                        </div>
+                    <section class="researchVision" aria-labelledby="researchVisionTitle">
+                        <header class="visionHeader">
+                            <p class="visionKicker">Long Term Vision</p>
+                            <h3 id="researchVisionTitle">Toward Early Diagnosis &amp; Clinical Decision Support</h3>
+                        </header>
 
-                        <div class="blueprintFlow">
-                            <div class="blueprintColumn modalityColumn">
-                                <h3><span class="labelIcon icon solid fa-layer-group" aria-hidden="true"></span>Modality</h3>
-                                <div class="modalityOrbit" aria-label="Biomedical data modalities">
-                                    <span class="modalityNode imaging"><span class="icon solid fa-x-ray"></span>MRI / PET / CT</span>
-                                    <span class="modalityNode omics"><span class="icon solid fa-dna"></span>Genomics / Omics</span>
-                                    <span class="modalityNode text"><span class="icon solid fa-file-medical"></span>Text / Language</span>
-                                    <span class="modalityNode signal"><span class="icon solid fa-wave-square"></span>EEG / NIRS / fMRI</span>
+                        <div class="visionDiagram" aria-label="LAB HAI research vision diagram">
+                            <section class="visionPanel visionPanelModality">
+                                <h4>Modality</h4>
+                                <ul class="visionList">
+                                    <li>
+                                        <span class="visionItemIcon icon solid fa-x-ray" aria-hidden="true"></span>
+                                        <span class="visionCopy"><strong>Imaging:</strong> MRI, CT, PET, Ultrasound</span>
+                                    </li>
+                                    <li>
+                                        <span class="visionItemIcon icon solid fa-wave-square" aria-hidden="true"></span>
+                                        <span class="visionCopy"><strong class="visionCompactLabel">Electrophysiology:</strong> EEG, NIRS, ECG, EMG</span>
+                                    </li>
+                                    <li>
+                                        <span class="visionItemIcon icon solid fa-dna" aria-hidden="true"></span>
+                                        <span class="visionCopy"><strong>Omics:</strong> WGS, FASTQ, scRNA, bulk TCR/BCR</span>
+                                    </li>
+                                    <li>
+                                        <span class="visionItemIcon icon solid fa-file-medical" aria-hidden="true"></span>
+                                        <span class="visionCopy"><strong>Text, Language</strong></span>
+                                    </li>
+                                </ul>
+                            </section>
+
+                            <span class="visionArrow visionArrowInput" aria-hidden="true"></span>
+
+                            <div class="visionCenter">
+                                <span class="visionDirection">Direction</span>
+                                <div class="visionCore">
+                                    <span class="visionCoreIcons" aria-hidden="true">
+                                        <span class="visionCoreBadge"><span class="icon solid fa-brain"></span></span>
+                                        <span class="visionCoreLink"></span>
+                                        <span class="visionCoreBadge"><span class="icon solid fa-network-wired"></span></span>
+                                    </span>
+                                    <strong>Multi-Modal AI</strong>
+                                    <span>with Biomedical Data</span>
                                 </div>
+                                <span class="visionArrowDown" aria-hidden="true"></span>
                             </div>
 
-                            <div class="blueprintCore" aria-label="Toward multi-modal AI with biomedical data">
-                                <span class="coreLabel"><span class="labelIcon icon solid fa-route" aria-hidden="true"></span>Direction</span>
-                                <strong>Multi-Modal AI</strong>
-                                <span>with Biomedical Data</span>
-                            </div>
+                            <span class="visionArrow visionArrowMethods" aria-hidden="true"></span>
 
-                            <div class="blueprintColumn technologyColumn">
-                                <h3><span class="labelIcon icon solid fa-cogs" aria-hidden="true"></span>Technology</h3>
-                                <div class="trackPair">
-                                    <div class="trackNode methodTrack">
-                                        <span class="trackIcon icon solid fa-network-wired"></span>
-                                        <strong>AI Methods</strong>
-                                        <span>fusion, generative AI, data mining</span>
-                                    </div>
-                                    <div class="trackNode clinicalTrack">
-                                        <span class="trackIcon icon solid fa-stethoscope"></span>
-                                        <strong>Clinical Research</strong>
-                                        <span>biomarkers, prediction, decision support</span>
-                                    </div>
+                            <section class="visionPanel visionPanelMethods">
+                                <h4>AI Methods</h4>
+                                <ul class="visionList">
+                                    <li>
+                                        <span class="visionItemIcon icon solid fa-network-wired" aria-hidden="true"></span>
+                                        <span class="visionCopy">Generative AI</span>
+                                    </li>
+                                    <li>
+                                        <span class="visionItemIcon icon solid fa-layer-group" aria-hidden="true"></span>
+                                        <span class="visionCopy">Multi-modal AI</span>
+                                    </li>
+                                    <li>
+                                        <span class="visionItemIcon icon solid fa-project-diagram" aria-hidden="true"></span>
+                                        <span class="visionCopy">Multi-view learning</span>
+                                    </li>
+                                    <li>
+                                        <span class="visionItemIcon icon solid fa-shield-alt" aria-hidden="true"></span>
+                                        <span class="visionCopy">Trustworthy AI</span>
+                                    </li>
+                                    <li>
+                                        <span class="visionItemIcon icon solid fa-chart-line" aria-hidden="true"></span>
+                                        <span class="visionCopy">Data mining</span>
+                                    </li>
+                                </ul>
+                            </section>
+
+                            <section class="visionPanel visionPanelClinical">
+                                <h4>Clinical Research</h4>
+                                <div class="visionClinicalBody">
+                                    <span class="visionClinicalIconSet" aria-hidden="true">
+                                        <span class="visionClinicalBadge visionClinicalBadgePrimary">
+                                            <span class="icon solid fa-stethoscope"></span>
+                                        </span>
+                                        <span class="visionClinicalBadge visionClinicalBadgeSecondary">
+                                            <span class="icon solid fa-notes-medical"></span>
+                                        </span>
+                                    </span>
+                                    <ul class="visionClinicalList">
+                                        <li>Biomarkers</li>
+                                        <li>Classification</li>
+                                        <li>Prognosis</li>
+                                        <li>Decision Support</li>
+                                    </ul>
                                 </div>
-                            </div>
+                            </section>
                         </div>
                     </section>
                 </div>

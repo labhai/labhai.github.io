@@ -111,6 +111,730 @@
     margin-bottom: 2.35rem;
 }
 
+.researchVision {
+    --vision-ink: #172033;
+    --vision-muted: #5f6f7f;
+    --vision-line: #d7e0e7;
+    --vision-blue: #1557b0;
+    --vision-teal: #10979a;
+    --vision-green: #5f9f2d;
+    --vision-clinical: #9a3f5a;
+    --vision-bg: #ffffff;
+    position: relative;
+    width: 100%;
+    margin: 0 auto 1.8rem auto;
+    overflow: hidden;
+    border: 0;
+    border-radius: 0;
+    background: #ffffff;
+    color: var(--vision-ink);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: none;
+}
+
+.visionHeader {
+    padding: 1.45rem 1.5rem 1.5rem 1.5rem;
+    background: #ffffff;
+    color: var(--vision-ink);
+    text-align: center;
+}
+
+.visionKicker {
+    margin: 0 0 0.55rem 0;
+    color: var(--vision-blue);
+    font-size: 1.72rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 1.1;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+}
+
+.visionHeader h3 {
+    margin: 0;
+    color: var(--vision-ink);
+    font-size: 2.1rem;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1.2;
+    text-transform: none;
+    text-wrap: balance;
+}
+
+.visionDiagram {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(15.5rem, 1.08fr) 2.6rem minmax(17.2rem, 0.82fr) 2.6rem minmax(15.5rem, 1.08fr);
+    grid-template-areas:
+        "modality arrowInput center arrowMethods methods"
+        "clinical clinical clinical clinical clinical";
+    gap: 1.55rem 0;
+    align-items: center;
+    padding: 2rem 1.65rem 1.75rem 1.65rem;
+    background: var(--vision-bg);
+}
+
+.visionDiagram::before {
+    content: "";
+    position: absolute;
+    top: 1.45rem;
+    right: 17%;
+    bottom: 4.9rem;
+    left: 17%;
+    border: 2px dotted rgba(21, 87, 176, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.visionPanel,
+.visionCenter {
+    position: relative;
+    z-index: 2;
+}
+
+.visionArrow {
+    position: relative;
+    z-index: 1;
+}
+
+.visionPanel {
+    overflow: hidden;
+    border: 2px solid var(--panel-color);
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: none;
+}
+
+.visionPanelModality {
+    --panel-accent: var(--vision-blue);
+    --panel-color: rgba(21, 87, 176, 0.78);
+    --panel-soft-border: rgba(21, 87, 176, 0.32);
+    --panel-row-line: rgba(21, 87, 176, 0.16);
+    grid-area: modality;
+}
+
+.visionPanelMethods {
+    --panel-accent: var(--vision-teal);
+    --panel-color: rgba(16, 151, 154, 0.78);
+    --panel-soft-border: rgba(16, 151, 154, 0.34);
+    --panel-row-line: rgba(16, 151, 154, 0.16);
+    grid-area: methods;
+}
+
+.visionPanelClinical {
+    --panel-accent: var(--vision-clinical);
+    --panel-color: rgba(154, 63, 90, 0.84);
+    --panel-soft-border: rgba(154, 63, 90, 0.34);
+    --panel-row-line: rgba(154, 63, 90, 0.16);
+    grid-area: clinical;
+    justify-self: center;
+    width: min(100%, 22.8rem);
+    margin-top: 0.05rem;
+}
+
+.visionPanel h4 {
+    display: inline-block;
+    margin: 0.95rem 0 0.75rem 0;
+    padding-bottom: 0.28rem;
+    border-bottom: 2px solid currentColor;
+    color: var(--panel-accent);
+    font-size: 1.58rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 1.1;
+    text-transform: none;
+}
+
+.visionList,
+.visionClinicalList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.visionList li {
+    display: grid;
+    grid-template-columns: 3.45rem minmax(0, 1fr);
+    gap: 0.45rem;
+    align-items: center;
+    min-height: 4.55rem;
+    padding: 0.72rem 0.52rem;
+    border-top: 1px solid var(--panel-row-line);
+    text-align: left;
+}
+
+.visionItemIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.45rem;
+    height: 3.45rem;
+    border: 2px solid var(--panel-soft-border);
+    border-radius: 8px;
+    color: var(--panel-accent);
+    font-size: 1.58rem;
+    line-height: 1;
+    background: #ffffff;
+}
+
+.visionCopy {
+    position: relative;
+    display: block;
+    padding-left: 0.85rem;
+    color: #0b0f19;
+    font-size: 1.18rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.28;
+    overflow-wrap: break-word;
+}
+
+.visionCopy::before {
+    content: "";
+    position: absolute;
+    top: 0.52em;
+    left: 0;
+    width: 0.34rem;
+    height: 0.34rem;
+    border-radius: 50%;
+    background: var(--panel-accent);
+}
+
+.visionCopy strong {
+    color: #0b0f19;
+    font-weight: 900;
+}
+
+.visionPanelModality .visionCopy,
+.visionPanelMethods .visionCopy {
+    color: #0b0f19;
+    font-weight: 800;
+}
+
+.visionPanelModality .visionCopy strong {
+    display: inline;
+}
+
+.visionPanelModality .visionCopy .visionCompactLabel {
+    font-size: 0.86em;
+    white-space: normal;
+}
+
+.visionArrow {
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    height: 0.95rem;
+    background: transparent;
+}
+
+.visionArrowInput {
+    --arrow-color: var(--vision-blue);
+    grid-area: arrowInput;
+}
+
+.visionArrowMethods {
+    --arrow-color: var(--vision-teal);
+    grid-area: arrowMethods;
+}
+
+.visionArrowInput::before,
+.visionArrowMethods::before,
+.visionArrowInput::after,
+.visionArrowMethods::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.visionArrowInput::before,
+.visionArrowMethods::before {
+    height: 0.24rem;
+    background: var(--arrow-color);
+}
+
+.visionArrowInput::before {
+    right: 0.58rem;
+    left: 0;
+}
+
+.visionArrowMethods::before {
+    right: 0;
+    left: 0.58rem;
+}
+
+.visionArrowInput::after,
+.visionArrowMethods::after {
+    width: 0;
+    height: 0;
+}
+
+.visionArrowInput::after {
+    right: 0;
+    border-top: 0.45rem solid transparent;
+    border-bottom: 0.45rem solid transparent;
+    border-left: 0.58rem solid var(--vision-blue);
+}
+
+.visionArrowMethods::after {
+    left: 0;
+    border-top: 0.45rem solid transparent;
+    border-bottom: 0.45rem solid transparent;
+    border-right: 0.58rem solid var(--vision-teal);
+}
+
+.visionCenter {
+    grid-area: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    width: min(100%, 19rem);
+    padding-top: 0.4rem;
+    text-align: center;
+}
+
+.visionDirection {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.45rem;
+    color: var(--vision-green);
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 1.1;
+}
+
+.visionCore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    width: min(100%, clamp(16.8rem, 21vw, 18.8rem));
+    height: auto;
+    margin: 0 auto;
+    padding: 1.65rem;
+    box-sizing: border-box;
+    border: 0.62rem solid var(--vision-green);
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: none;
+}
+
+.visionCoreIcons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 1rem;
+    color: #0e7883;
+    line-height: 1;
+}
+
+.visionCoreBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.75rem;
+    height: 4.75rem;
+    border: 2px solid rgba(95, 159, 45, 0.34);
+    border-radius: 50%;
+    background: #ffffff;
+    color: var(--vision-green);
+    font-size: 2.48rem;
+    box-shadow: none;
+}
+
+.visionCoreLink {
+    display: block;
+    width: 1.62rem;
+    height: 0.18rem;
+    background: var(--vision-green);
+}
+
+.visionCore strong,
+.visionCore > span:last-child {
+    display: block;
+    color: #05070b;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1.16;
+    text-transform: none;
+}
+
+.visionCore strong {
+    margin-bottom: 0.32rem;
+    font-size: 1.72rem;
+    white-space: nowrap;
+}
+
+.visionCore > span:last-child {
+    font-size: 1.34rem;
+    white-space: nowrap;
+}
+
+.visionArrowDown {
+    position: absolute;
+    left: 50%;
+    bottom: -4.3rem;
+    width: 0.24rem;
+    height: 3.7rem;
+    background: var(--vision-clinical);
+    transform: translateX(-50%);
+}
+
+.visionArrowDown::after {
+    content: "";
+    position: absolute;
+    right: 50%;
+    bottom: -0.48rem;
+    width: 0;
+    height: 0;
+    border-right: 0.46rem solid transparent;
+    border-left: 0.46rem solid transparent;
+    border-top: 0.62rem solid var(--vision-clinical);
+    transform: translateX(50%);
+}
+
+.visionClinicalBody {
+    display: flex;
+    justify-content: center;
+    gap: 0.78rem;
+    align-items: center;
+    padding: 0.25rem 0.32rem 1rem 0.32rem;
+    text-align: left;
+}
+
+.visionClinicalList {
+    display: grid;
+    gap: 0.34rem;
+    justify-items: start;
+}
+
+.visionClinicalIconSet {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.72rem;
+    flex: 0 0 auto;
+    width: auto;
+    height: 5.2rem;
+}
+
+.visionClinicalIconSet::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.92rem;
+    height: 0.16rem;
+    background: var(--vision-clinical);
+    transform: translate(-50%, -50%);
+}
+
+.visionClinicalBadge {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(154, 63, 90, 0.32);
+    background: #ffffff;
+    color: var(--vision-clinical);
+    box-shadow: none;
+}
+
+.visionClinicalBadgePrimary,
+.visionClinicalBadgeSecondary {
+    width: 4.55rem;
+    height: 4.55rem;
+    border-radius: 8px;
+    font-size: 2.25rem;
+}
+
+.visionClinicalBadgeSecondary {
+    border-color: rgba(154, 63, 90, 0.32);
+    color: var(--vision-clinical);
+}
+
+.visionClinicalList li {
+    position: relative;
+    padding-left: 1.1rem;
+    color: #0b0f19;
+    font-size: 1.18rem;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.visionClinicalList li::before {
+    content: "";
+    position: absolute;
+    top: 0.48em;
+    left: 0;
+    width: 0.34rem;
+    height: 0.34rem;
+    border-radius: 50%;
+    background: var(--vision-clinical);
+}
+
+@media screen and (max-width: 1280px) {
+    .visionDiagram {
+        grid-template-columns: minmax(13.2rem, 1.04fr) 2.15rem minmax(16rem, 0.92fr) 2.15rem minmax(13.2rem, 1.04fr);
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+
+    .visionCenter {
+        width: min(100%, 17.2rem);
+    }
+
+    .visionDirection {
+        font-size: 1.88rem;
+    }
+
+    .visionCore {
+        width: min(100%, 16.7rem);
+        height: auto;
+        padding: 1.35rem;
+    }
+
+    .visionCore strong {
+        font-size: 1.44rem;
+    }
+
+    .visionCore > span:last-child {
+        font-size: 1.14rem;
+    }
+
+    .visionCoreBadge {
+        width: 3.8rem;
+        height: 3.8rem;
+        font-size: 2.02rem;
+    }
+
+    .visionPanelClinical {
+        width: min(100%, 22.8rem);
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1280px) {
+    .visionCenter {
+        width: min(100%, 18.1rem);
+    }
+
+    .visionCore {
+        width: min(100%, 17.7rem);
+        padding: 1.42rem;
+    }
+
+    .visionCoreBadge {
+        width: 4.05rem;
+        height: 4.05rem;
+        font-size: 2.16rem;
+    }
+
+    .visionCoreLink {
+        width: 1.58rem;
+    }
+
+    .visionCore strong {
+        font-size: 1.6rem;
+    }
+
+    .visionCore > span:last-child {
+        font-size: 1.24rem;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1280px) {
+    .visionCenter {
+        width: min(100%, 19.2rem);
+    }
+
+    .visionCore {
+        width: min(100%, 18.6rem);
+    }
+
+    .visionCoreBadge {
+        width: 4.25rem;
+        height: 4.25rem;
+        font-size: 2.28rem;
+    }
+
+    .visionCoreLink {
+        width: 1.68rem;
+    }
+
+    .visionCore strong {
+        font-size: 1.72rem;
+    }
+
+    .visionCore > span:last-child {
+        font-size: 1.32rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .visionDiagram {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas:
+            "center"
+            "modality"
+            "methods"
+            "clinical";
+        gap: 1.1rem;
+        padding: 1.35rem;
+    }
+
+    .visionDiagram::before,
+    .visionArrow,
+    .visionArrowDown {
+        display: none;
+    }
+
+    .visionPanelClinical {
+        width: min(100%, 22.8rem);
+        margin-top: 0;
+    }
+
+    .visionPanelModality,
+    .visionPanelMethods {
+        justify-self: center;
+        width: min(100%, 31rem);
+    }
+
+    .visionCenter {
+        width: min(100%, 20rem);
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #main > .post.featured > header.major {
+        margin-bottom: 1.35rem;
+    }
+
+    .researchVision {
+        margin-bottom: 1.2rem;
+    }
+
+    .visionHeader {
+        padding: 1rem 0.95rem;
+    }
+
+    .visionKicker {
+        font-size: 1.4rem;
+        margin-bottom: 0.45rem;
+    }
+
+    .visionHeader h3 {
+        font-size: 1.36rem;
+        line-height: 1.25;
+    }
+
+    .visionDiagram {
+        padding: 0.9rem;
+    }
+
+    .visionPanel h4 {
+        margin-top: 0.8rem;
+        font-size: 1.36rem;
+    }
+
+    .visionDirection {
+        font-size: 1.72rem;
+    }
+
+    .visionList li {
+        grid-template-columns: 2.75rem minmax(0, 1fr);
+        gap: 0.45rem;
+        min-height: 3.8rem;
+        padding: 0.58rem 0.55rem;
+    }
+
+    .visionItemIcon {
+        width: 2.75rem;
+        height: 2.75rem;
+        font-size: 1.24rem;
+    }
+
+    .visionCopy {
+        font-size: 1.05rem;
+        line-height: 1.22;
+    }
+
+    .visionCore {
+        width: min(100%, calc(100vw - 4.4rem), 17rem);
+        height: auto;
+        padding: 1.35rem;
+        border-width: 0.48rem;
+    }
+
+    .visionCoreIcons {
+        margin-bottom: 0.65rem;
+    }
+
+    .visionCoreBadge {
+        width: 3.35rem;
+        height: 3.35rem;
+        font-size: 1.78rem;
+    }
+
+    .visionCoreLink {
+        width: 1.16rem;
+    }
+
+    .visionCore strong {
+        font-size: 1.36rem;
+    }
+
+    .visionCore > span:last-child {
+        font-size: 1.14rem;
+    }
+
+    .visionClinicalBody {
+        display: flex;
+        justify-content: center;
+        gap: 0.7rem;
+        padding: 0.1rem 0.35rem 0.9rem 0.35rem;
+    }
+
+    .visionClinicalIconSet {
+        gap: 0.52rem;
+        width: auto;
+        height: 3.55rem;
+    }
+
+    .visionClinicalIconSet::before {
+        width: 0.62rem;
+        height: 0.13rem;
+    }
+
+    .visionClinicalBadgePrimary,
+    .visionClinicalBadgeSecondary {
+        width: 3.15rem;
+        height: 3.15rem;
+        font-size: 1.52rem;
+    }
+
+    .visionClinicalList li {
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .visionHeader {
+        padding-top: 3.35rem;
+    }
+}
+
 .researchBlueprint {
     --blueprint-ink: #212931;
     --blueprint-muted: #6f7b86;

@@ -62,13 +62,26 @@
             "id": "20250929_에버랜드",
             "title": "Everland Day",
             "date": "2025-09-29",
-            "image": "/images/lab/인물사진/20250929_에버랜드/everland_group.jpg",
+            "image": "/images/lab/인물사진/20250929_에버랜드/everland_carousel.jpg",
             "images": [
-                "/images/lab/인물사진/20250929_에버랜드/everland_group.jpg",
                 "/images/lab/인물사진/20250929_에버랜드/everland_carousel.jpg",
+                "/images/lab/인물사진/20250929_에버랜드/everland_group.jpg",
                 "/images/lab/인물사진/20250929_에버랜드/everland_dinner.jpg"
             ],
             "description": "We spent a cheerful day together at Everland, making room for laughter, photos, and a relaxed dinner after a busy season."
+        },
+        {
+            "id": "20250923_MICCAI",
+            "title": "MICCAI 2025",
+            "date": "2025-09-23",
+            "image": "/images/lab/인물사진/20250923_MICCAI/miccai_2025_sign_group.jpg",
+            "images": [
+                "/images/lab/인물사진/20250923_MICCAI/miccai_2025_sign_group.jpg",
+                "/images/lab/인물사진/20250923_MICCAI/miccai_2025_venue_group.jpg",
+                "/images/lab/인물사진/20250923_MICCAI/miccai_2025_registration_group.jpg",
+                "/images/lab/인물사진/20250923_MICCAI/miccai_2025_group_dinner.jpg"
+            ],
+            "description": "Geonwoo, Jiyoon, Seohyeon, and Professor Jang attended the 28th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2025) in Daejeon, Korea. It was a valuable opportunity to learn from the medical imaging community and connect with researchers."
         },
         {
             "id": "20250804_KCCV",
@@ -98,6 +111,28 @@
                 "/images/lab/인물사진/20250512_스승의날/cake_cutting.jpg"
             ],
             "description": "We celebrated Teacher's Day with Professor Jang, sharing cake, smiles, and heartfelt gratitude for his thoughtful guidance."
+        },
+        {
+            "id": "20250512_ARI방문",
+            "title": "ARI Visit",
+            "date": "2025-05-12",
+            "image": "/images/lab/인물사진/20250512_ARI방문/drone_discussion.jpg",
+            "images": [
+                "/images/lab/인물사진/20250512_ARI방문/drone_discussion.jpg",
+                "/images/lab/인물사진/20250512_ARI방문/drone_platform.jpg",
+                "/images/lab/인물사진/20250512_ARI방문/drone_demo_closeup.jpg"
+            ],
+            "description": "Lab members visited ARI for an industry-academic collaboration session, taking part in drone-related education, lectures, and technical discussions. The visit helped us explore practical directions for future collaboration around drone systems and AI research."
+        },
+        {
+            "id": "20250512_서울AIHub견학",
+            "title": "Seoul AI Hub Tour",
+            "date": "2025-05-12",
+            "image": "/images/lab/인물사진/20250512_서울AIHub견학/seoul_ai_hub_group.jpg",
+            "images": [
+                "/images/lab/인물사진/20250512_서울AIHub견학/seoul_ai_hub_group.jpg"
+            ],
+            "description": "Lab members visited Seoul AI Hub as an educational field trip, learning about the AI innovation ecosystem and how AI technologies are supported, connected, and applied in practice."
         },
         {
             "id": "20250310_회식",

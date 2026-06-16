@@ -232,7 +232,7 @@
     grid-area: clinical;
     justify-self: center;
     width: min(100%, 22.8rem);
-    margin-top: 0.05rem;
+    margin-top: -0.35rem;
 }
 
 .visionPanel h4 {
@@ -699,20 +699,41 @@
         display: none;
     }
 
-    .visionPanelClinical {
-        width: min(100%, 22.8rem);
-        margin-top: 0;
-    }
-
     .visionPanelModality,
-    .visionPanelMethods {
+    .visionPanelMethods,
+    .visionPanelClinical {
         justify-self: center;
         width: min(100%, 31rem);
+    }
+
+    .visionPanelClinical {
+        margin-top: 0;
     }
 
     .visionCenter {
         width: min(100%, 20rem);
         padding-top: 0;
+    }
+
+    .visionPanelClinical .visionClinicalBody {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.58rem 0.55rem 0.9rem 0.55rem;
+    }
+
+    .visionClinicalIconSet {
+        flex-direction: column;
+        gap: 0.45rem;
+        height: auto;
+    }
+
+    .visionClinicalIconSet::before {
+        width: 0.16rem;
+        height: 0.58rem;
+    }
+
+    .visionClinicalBadge {
+        flex: 0 0 auto;
     }
 }
 
@@ -801,20 +822,20 @@
 
     .visionClinicalBody {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 0.7rem;
-        padding: 0.1rem 0.35rem 0.9rem 0.35rem;
+        padding: 0.1rem 0.55rem 0.9rem 0.55rem;
     }
 
     .visionClinicalIconSet {
         gap: 0.52rem;
         width: auto;
-        height: 3.55rem;
+        height: auto;
     }
 
     .visionClinicalIconSet::before {
-        width: 0.62rem;
-        height: 0.13rem;
+        width: 0.13rem;
+        height: 0.62rem;
     }
 
     .visionClinicalBadgePrimary,

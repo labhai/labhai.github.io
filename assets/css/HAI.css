@@ -169,7 +169,7 @@
     display: grid;
     grid-template-columns: minmax(15.5rem, 1.08fr) 2.6rem minmax(17.2rem, 0.82fr) 2.6rem minmax(15.5rem, 1.08fr);
     grid-template-areas:
-        "modality arrowInput center arrowMethods methods"
+        "methods arrowInput center arrowMethods modality"
         "clinical clinical clinical clinical clinical";
     gap: 1.55rem 0;
     align-items: center;
@@ -209,18 +209,18 @@
 }
 
 .visionPanelModality {
-    --panel-accent: var(--vision-blue);
-    --panel-color: rgba(21, 87, 176, 0.78);
-    --panel-soft-border: rgba(21, 87, 176, 0.32);
-    --panel-row-line: rgba(21, 87, 176, 0.16);
-    grid-area: modality;
-}
-
-.visionPanelMethods {
     --panel-accent: var(--vision-teal);
     --panel-color: rgba(16, 151, 154, 0.78);
     --panel-soft-border: rgba(16, 151, 154, 0.34);
     --panel-row-line: rgba(16, 151, 154, 0.16);
+    grid-area: modality;
+}
+
+.visionPanelMethods {
+    --panel-accent: var(--vision-blue);
+    --panel-color: rgba(21, 87, 176, 0.78);
+    --panel-soft-border: rgba(21, 87, 176, 0.32);
+    --panel-row-line: rgba(21, 87, 176, 0.16);
     grid-area: methods;
 }
 
@@ -233,7 +233,7 @@
     justify-self: center;
     width: fit-content;
     max-width: min(100%, 27.6rem);
-    margin-top: -0.35rem;
+    margin-top: 0.08rem;
     padding: 0 1.35rem;
     border: 0;
     border-radius: 0;
@@ -263,6 +263,13 @@
     z-index: 1;
 }
 
+.visionPanelModality,
+.visionPanelMethods {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
 .visionPanel h4 {
     display: inline-block;
     margin: 0.95rem 0 0.75rem 0;
@@ -276,11 +283,26 @@
     text-transform: none;
 }
 
+.visionPanelModality h4,
+.visionPanelMethods h4 {
+    align-self: center;
+    width: max-content;
+    max-width: calc(100% - 1rem);
+}
+
 .visionList,
 .visionClinicalList {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.visionPanelModality .visionList,
+.visionPanelMethods .visionList {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    width: 100%;
 }
 
 .visionList li {
@@ -292,6 +314,11 @@
     padding: 0.72rem 0.52rem;
     border-top: 1px solid var(--panel-row-line);
     text-align: left;
+}
+
+.visionPanelModality .visionList li,
+.visionPanelMethods .visionList li {
+    flex: 1 1 0;
 }
 
 .visionItemIcon {
@@ -405,18 +432,19 @@
     right: 0;
     border-top: 0.45rem solid transparent;
     border-bottom: 0.45rem solid transparent;
-    border-left: 0.58rem solid var(--vision-blue);
+    border-left: 0.58rem solid var(--arrow-color);
 }
 
 .visionArrowMethods::after {
     left: 0;
     border-top: 0.45rem solid transparent;
     border-bottom: 0.45rem solid transparent;
-    border-right: 0.58rem solid var(--vision-teal);
+    border-right: 0.58rem solid var(--arrow-color);
 }
 
 .visionCenter {
     grid-area: center;
+    z-index: 3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -509,10 +537,11 @@
 
 .visionArrowDown {
     position: absolute;
+    z-index: 3;
     left: 50%;
-    bottom: -4.3rem;
+    bottom: -3.95rem;
     width: 0.24rem;
-    height: 3.7rem;
+    height: 3.15rem;
     background: var(--vision-clinical);
     transform: translateX(-50%);
 }
@@ -716,8 +745,8 @@
         grid-template-areas:
             "center"
             "arrowInput"
-            "modality"
             "methods"
+            "modality"
             "arrowMethods"
             "clinical";
         gap: 0.36rem;
@@ -775,7 +804,7 @@
         max-width: min(100%, 27.6rem);
     }
 
-    .visionPanelMethods {
+    .visionPanelModality {
         margin-top: calc(1.18rem + 0.36rem);
     }
 

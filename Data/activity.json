@@ -1,6 +1,18 @@
 {
     "data": [
         {
+            "id": "20260609_PAKDD",
+            "title": "PAKDD 2026",
+            "date": "2026-06-09",
+            "image": "/images/lab/인물사진/20260609_PAKDD/best_student_paper_award.jpg",
+            "images": [
+                "/images/lab/인물사진/20260609_PAKDD/best_student_paper_award.jpg",
+                "/images/lab/인물사진/20260609_PAKDD/pakdd_2026_panel_session.jpg",
+                "/images/lab/인물사진/20260609_PAKDD/pakdd_2026_oral_presentation.jpg"
+            ],
+            "description": "Yujin presented Dodgersort at the 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2026) in Hong Kong. The work received the Best Student Paper Award. Congratulations!"
+        },
+        {
             "id": "20260504_스승의날",
             "title": "Teacher's Day",
             "date": "2026-05-04",

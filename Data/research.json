@@ -46,6 +46,17 @@
         "relatedPublications": []
       },
       {
+        "imagePath": "./images/project/thin-object-segmentation.gif",
+        "projectName": "Thin object segmentation",
+        "period": "",
+        "stacks": [],
+        "publication": "",
+        "contributors": [],
+        "description": "We develop methods to accurately segment thin anatomical structures in medical images, preserving fine branches and structural continuity across diverse modalities",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+      {
         "imagePath": "./images/project/multi-scale-feature-fusion.gif",
         "projectName": "Multi-scale Feature Fusion",
         "period": "",

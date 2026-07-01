@@ -2,6 +2,72 @@
   "data": {
     "projects": [
       {
+        "imagePath": "./images/project/generative-ai-mri2pet.gif",
+        "projectName": "Generative AI",
+        "period": "",
+        "stacks": [],
+        "publication": "",
+        "contributors": [],
+        "description": "We develop generative AI methods to synthesize missing biomedical modalities and derive accessible biomarkers from routinely acquired medical images",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+      {
+        "imagePath": "./images/project/multi-modal-ai.gif",
+        "projectName": "Multi-modal AI",
+        "period": "",
+        "stacks": [],
+        "publication": "",
+        "contributors": [],
+        "description": "We fuse heterogeneous medical modalities (genomic, biospecimen, imaging, and clinical data) to enable accurate diagnosis even when some tests are missing",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+      {
+        "imagePath": "./images/project/multi-view-feature-fusion.gif",
+        "projectName": "Multi-View Feature Fusion",
+        "period": "",
+        "stacks": [],
+        "publication": "",
+        "contributors": [],
+        "description": "We study methods to extract and fuse features from images captured at multiple viewpoints, in order to build a richer and more robust representation of objects",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+      {
+        "imagePath": "./images/project/trustworthy-ai-calibration.gif",
+        "projectName": "Trustworthy AI: Neural Network Calibration",
+        "period": "",
+        "stacks": [],
+        "publication": "",
+        "contributors": [],
+        "description": "We develop methods for reliable confidence estimation in deep learning (notably, the first formalization of ordinal calibration for ordered-label prediction tasks)",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+      {
+        "imagePath": "./images/project/multi-scale-feature-fusion.gif",
+        "projectName": "Multi-scale Feature Fusion",
+        "period": "",
+        "stacks": [],
+        "publication": "",
+        "contributors": [],
+        "description": "We integrate multiple types of information from a single MRI scan to develop a more sensitive imaging marker for detecting Alzheimer's disease",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+      {
+        "imagePath": "./images/project/graph-based-fmri.gif",
+        "projectName": "Graph-based fMRI analysis",
+        "period": "",
+        "stacks": [],
+        "publication": "",
+        "contributors": [],
+        "description": "We apply graph theory to fMRI data to study brain connectivity and network changes",
+        "projectRepository": [],
+        "relatedPublications": []
+      },
+      {
         "imagePath": "./images/project/genomicDataCompression.png",
         "projectName": "Neural Data Compression (Genomics)",
         "period": "2024.06 - ",
@@ -10,72 +76,6 @@
         "contributors": ["Donggyu Hwang"],
         "description": "We aim to effectively compress genomic data leveraging entropy encoding and neural data compression",
         "projectRepository": [""],
-        "relatedPublications": []
-      },
-      {
-        "imagePath": "./images/project/omics-mri-fusionAI.png",
-        "projectName": "Multi-Modal Data Fusion (DNA+RNA+MRI)",
-        "period": "2024.08 - ",
-        "stacks": [""],
-        "publication": "",
-        "contributors": [""],
-        "description": "We leverage multi-modal medical data (omics and imaging) and develop LLM-based AI model to help analyze and diagnose developmental or psychological disorders",
-        "projectRepository": [""],
-        "relatedPublications": []
-      },
-      {
-        "imagePath": "./images/project/3DImage2ImageTranslation.gif",
-        "projectName": "Synthesizing 3D Medical Image",
-        "period": "2023.08 - ",
-        "stacks": [""],
-        "publication": "",
-        "contributors": ["Symac Kim"],
-        "description": "The project aims to generate synthetic 3D PET images using 3D T1w MRI images with a generative model",
-        "projectRepository": [""],
-        "relatedPublications": []
-      },
-      {
-        "imagePath": "./images/project/LLMFinetunedWithMedicalDatasets.png",
-        "projectName": "Medical Large Language Model",
-        "period": "2023.08 - 2024.01",
-        "stacks": ["LLM(Llama-2)","SFT", "PEFT(LoRA)"],
-        "publication": "",
-        "contributors": ["Jeonhui Lee"],
-        "description": "We developed a medical assistant chatbot (LLM) by finetuning Llama (Meta's foundation model) with various medical datasets",
-        "projectRepository": ["https://github.com/Mella-MedicalLLM"],
-        "relatedPublications": []
-      },
-      {
-        "imagePath": "./images/project/2DImageSegmentation.png",
-        "projectName": "Thin Object Segmentation",
-        "period": "2023.08 - ",
-        "stacks": [""],
-        "publication": "",
-        "contributors": ["Junho Moon"],
-        "description": "We aim to detect features(e.g. wrinkle, lesion) in 2D facial images, thereby enabling early diagnosis of diseases and facilitating appropriate treatment",
-        "projectRepository": [],
-        "relatedPublications": []
-      },
-      {
-        "imagePath": "./images/project/GenerativeAI.jpg",
-        "projectName": "Generative AI (Image + Text prompt)",
-        "period": "2023.11 - ",
-        "stacks": [],
-        "publication": "",
-        "contributors": ["Geonwoo Baek"],
-        "description": "The project aims to generate brain MRI images with tumors through normal brain MRI images with a generative model",
-        "projectRepository": [],
-        "relatedPublications": []
-      },
-      {
-        "imagePath": "./images/project/MedicalImageSegmentation.png",
-        "projectName": "OBJECT DETECTION",
-        "period": "2023.08 - ",
-        "stacks": [],
-        "publication": "",
-        "contributors": ["Kwonhwi Cho"],
-        "description": "We finetune Segment Anything Model (SAM) with one shot for lesion segmentation",
-        "projectRepository": [],
         "relatedPublications": []
       },
       {

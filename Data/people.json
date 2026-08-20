@@ -29,7 +29,7 @@
         "degree": "Ph.D. student",
         "major": "Artificial Intelligence Semiconductor Engineering",
         "keyword": "Medical Imaging, Image Segmentation, Generative AI",
-        "imagePath": "./images/people/junho_moon.jpg",
+        "imagePath": "./images/people/junho_moon.png",
         "email": "jhmoon6807@hanyang.ac.kr",
         "link": {
           "github": "https://github.com/ho-sick99",
@@ -76,6 +76,23 @@
         }
       },
       {
+        "name": "Geonwoo Baek",
+        "degree": "Ph.D. student",
+        "major": "Computer Engineering",
+        "keyword": "Deep Learning, Generative AI",
+        "imagePath": "./images/people/geonwoo_baek.jpg",
+        "email": "phlox3959@hufs.ac.kr",
+        "link": {
+          "github": "https://github.com/Geonwoo-Baek",
+          "notion": "",
+          "tistory": "",
+          "personal": "",
+          "velog": "",
+          "scholar": "",
+          "linkedin": "https://www.linkedin.com/in/geonwoo-baek-3885082a2/"
+        }
+      },
+      {
         "name": "YUJIN PARK",
         "degree": "M.S./Ph.D. student",
         "major": "Artificial Intelligence Semiconductor Engineering",
@@ -93,11 +110,11 @@
         }
       },
       {
-        "name": "Jiyoon Lee",
+        "name": "Jiyun Lee",
         "degree": "M.S./Ph.D. student",
         "major": "Computer Engineering",
         "keyword": "Computer Vision, Medical Imaging",
-        "imagePath": "./images/people/jiyoon_lee.jpg",
+        "imagePath": "./images/people/jiyun_lee.jpg",
         "email": "dlwldbs3872@hufs.ac.kr",
         "link": {
           "github": "",
@@ -144,23 +161,6 @@
         }
       },
       {
-        "name": "Geonwoo Baek",
-        "degree": "M.S. student",
-        "major": "Computer Engineering",
-        "keyword": "Deep Learning, Generative AI",
-        "imagePath": "./images/people/geonwoo_baek.jpg",
-        "email": "phlox3959@hufs.ac.kr",
-        "link": {
-          "github": "https://github.com/Geonwoo-Baek",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": "",
-          "linkedin": "https://www.linkedin.com/in/geonwoo-baek-3885082a2/"
-        }
-      },
-      {
         "name": "Seohyeon Bae",
         "degree": "M.S. student",
         "major": "Computer Engineering",
@@ -175,23 +175,6 @@
           "velog": "",
           "scholar": "",
           "linkedin": "https://www.linkedin.com/in/%EB%B0%B0%EC%84%9C%ED%98%84-%EC%9E%AC%ED%95%99-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC-%E2%80%8D-4ba5a4386/"
-        }
-      },
-      {
-        "name": "Kyumin Choi",
-        "degree": "B.S. student",
-        "major": "Computer Engineering / Spanish",
-        "keyword": "Computer Vision, Multi-Modal AI, Generative AI",
-        "imagePath": "./images/people/kyumin_choi.jpg",
-        "email": "dinoboy22@hufs.ac.kr",
-        "link": {
-          "github": "https://github.com/dinoboy22",
-          "notion": "",
-          "tistory": "",
-          "personal": "",
-          "velog": "",
-          "scholar": "",
-          "linkedin": "https://www.linkedin.com/in/kyumin-choi-5a787a372/"
         }
       },
       {
@@ -268,6 +251,11 @@
         "name": "jaehoon jang",
         "degree": "B.S. / Feb. 2027.",
         "major": "Computer Engineering / Linguistics and Cognitive Science (HUFS)"
+      },
+      {
+        "name": "Kyumin Choi",
+        "degree": "B.S. / Jun. 2026.",
+        "major": "Computer Engineering / Spanish (HUFS)"
       },
       {
         "name": "Donggyu Hwang",

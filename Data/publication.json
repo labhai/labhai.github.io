@@ -4,7 +4,7 @@
       "0": "CSWinUNETR: Segmentation of Thin Anatomical Structures in Medical Images",
       "1": "J Moon, H Chung, I Jang",
       "2": "MICCAI, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:fPk4N6BV_jEC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:4OULZ7Gr8RgC",
       "4": "2026"
     },
     {
@@ -29,6 +29,13 @@
       "4": "2026"
     },
     {
+      "0": "MetaRanker: Human-in-the-loop Active Ranking for Metalens Image Quality",
+      "1": "Y Park, H Chung, I Jang",
+      "2": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and …, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:dfsIfKJdRG4C",
+      "4": "2026"
+    },
+    {
       "0": "RAPID: Layer-Wise Redundancy-Aware Pruning and Importance-Driven Token Merging for Efficient ViT",
       "1": "K Choi, I Jang",
       "2": "KDD, 2026",
@@ -43,10 +50,24 @@
       "4": "2026"
     },
     {
-      "0": "MetaRanker: Human-in-the-loop Active Ranking for Metalens Image Quality",
-      "1": "Y Park, H Chung, I Jang",
-      "2": "KDD, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:M05iB0D1s5AC",
+      "0": "ADP-DiT: Text-Guided Diffusion Transformer for Brain Image Generation in Alzheimer’s Disease Progression",
+      "1": "J Lee, G Baek, I Jang, Alzheimer’s Disease Neuroimaging Initiative",
+      "2": "International Conference on Pattern Recognition, 301-317, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:a0OBvERweLwC",
+      "4": "2026"
+    },
+    {
+      "0": "MedROI: Codec-Agnostic Region of Interest-Centric Compression for Medical Images",
+      "1": "J Kim, I Jang",
+      "2": "International Conference on Pattern Recognition, 354-369, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:D03iK_w7-QYC",
+      "4": "2026"
+    },
+    {
+      "0": "SERC: LDPC-inspired semantic error correction for retrieval-augmented generation",
+      "1": "G Kim, J Park, J Kim, S Han, K Son, I Jang",
+      "2": "International Conference on Pattern Recognition, 371-385, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:yD5IFk8b50cC",
       "4": "2026"
     },
     {
@@ -54,13 +75,6 @@
       "1": "G Baek, DH Salat, I Jang",
       "2": "Human Brain Mapping, 2026",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:ns9cj8rnVeAC",
-      "4": "2026"
-    },
-    {
-      "0": "Dodgersort: Uncertainty-Aware VLM-Guided Human-in-the-Loop Pairwise Ranking",
-      "1": "Y Park, H Chung, I Jang",
-      "2": "PAKDD, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:blknAaTinKkC",
       "4": "2026"
     },
     {
@@ -85,27 +99,6 @@
       "4": "2026"
     },
     {
-      "0": "ADP-DiT: Text-Guided Diffusion Transformer for Brain Image Generation in Alzheimer's Disease Progression",
-      "1": "J Lee, G Baek, I Jang",
-      "2": "ICPR, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:RGFaLdJalmkC",
-      "4": "2026"
-    },
-    {
-      "0": "MedROI: Codec-Agnostic Region of Interest-Centric Compression for Medical Images",
-      "1": "J Kim, I Jang",
-      "2": "ICPR, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:hMod-77fHWUC",
-      "4": "2026"
-    },
-    {
-      "0": "SERC: LDPC-Inspired Semantic Error Correction for Retrieval-Augmented Generation",
-      "1": "G Kim, J Park, J Kim, S Han, K Son, I Jang",
-      "2": "ICPR, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:g5m5HwL7SMYC",
-      "4": "2026"
-    },
-    {
       "0": "Cyclic 2.5 D Perceptual Loss for Cross‐Modal 3D Medical Image Synthesis: T1w MRI to Tau PET",
       "1": "J Moon, S Kim, H Chung, I Jang, ...",
       "2": "Human Brain Mapping 47 (5), e70508, 2026",
@@ -127,10 +120,17 @@
       "4": "2026"
     },
     {
-      "0": "EZ-Sort: Efficient Pairwise Comparison via Zero-Shot CLIP-Based Pre-Ordering and Human-in-the-Loop Sorting",
+      "0": "Dodgersort: Uncertainty-Aware VLM-Guided Human-in-the-Loop Pairwise Ranking",
       "1": "Y Park, H Chung, I Jang",
-      "2": "CIKM, 2025",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:TFP_iSt0sucC",
+      "2": "Pacific-Asia Conference on Knowledge Discovery and Data Mining, 461-473, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:cFHS6HbyZ2cC",
+      "4": "2026"
+    },
+    {
+      "0": "EZ-Sort: Efficient pairwise comparison via zero-shot CLIP-based pre-ordering and human-in-the-loop sorting",
+      "1": "Y Park, H Chung, I Jang",
+      "2": "Proceedings of the 34th ACM International Conference on Information and …, 2025",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:pyW8ca7W8N0C",
       "4": "2025"
     },
     {
@@ -148,10 +148,10 @@
       "4": "2025"
     },
     {
-      "0": "Facial Wrinkle Segmentation for Cosmetic Dermatology: Pretraining with Texture Map-Based Weak Supervision",
+      "0": "Facial wrinkle segmentation for cosmetic dermatology: Pretraining with texture map-based weak supervision",
       "1": "J Moon, H Chung, I Jang",
-      "2": "ICPR, 2024",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:R3hNpaxXUhUC",
+      "2": "International Conference on Pattern Recognition, 319-334, 2024",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:f2IySw72cVMC",
       "4": "2024"
     },
     {

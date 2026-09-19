@@ -1,6 +1,13 @@
 {
   "data": [
     {
+      "0": "HiGMR-Net: Hierarchical Graph Memory Refinement Network for Multi-View EEG Connectivity Sequence Learning",
+      "1": "DD Chakladar, I Jang, A Razi, DC Muchaluat-Saade, N Zaidi",
+      "2": "ACM MM, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:_xSYboBqXhAC",
+      "4": "2026"
+    },
+    {
       "0": "CSWinUNETR: Segmentation of Thin Anatomical Structures in Medical Images",
       "1": "J Moon, H Chung, I Jang",
       "2": "MICCAI, 2026",
@@ -26,6 +33,13 @@
       "1": "Y Park, H Chung, I Jang",
       "2": "ECML-PKDD, 2026",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:rO6llkc54NcC",
+      "4": "2026"
+    },
+    {
+      "0": "Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration",
+      "1": "D Kim, H Chung, I Jang",
+      "2": "arXiv preprint arXiv:2609.01072, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:bFI3QPDXJZMC",
       "4": "2026"
     },
     {
@@ -109,7 +123,7 @@
       "0": "Hierarchical mutual distillation for multi-view fusion: Learning from all possible view combinations",
       "1": "J Yang, H Chung, I Jang",
       "2": "Pattern Recognition, 113432, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:2P1L_qKh6hAC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:EUQCXRtRnyEC",
       "4": "2026"
     },
     {
@@ -130,14 +144,14 @@
       "0": "EZ-Sort: Efficient pairwise comparison via zero-shot CLIP-based pre-ordering and human-in-the-loop sorting",
       "1": "Y Park, H Chung, I Jang",
       "2": "Proceedings of the 34th ACM International Conference on Information and …, 2025",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:pyW8ca7W8N0C",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:pyW8ca7W8N0C",
       "4": "2025"
     },
     {
       "0": "BOLDSimNet: Examining Brain Network Similarity between Task and Resting-State fMRI",
       "1": "B Kim, DD Chakladar, H Chung, I Jang",
       "2": "arXiv preprint arXiv:2504.01274, 2025",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:iH-uZ7U-co4C",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:iH-uZ7U-co4C",
       "4": "2025"
     },
     {

@@ -1,6 +1,27 @@
 {
   "data": [
     {
+      "0": "Variable-size SuperVertex Vision Transformer for Cortical Surface Learning in Alzheimer's Disease",
+      "1": "G Baek, I Jang",
+      "2": "Proceedings of the Asian Conference on Computer Vision (ACCV), 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:ldfaerwXgEUC",
+      "4": "2026"
+    },
+    {
+      "0": "CoHyFuse: Condition-wise Hypergraph Fusion with Global Connectome in Task-fMRI",
+      "1": "B Kim, H Chung, I Jang",
+      "2": "2026 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:xtRiw3GOFMkC",
+      "4": "2026"
+    },
+    {
+      "0": "CoPoE: Multimodal Fusion via Decomposable Disease-Coordinate Product-of-Experts for Missing-Modality Alzheimer's Diagnosis",
+      "1": "C An, I Jang",
+      "2": "2026 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:NhqRSupF_l8C",
+      "4": "2026"
+    },
+    {
       "0": "HiGMR-Net: Hierarchical Graph Memory Refinement Network for Multi-View EEG Connectivity Sequence Learning",
       "1": "DD Chakladar, I Jang, A Razi, DC Muchaluat-Saade, N Zaidi",
       "2": "ACM MM, 2026",
@@ -29,17 +50,17 @@
       "4": "2026"
     },
     {
-      "0": "Surprise-Guided MergeSort: Budget-Efficient Human-in-the-Loop Ranking via Adaptive Comparison Scheduling",
-      "1": "Y Park, H Chung, I Jang",
-      "2": "ECML-PKDD, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:rO6llkc54NcC",
-      "4": "2026"
-    },
-    {
       "0": "Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration",
       "1": "D Kim, H Chung, I Jang",
       "2": "arXiv preprint arXiv:2609.01072, 2026",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:bFI3QPDXJZMC",
+      "4": "2026"
+    },
+    {
+      "0": "Surprise-Guided MergeSort: Budget-Efficient Human-in-the-Loop Ranking via Adaptive Comparison Scheduling",
+      "1": "Y Park, H Chung, I Jang",
+      "2": "Joint European Conference on Machine Learning and Knowledge Discovery in …, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:1sJd4Hv_s6UC",
       "4": "2026"
     },
     {
@@ -92,13 +113,6 @@
       "4": "2026"
     },
     {
-      "0": "CSV-ViT: A Vision Transformer with the Variable-sized Cortical Supervertices for Detection of Alzheimer's Disease Pathologies",
-      "1": "G Baek, I Jang",
-      "2": "arXiv preprint arXiv:2605.26514, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:ldfaerwXgEUC",
-      "4": "2026"
-    },
-    {
       "0": "Mamba‐based deep learning model for automated Periapical Index classification using periapical radiographs and clinical metadata",
       "1": "J Lee, Y Park, S Kim, I Jang",
       "2": "International Endodontic Journal, 2026",
@@ -130,14 +144,14 @@
       "0": "Metalens-style image synthesis for metalens imaging via image-to-image translation",
       "1": "C Kang, H Suk, J Seo, I Jang, H Chung",
       "2": "Scientific Reports 16 (1), 5819, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:k_IJM867U9cC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:k_IJM867U9cC",
       "4": "2026"
     },
     {
       "0": "Dodgersort: Uncertainty-Aware VLM-Guided Human-in-the-Loop Pairwise Ranking",
       "1": "Y Park, H Chung, I Jang",
       "2": "Pacific-Asia Conference on Knowledge Discovery and Data Mining, 461-473, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:cFHS6HbyZ2cC",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:cFHS6HbyZ2cC",
       "4": "2026"
     },
     {
@@ -468,6 +482,20 @@
       "2": "22nd Annual Meeting of the Organization for Human Brain Mapping. Geneva …, 2016",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:dhFuZR0502QC",
       "4": "2016"
+    },
+    {
+      "0": "When, Where, and How: Adaptive Binning for Tabular Self-Supervised Learning",
+      "1": "I Jang",
+      "2": "",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:abG-DnoFyZgC",
+      "4": ""
+    },
+    {
+      "0": "CSWinUNETR: Segmentation of Thin Anatomical Structures in Medical Images",
+      "1": "I Jang",
+      "2": "",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:b0M2c_1WBrUC",
+      "4": ""
     },
     {
       "0": "Cortical Gray to White Matter Signal Intensity Ratio as an Early Sign of Cognitive Decline in Alzheimer's Dementia and Mild Cognitive Impairment",

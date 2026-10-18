@@ -5,8 +5,8 @@
         "name": "Ikbeom Jang",
         "degree": "",
         "major": "",
-        "affiliation": "Assistant Professor of Computer Engineering, HUFS\n-- Roles: Program Chair, Department of Computer Engineering / Administrator of Cluster Server \n-- Affiliated Dept.: Language & AI / AI Data Convergence \nAffiliated Researcher of Radiology, MGH, Harvard Medical School",
-        "keyword": "Deep Learning, Multi-Modal Medical AI, Generative AI, Brain",
+        "affiliation": "Assistant Professor of Computer Engineering, HUFS\n- Role 1: Program Chair, Department of Computer Engineering\n- Role 2: Administrator of Department's Compute Cluster \n-- Affiliated Dept.: AI Convergence \nAffiliated Researcher of Radiology, MGH, Harvard Medical School",
+        "keyword": "Multi-Modal Medical AI, Generative AI, Brain, Image/Signal Processing",
         "imagePath": "./images/people/ikbeom_jang.jpg",
         "email": "ijang@hufs.ac.kr",
         "link": {

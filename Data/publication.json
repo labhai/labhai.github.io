@@ -1,6 +1,13 @@
 {
   "data": [
     {
+      "0": "TRACE: Topology-Aware Reconnection via Prediction-Adaptive Connectivity Enforcement for Thin-Structure Segmentation",
+      "1": "J Moon, I Jang",
+      "2": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2027",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:UxriW0iASnsC",
+      "4": "2027"
+    },
+    {
       "0": "Variable-size SuperVertex Vision Transformer for Cortical Surface Learning in Alzheimer's Disease",
       "1": "G Baek, I Jang",
       "2": "Proceedings of the Asian Conference on Computer Vision (ACCV), 2026",
@@ -29,36 +36,29 @@
       "4": "2026"
     },
     {
-      "0": "MovieSTAGE: Scene, Transition, and Global Encoding for Movie-fMRI ADHD Classification",
-      "1": "B Kim, H Chung, I Jang",
-      "2": "arXiv preprint arXiv:2610.09306, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:nb7KW1ujOQ8C",
-      "4": "2026"
-    },
-    {
-      "0": "CSWinUNETR: Segmentation of Thin Anatomical Structures in Medical Images",
-      "1": "J Moon, H Chung, I Jang",
-      "2": "MICCAI, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:4OULZ7Gr8RgC",
-      "4": "2026"
-    },
-    {
-      "0": "When, Where, and How: Adaptive Binning for Tabular Self-Supervised Learning",
+      "0": "When, Where, and How: Adaptive Binning for Tabular Self-supervised Learning",
       "1": "D Kim, H Chung, I Jang",
-      "2": "MICCAI, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:u_35RYKgDlwC",
+      "2": "International Conference on Medical Image Computing and Computer-Assisted …, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:dshw04ExmUIC",
       "4": "2026"
     },
     {
       "0": "OTCHA: Optimal Transport-driven Confidence-aware Latent Hub Alignment for Multi-View Medical Image Classification",
       "1": "J Yang, H Chung, I Jang",
-      "2": "MICCAI, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:zA6iFVUQeVQC",
+      "2": "International Conference on Medical Image Computing and Computer-Assisted …, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:uWQEDVKXjbEC",
+      "4": "2026"
+    },
+    {
+      "0": "CSWinUNETR: Segmentation of Thin Anatomical Structures in Medical Images",
+      "1": "J Moon, H Chung, I Jang",
+      "2": "International Conference on Medical Image Computing and Computer-Assisted …, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:KxtntwgDAa4C",
       "4": "2026"
     },
     {
       "0": "Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration",
-      "1": "D Kim, H Chung, I Jang",
+      "1": "D Kim, I Jang",
       "2": "arXiv preprint arXiv:2609.01072, 2026",
       "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:bFI3QPDXJZMC",
       "4": "2026"
@@ -78,17 +78,17 @@
       "4": "2026"
     },
     {
-      "0": "RAPID: Layer-Wise Redundancy-Aware Pruning and Importance-Driven Token Merging for Efficient ViT",
-      "1": "K Choi, I Jang",
-      "2": "KDD, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:3s1wT3WcHBgC",
+      "0": "SafeECGMatch: Calibration-Aware Joint Frequency and Time Space Semi-Supervised Learning for Open-Set ECG Classification",
+      "1": "H Koh, I Jang",
+      "2": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and …, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:SeFeTyx0c_EC",
       "4": "2026"
     },
     {
-      "0": "SafeECGMatch: Calibration-Aware Joint Frequency and Time Space Semi-Supervised Learning for Open-Set ECG Classification",
-      "1": "H Koh, I Jang",
-      "2": "KDD, 2026",
-      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:SeFeTyx0c_EC",
+      "0": "RAPID: Layer-Wise Redundancy-Aware Pruning and Importance-Driven Token Merging for Efficient ViT",
+      "1": "K Choi, I Jang",
+      "2": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and …, 2026",
+      "3": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=1rBh9xkAAAAJ&sortby=pubdate&citation_for_view=1rBh9xkAAAAJ:SP6oXDckpogC",
       "4": "2026"
     },
     {

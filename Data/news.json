@@ -34,6 +34,11 @@
                     }
                 }
             ],
+            "7": [
+                {
+                    "text": "Ikbeom's paper accepted at ACM MM 2026"
+                }
+            ],
             "6": [
                 {
                     "text": "Junho, Daehwan, and Jiwoong each had a paper accepted at MICCAI 2026 (3 papers in total; top-tier conference in medical AI)"
@@ -102,6 +107,11 @@
             "2": [
                 {
                     "text": "Yujin's paper accepted at PAKDD 2026 as oral"
+                }
+            ],
+            "1": [
+                {
+                    "text": "Ikbeom's paper accepted by Scientific Reports"
                 }
             ]
         },

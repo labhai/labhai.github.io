@@ -1,6 +1,39 @@
 {
     "data": {
         "2026": {
+            "10": [
+                {
+                    "text": "Junho's paper accepted at WACV 2027"
+                }
+            ],
+            "9": [
+                {
+                    "text": "Lab members (6) attended MICCAI 2026 in Strasbourg, France; Junho, Daehwan, and Jiwoong presented their posters [blog]",
+                    "links": {
+                        "blog": "./activity.html?id=20260930_MICCAI"
+                    }
+                },
+                {
+                    "text": "Boseong had two papers and Chihoon had one paper accepted at BIBM 2026 (3 papers in total)"
+                },
+                {
+                    "text": "Geonwoo's paper accepted at ACCV 2026"
+                },
+                {
+                    "text": "Yujin attended ECML-PKDD 2026 and presented her paper"
+                }
+            ],
+            "8": [
+                {
+                    "text": "Geonwoo, Boseong, Chihoon, Hongkyu, Seohee, and Ikbeom attended ICMRI 2026 (대한자기공명의과학회)"
+                },
+                {
+                    "text": "Lab members (14) attended KCCV 2026 (한국컴퓨터비전학회) [blog]",
+                    "links": {
+                        "blog": "./activity.html?id=20260802_KCCV"
+                    }
+                }
+            ],
             "6": [
                 {
                     "text": "Junho, Daehwan, and Jiwoong each had a paper accepted at MICCAI 2026 (3 papers in total; top-tier conference in medical AI)"

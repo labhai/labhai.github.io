@@ -1,6 +1,41 @@
 {
     "data": [
         {
+            "id": "20260930_MICCAI",
+            "title": "MICCAI 2026",
+            "date": "2026-09-30",
+            "image": "/images/lab/인물사진/20260930_MICCAI/miccai_2026_group.jpg",
+            "images": [
+                "/images/lab/인물사진/20260930_MICCAI/miccai_2026_group.jpg",
+                "/images/lab/인물사진/20260930_MICCAI/miccai_2026_sign.jpg",
+                "/images/lab/인물사진/20260930_MICCAI/miccai_2026_dinner.jpg",
+                "/images/lab/인물사진/20260930_MICCAI/miccai_2026_poster_daehwan.jpg",
+                "/images/lab/인물사진/20260930_MICCAI/miccai_2026_poster_junho.jpg",
+                "/images/lab/인물사진/20260930_MICCAI/miccai_2026_poster_jiwoong.jpg"
+            ],
+            "description": "Lab members attended the 29th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2026) in Strasbourg, France. Daehwan, Junho, and Jiwoong presented their posters at MICCAI, one of the world's top conferences in medical imaging. We also enjoyed dinner together in Strasbourg!"
+        },
+        {
+            "id": "20260802_KCCV",
+            "title": "KCCV 2026",
+            "date": "2026-08-02",
+            "image": "/images/lab/인물사진/20260802_KCCV/kccv_2026_group.jpg",
+            "images": [
+                "/images/lab/인물사진/20260802_KCCV/kccv_2026_group.jpg"
+            ],
+            "description": "Lab members attended the 12th Korean Conference on Computer Vision (KCCV 2026) in Korea."
+        },
+        {
+            "id": "20260623_외부랩미팅",
+            "title": "Off-site Lab Meeting",
+            "date": "2026-06-23",
+            "image": "/images/lab/인물사진/20260623_외부랩미팅/offsite_lab_meeting.jpg",
+            "images": [
+                "/images/lab/인물사진/20260623_외부랩미팅/offsite_lab_meeting.jpg"
+            ],
+            "description": "We held an off-site lab meeting outside the lab and shared our research progress together."
+        },
+        {
             "id": "20260609_PAKDD",
             "title": "PAKDD 2026",
             "date": "2026-06-09",
